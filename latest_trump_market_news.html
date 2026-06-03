@@ -1,0 +1,1068 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>증시/연준 스냅샷</title>
+<style>
+body{margin:0;background:#0b1020;color:#e8ecff;font-family:-apple-system,BlinkMacSystemFont,'Noto Sans KR',sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:24px 16px 48px}
+.toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:10px 0 14px}
+.btn{background:#1c2a52;border:1px solid #35518f;color:#dbe8ff;padding:8px 12px;border-radius:10px;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.card{background:#121a32;border:1px solid #273a70;border-radius:12px;padding:12px}
+.badge{display:inline-block;font-size:12px;padding:3px 8px;border-radius:999px;background:#20396f;margin-bottom:8px}
+.title{font-size:17px;margin:0 0 8px}
+.sum{font-size:14px;line-height:1.55;color:#d2dcff}
+.meta{margin-top:10px;font-size:12px;color:#9fb0de}
+a{color:#9fc2ff}
+.section-title{margin:18px 0 8px;font-size:16px;color:#cfe1ff}
+.snap-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-bottom:8px}
+.snap-card{background:#111a31;border:1px solid #273a70;border-radius:10px;padding:10px 10px 12px}
+.snap-head{display:flex;justify-content:space-between;font-size:12px;color:#b9c7ec}
+.snap-price{font-size:18px;font-weight:700;margin:8px 0 6px}
+.chg.up{color:#ff7b7b} .chg.down{color:#71b7ff} .chg.flat{color:#9fb0de}
+.spark-wrap{height:64px;margin-top:2px}
+.spark-svg{width:100%;height:100%}
+.spark-empty{font-size:12px;color:#9fb0de;padding-top:22px}
+.spark-caption{font-size:11px;color:#8fa1d4;margin-top:6px}
+.data-note{font-size:11px;color:#f0c36d;margin-top:4px}
+</style></head>
+<body><div class="wrap">
+<h1>증시/연준 스냅샷</h1>
+<div>업데이트 시각: 2026-06-03 05:54:08 (KST)</div>
+<div class="toolbar">
+  <button class="btn" id="refreshNow">지금 새로고침(재수집+번역)</button>
+  <span id="status" style="font-size:12px;color:#a7b0d6">자동 업데이트: 매일 05:00</span>
+</div>
+<h3 class='section-title'>국가별 지수</h3><div class='snap-grid'>
+            <div class="snap-card">
+              <div class="snap-head"><span>S&P 500</span><span class="chg up">+0.13%</span></div>
+              <div class="snap-price">7,609.78</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,39.3 3.8,36.9 7.6,38.7 11.4,42.8 15.2,40.3 19.0,40.9 22.9,41.2 26.7,45.9 30.5,47.8 34.3,44.7 38.1,43.9 41.9,48.1 45.7,49.0 49.5,53.5 53.3,50.1 57.1,51.3 61.0,49.6 64.8,54.9 68.6,59.8 72.4,61.0 76.2,52.5 80.0,50.4 83.8,50.1 87.6,48.7 91.4,48.5 95.2,40.9 99.0,39.0 102.9,39.3 106.7,36.1 110.5,32.4 114.3,29.9 118.1,29.0 121.9,25.2 125.7,25.9 129.5,28.0 133.3,24.6 137.1,26.0 141.0,23.4 144.8,23.0 148.6,24.6 152.4,24.7 156.2,21.4 160.0,20.4 163.8,21.7 167.6,19.1 171.4,14.2 175.2,15.5 179.0,12.7 182.9,12.0 186.7,12.6 190.5,10.6 194.3,8.0 198.1,12.2 201.9,12.5 205.7,14.7 209.5,11.1 213.3,10.5 217.1,9.2 221.0,7.2 224.8,7.1 228.6,5.1 232.4,4.4 236.2,3.4 240.0,3.0" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              
+            </div>
+            
+            <div class="snap-card">
+              <div class="snap-head"><span>NASDAQ</span><span class="chg up">+0.03%</span></div>
+              <div class="snap-price">27,093.90</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,45.1 3.8,42.5 7.6,43.0 11.4,46.3 15.2,43.5 19.0,43.5 22.9,43.3 26.7,47.0 30.5,48.9 34.3,46.5 38.1,45.5 41.9,48.5 45.7,49.1 49.5,53.1 53.3,50.4 57.1,52.1 61.0,50.5 64.8,55.4 68.6,59.6 72.4,61.0 76.2,53.7 80.0,51.4 83.8,51.0 87.6,49.9 91.4,49.7 95.2,44.1 99.0,42.3 102.9,41.6 106.7,39.0 110.5,34.8 114.3,31.3 118.1,30.5 121.9,27.2 125.7,27.8 129.5,29.1 133.3,25.4 137.1,27.4 141.0,23.8 144.8,23.3 148.6,25.4 152.4,25.3 156.2,23.3 160.0,21.2 163.8,21.7 167.6,19.3 171.4,14.6 175.2,14.9 179.0,10.8 182.9,10.5 186.7,12.3 190.5,9.4 194.3,7.2 198.1,11.0 201.9,12.2 205.7,14.3 209.5,10.6 213.3,10.4 217.1,9.9 221.0,7.0 224.8,6.9 228.6,4.6 232.4,4.1 236.2,3.1 240.0,3.0" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              
+            </div>
+            
+            <div class="snap-card">
+              <div class="snap-head"><span>DOW</span><span class="chg up">+0.45%</span></div>
+              <div class="snap-price">51,307.79</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,29.5 3.8,27.3 7.6,34.7 11.4,38.9 15.2,36.7 19.0,37.0 22.9,39.7 26.7,46.7 30.5,47.9 34.3,44.2 38.1,43.7 41.9,51.0 45.7,52.9 49.5,57.1 53.3,51.2 57.1,52.0 61.0,49.1 64.8,53.5 68.6,61.0 72.4,60.5 76.2,49.9 80.0,47.8 83.8,48.4 87.6,46.8 91.4,47.6 95.2,35.1 99.0,32.5 102.9,35.0 106.7,32.2 110.5,29.2 114.3,29.9 118.1,28.8 121.9,20.6 125.7,20.6 129.5,23.4 133.3,20.2 137.1,21.9 141.0,22.6 144.8,23.2 148.6,23.5 152.4,26.1 156.2,18.6 160.0,20.1 163.8,25.3 167.6,22.0 171.4,16.2 175.2,19.2 179.0,19.0 182.9,18.1 186.7,17.6 190.5,18.2 194.3,14.8 198.1,19.8 201.9,18.3 205.7,21.4 209.5,15.3 213.3,12.7 217.1,9.9 221.0,11.0 224.8,9.3 228.6,9.0 232.4,5.6 236.2,5.2 240.0,3.0" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              
+            </div>
+            
+            <div class="snap-card">
+              <div class="snap-head"><span>Russell 2000 (IWM)</span><span class="chg up">+0.90%</span></div>
+              <div class="snap-price">2,931.96</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,39.4 3.8,36.4 7.6,42.0 11.4,48.6 15.2,45.5 19.0,46.1 22.9,46.7 26.7,52.7 30.5,53.7 34.3,51.1 38.1,49.2 41.9,53.8 45.7,52.0 49.5,58.3 53.3,52.1 57.1,50.9 61.0,47.4 64.8,52.2 68.6,57.0 72.4,61.0 76.2,51.9 80.0,50.1 83.8,48.1 87.6,46.9 91.4,46.5 95.2,38.1 99.0,36.3 102.9,37.0 106.7,32.5 110.5,28.6 114.3,27.7 118.1,27.1 121.9,20.7 125.7,18.9 129.5,22.0 133.3,19.8 137.1,20.9 141.0,19.6 144.8,19.5 148.6,23.0 152.4,24.9 156.2,18.2 160.0,16.7 163.8,18.6 167.6,13.2 171.4,8.5 175.2,13.8 179.0,11.4 182.9,10.3 186.7,13.4 190.5,13.3 194.3,11.2 198.1,18.9 201.9,20.9 205.7,24.0 209.5,16.2 213.3,13.3 217.1,10.5 221.0,4.8 224.8,4.8 228.6,3.0 232.4,4.9 236.2,6.4 240.0,3.5" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              
+            </div>
+            
+            <div class="snap-card">
+              <div class="snap-head"><span>KOSPI</span><span class="chg up">+0.15%</span></div>
+              <div class="snap-price">8,801.49</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,49.5 3.9,60.4 7.9,52.7 11.8,52.7 15.7,57.9 19.7,53.5 23.6,52.3 27.5,52.8 31.5,54.3 35.4,53.3 39.3,51.9 43.3,47.5 47.2,50.0 51.1,49.7 55.1,55.5 59.0,53.2 63.0,51.8 66.9,54.7 70.8,55.0 74.8,57.5 78.7,61.0 82.6,54.4 86.6,58.2 90.5,56.0 94.4,54.8 98.4,54.1 102.3,48.3 106.2,49.7 110.2,48.5 114.1,49.3 118.0,46.8 122.0,44.9 125.9,42.8 129.8,43.3 133.8,42.9 137.7,40.3 141.6,39.8 145.6,38.9 149.5,38.9 153.4,36.7 157.4,36.3 161.3,35.6 165.2,37.0 169.2,31.7 173.1,24.8 177.0,23.2 181.0,23.0 184.9,18.0 188.9,20.8 192.8,17.7 196.7,15.5 200.7,23.1 204.6,22.8 208.5,26.5 212.5,27.5 216.4,18.1 220.3,17.6 224.3,14.5 228.2,11.7 232.1,12.4 236.1,7.8 240.0,3.0" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              
+            </div>
+            
+            <div class="snap-card">
+              <div class="snap-head"><span>Nikkei 225</span><span class="chg down">-0.30%</span></div>
+              <div class="snap-price">66,734.24</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,35.4 4.0,41.9 8.0,49.4 12.0,45.6 16.0,44.3 20.0,54.9 24.0,49.4 28.0,46.5 32.0,48.6 36.0,50.9 40.0,51.2 44.0,51.4 48.0,45.7 52.0,52.6 56.0,59.3 60.0,56.7 64.0,51.2 68.0,51.7 72.0,52.6 76.0,58.0 80.0,61.0 84.0,51.2 88.0,55.9 92.0,53.5 96.0,52.4 100.0,52.4 104.0,41.8 108.0,43.3 112.0,39.6 116.0,41.1 120.0,36.1 124.0,35.2 128.0,30.1 132.0,33.9 136.0,32.6 140.0,30.7 144.0,29.9 148.0,31.5 152.0,29.4 156.0,26.4 160.0,28.6 164.0,31.0 168.0,30.1 172.0,18.0 176.0,18.4 180.0,19.5 184.0,18.3 188.0,16.4 192.0,18.6 196.0,23.2 200.0,25.4 204.0,26.3 208.0,29.1 212.0,22.2 216.0,16.1 220.0,9.5 224.0,10.1 228.0,10.1 232.0,11.2 236.0,5.2 240.0,3.0" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              
+            </div>
+            
+            <div class="snap-card">
+              <div class="snap-head"><span>Hang Seng</span><span class="chg up">+2.52%</span></div>
+              <div class="snap-price">26,038.32</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,17.6 4.0,25.2 8.0,38.6 12.0,36.7 16.0,25.5 20.0,34.5 24.0,20.2 28.0,21.8 32.0,26.5 36.0,33.0 40.0,23.5 44.0,22.6 48.0,18.5 52.0,32.1 56.0,37.9 60.0,61.0 64.0,43.4 68.0,36.4 72.0,48.7 76.0,46.3 80.0,51.5 84.0,50.5 88.0,37.4 92.0,42.0 96.0,22.0 100.0,25.6 104.0,21.9 108.0,28.0 112.0,22.5 116.0,20.6 120.0,9.0 124.0,15.0 128.0,9.9 132.0,6.6 136.0,15.0 140.0,21.4 144.0,19.8 148.0,21.1 152.0,27.5 156.0,16.3 160.0,25.0 164.0,16.7 168.0,21.8 172.0,13.7 176.0,3.0 180.0,9.0 184.0,8.7 188.0,10.2 192.0,9.1 196.0,9.1 200.0,20.2 204.0,27.6 208.0,24.4 212.0,28.2 216.0,35.0 220.0,29.4 224.0,29.5 228.0,36.6 232.0,44.9 236.0,40.3 240.0,34.7" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              
+            </div>
+            </div><h3 class='section-title'>10년물 국채</h3><div class='snap-grid'>
+            <div class="snap-card">
+              <div class="snap-head"><span>US 10Y</span><span class="chg down">-0.45%</span></div>
+              <div class="snap-price">4.46%</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,61.0 3.8,60.3 7.5,58.0 11.2,51.8 15.0,53.0 18.8,52.8 22.5,52.8 26.2,46.0 30.0,39.9 33.8,38.8 37.5,44.9 41.2,46.6 45.0,41.2 48.8,39.2 52.5,28.9 56.2,34.2 60.0,28.8 63.8,34.8 67.5,26.5 71.2,24.3 75.0,33.5 78.8,36.4 82.5,35.6 86.2,36.2 90.0,34.1 93.8,33.4 97.5,38.2 101.2,38.0 105.0,35.8 108.8,37.7 112.5,41.5 116.2,39.1 120.0,36.5 123.8,42.4 127.5,42.1 131.2,38.1 135.0,37.9 138.8,35.2 142.5,36.5 146.2,34.0 150.0,32.3 153.8,26.3 157.5,29.0 161.2,30.1 165.0,23.7 168.8,26.5 172.5,32.1 176.2,28.8 180.0,31.4 183.8,27.1 187.5,22.1 191.2,20.4 195.0,22.3 198.8,9.7 202.5,7.1 206.2,3.0 210.0,11.9 213.8,10.6 217.5,13.2 221.2,19.3 225.0,20.4 228.8,22.9 232.5,23.1 236.2,21.0 240.0,22.9" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              
+            </div>
+            
+            <div class="snap-card">
+              <div class="snap-head"><span>JP 10Y</span><span class="chg up">+0.94%</span></div>
+              <div class="snap-price">2.68%</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,53.1 2.7,46.1 5.4,40.8 8.1,44.9 10.8,48.3 13.5,47.2 16.2,48.6 18.9,44.8 21.6,48.5 24.3,47.3 27.0,47.7 29.7,48.7 32.4,46.8 35.1,47.5 37.8,49.0 40.4,48.6 43.1,44.2 45.8,48.2 48.5,48.4 51.2,50.1 53.9,49.9 56.6,56.3 59.3,55.6 62.0,55.2 64.7,57.8 67.4,58.3 70.1,55.4 72.8,54.2 75.5,57.3 78.2,61.0 80.9,55.9 83.6,57.1 86.3,53.7 89.0,53.2 91.7,51.2 94.4,51.7 97.1,53.4 99.8,51.5 102.5,47.0 105.2,44.3 107.9,45.0 110.6,49.0 113.3,45.5 116.0,41.4 118.7,44.8 121.3,46.0 124.0,44.4 126.7,36.6 129.4,37.6 132.1,37.8 134.8,42.0 137.5,35.3 140.2,36.1 142.9,32.5 145.6,34.0 148.3,37.1 151.0,35.2 153.7,31.7 156.4,29.3 159.1,33.0 161.8,33.7 164.5,34.2 167.2,32.6 169.9,34.5 172.6,35.6 175.3,34.4 178.0,32.5 180.7,31.3 183.4,28.5 186.1,29.3 188.8,24.9 191.5,26.0 194.2,27.8 196.9,27.8 199.6,24.3 202.2,22.8 204.9,19.3 207.6,15.9 210.3,10.7 213.0,7.5 215.7,3.0 218.4,4.1 221.1,5.9 223.8,5.8 226.5,11.1 229.2,8.8 231.9,11.0 234.6,10.6 237.3,13.5 240.0,11.4" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              <div class="data-note">TradingEconomics (일본국채)</div>
+            </div>
+            </div><h3 class='section-title'>2년물 국채</h3><div class='snap-grid'>
+            <div class="snap-card">
+              <div class="snap-head"><span>US 2Y</span><span class="chg down">-0.48%</span></div>
+              <div class="snap-price">4.97%</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,61.0 3.8,60.5 7.5,58.8 11.2,54.5 15.0,54.2 18.8,56.0 22.5,52.2 26.2,41.9 30.0,38.5 33.8,35.8 37.5,41.7 41.2,42.5 45.0,39.0 48.8,42.5 52.5,29.5 56.2,35.3 60.0,31.8 63.8,37.1 67.5,32.4 71.2,26.9 75.0,36.1 78.8,37.8 82.5,36.7 86.2,37.9 90.0,37.8 93.8,34.2 97.5,38.3 101.2,37.1 105.0,35.1 108.8,36.7 112.5,40.6 116.2,37.8 120.0,33.3 123.8,38.5 127.5,39.0 131.2,37.0 135.0,36.5 138.8,34.6 142.5,34.8 146.2,31.7 150.0,31.5 153.8,26.3 157.5,26.3 161.2,28.8 165.0,21.7 168.8,26.7 172.5,31.6 176.2,28.5 180.0,31.1 183.8,26.4 187.5,21.0 191.2,19.1 195.0,23.3 198.8,9.4 202.5,7.1 206.2,3.0 210.0,10.8 213.8,11.3 217.5,17.0 221.2,21.6 225.0,23.4 228.8,26.5 232.5,25.6 236.2,25.8 240.0,28.7" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              
+            </div>
+            
+            <div class="snap-card">
+              <div class="snap-head"><span>JP 2Y</span><span class="chg up">+0.50%</span></div>
+              <div class="snap-price">1.40%</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,61.0 2.7,55.4 5.4,57.6 8.1,54.3 10.8,56.7 13.5,48.2 16.2,44.9 18.9,43.3 21.6,49.4 24.3,47.8 27.0,50.7 29.7,47.6 32.4,42.9 35.1,45.1 37.8,45.1 40.4,44.0 43.1,36.8 45.8,39.1 48.5,38.6 51.2,42.2 53.9,45.3 56.6,54.7 59.3,52.7 62.0,47.6 64.7,48.7 67.4,50.7 70.1,56.7 72.8,51.8 75.5,50.9 78.2,57.9 80.9,50.9 83.6,54.3 86.3,49.6 89.0,51.8 91.7,52.7 94.4,49.1 97.1,50.3 99.8,48.0 102.5,42.2 105.2,42.6 107.9,44.2 110.6,48.5 113.3,44.9 116.0,37.3 118.7,37.3 121.3,35.9 124.0,29.0 126.7,18.9 129.4,24.3 132.1,22.9 134.8,28.8 137.5,19.6 140.2,19.3 142.9,16.9 145.6,20.2 148.3,21.4 151.0,18.7 153.7,16.2 156.4,17.1 159.1,21.4 161.8,21.4 164.5,24.9 167.2,23.6 169.9,24.3 172.6,26.5 175.3,25.8 178.0,25.2 180.7,25.6 183.4,22.9 186.1,19.8 188.8,16.9 191.5,20.7 194.2,23.6 196.9,22.3 199.6,18.5 202.2,17.1 204.9,17.1 207.6,15.8 210.3,14.4 213.0,10.4 215.7,5.7 218.4,3.0 221.1,5.5 223.8,7.7 226.5,12.9 229.2,12.6 231.9,17.6 234.6,24.9 237.3,18.9 240.0,17.3" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              <div class="data-note">TradingEconomics (일본국채)</div>
+            </div>
+            </div><h3 class='section-title'>원자재 선물</h3><div class='snap-grid'>
+            <div class="snap-card">
+              <div class="snap-head"><span>WTI</span><span class="chg up">+1.42%</span></div>
+              <div class="snap-price">93.47</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,61.0 3.8,56.4 7.5,56.2 11.2,47.4 15.0,33.7 18.8,28.3 22.5,44.0 26.2,38.7 30.0,26.9 33.8,22.8 37.5,30.0 41.2,26.3 45.0,26.1 48.8,26.4 52.5,23.3 56.2,37.5 60.0,31.6 63.8,34.5 67.5,28.7 71.2,21.5 75.0,17.0 78.8,19.1 82.5,20.8 86.2,5.0 90.0,3.8 93.8,3.0 97.5,28.8 101.2,24.0 105.0,25.8 108.8,22.3 112.5,33.1 116.2,33.1 120.0,28.4 123.8,43.5 127.5,35.4 131.2,31.9 135.0,30.8 138.8,26.8 142.5,28.8 146.2,26.0 150.0,21.1 153.8,11.4 157.5,14.0 161.2,18.3 165.0,12.1 168.8,17.8 172.5,27.8 176.2,28.2 180.0,27.4 183.8,23.7 187.5,18.0 191.2,19.6 195.0,19.4 198.8,13.5 202.5,9.0 206.2,10.2 210.0,23.4 213.8,26.1 217.5,25.7 221.2,29.5 225.0,36.7 228.8,36.4 232.5,38.6 236.2,31.9 240.0,30.1" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              
+            </div>
+            
+            <div class="snap-card">
+              <div class="snap-head"><span>Brent</span><span class="chg up">+0.88%</span></div>
+              <div class="snap-price">95.82</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,61.0 3.8,55.8 7.5,55.8 11.2,50.0 15.0,39.6 18.8,30.7 22.5,46.6 26.2,40.7 30.0,28.6 33.8,24.7 37.5,28.9 41.2,24.3 45.0,18.7 48.8,16.9 52.5,11.8 56.2,29.3 60.0,22.8 63.8,26.0 67.5,17.8 71.2,11.3 75.0,11.0 78.8,3.0 82.5,27.6 86.2,16.3 90.0,15.3 93.8,16.0 97.5,36.7 101.2,35.0 105.0,36.1 108.8,30.1 112.5,36.6 116.2,36.4 120.0,30.1 123.8,42.9 127.5,35.7 131.2,31.4 135.0,26.5 138.8,22.0 142.5,21.6 146.2,17.5 150.0,13.1 153.8,3.5 157.5,9.2 161.2,17.5 165.0,8.6 168.8,15.1 172.5,27.4 176.2,29.1 180.0,27.4 183.8,23.2 187.5,18.1 191.2,21.2 195.0,21.0 198.8,16.0 202.5,11.9 206.2,13.1 210.0,22.0 213.8,25.5 217.5,24.2 221.2,29.8 225.0,37.4 228.8,38.2 232.5,40.6 236.2,36.4 240.0,35.2" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              
+            </div>
+            
+            <div class="snap-card">
+              <div class="snap-head"><span>Gold</span><span class="chg up">+0.29%</span></div>
+              <div class="snap-price">4,519.50</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,3.0 3.8,14.8 7.5,14.0 11.2,17.5 15.0,12.4 18.8,15.8 22.5,7.1 26.2,11.0 30.0,14.3 33.8,18.3 37.5,22.0 41.2,21.5 45.0,28.5 48.8,46.8 52.5,48.7 56.2,59.2 60.0,59.5 63.8,50.0 67.5,61.0 71.2,53.6 75.0,51.5 78.8,43.8 82.5,35.3 86.2,43.6 90.0,43.2 93.8,43.2 97.5,37.4 101.2,34.7 105.0,36.6 108.8,37.8 112.5,32.6 116.2,34.2 120.0,35.1 123.8,30.6 127.5,33.8 131.2,40.6 135.0,38.5 138.8,40.2 142.5,39.1 146.2,42.1 150.0,47.4 153.8,50.3 157.5,45.9 161.2,44.9 165.0,51.9 168.8,49.6 172.5,41.7 176.2,40.5 180.0,39.2 183.8,39.3 187.5,41.9 191.2,40.7 195.0,41.9 198.8,49.6 202.5,49.8 206.2,52.7 210.0,51.2 213.8,50.6 217.5,51.8 221.2,53.1 225.0,56.5 228.8,53.2 232.5,49.3 236.2,54.7 240.0,51.9" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              
+            </div>
+            
+            <div class="snap-card">
+              <div class="snap-head"><span>Silver</span><span class="chg up">+0.28%</span></div>
+              <div class="snap-price">75.47</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,5.2 3.8,19.7 7.5,20.5 11.2,23.0 15.0,17.3 18.8,16.7 22.5,3.0 26.2,13.9 30.0,15.0 33.8,25.1 37.5,26.9 41.2,28.9 45.0,35.1 48.8,52.2 52.5,56.4 56.2,57.3 60.0,56.7 63.8,48.3 67.5,61.0 71.2,55.9 75.0,53.8 78.8,42.0 82.5,38.8 86.2,47.3 90.0,47.5 93.8,49.7 97.5,40.5 101.2,37.7 105.0,37.6 108.8,39.7 112.5,29.3 116.2,29.0 120.0,31.4 123.8,22.9 127.5,27.7 131.2,37.3 135.0,33.3 138.8,39.9 142.5,37.4 146.2,41.1 150.0,46.0 153.8,50.4 157.5,45.1 161.2,38.6 165.0,46.4 168.8,46.3 172.5,36.2 176.2,28.4 180.0,26.5 183.8,12.7 187.5,13.7 191.2,3.5 195.0,14.3 198.8,35.3 202.5,35.5 206.2,41.6 210.0,38.8 213.8,37.3 217.5,38.7 221.2,37.6 225.0,42.2 228.8,39.4 232.5,39.5 236.2,41.1 240.0,39.9" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              
+            </div>
+            </div><h3 class='section-title'>외환</h3><div class='snap-grid'>
+            <div class="snap-card">
+              <div class="snap-head"><span>Dollar Index (DXY)</span><span class="chg up">+0.02%</span></div>
+              <div class="snap-price">99.22</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,49.3 3.8,34.7 7.5,40.8 11.2,28.9 15.0,36.0 18.8,31.9 22.5,39.5 26.2,30.8 30.0,19.7 33.8,6.3 37.5,20.4 41.2,23.2 45.0,12.1 48.8,30.8 52.5,21.7 56.2,36.9 60.0,26.5 63.8,22.8 67.5,16.3 71.2,10.8 75.0,3.0 78.8,14.9 82.5,21.7 86.2,13.4 90.0,14.5 93.8,21.9 97.5,33.0 101.2,39.7 105.0,43.4 108.8,49.5 112.5,54.9 116.2,56.2 120.0,52.7 123.8,55.4 127.5,56.4 131.2,48.6 135.0,44.7 138.8,40.1 142.5,46.4 146.2,47.1 150.0,44.1 153.8,37.5 157.5,55.8 161.2,53.0 165.0,47.3 168.8,47.1 172.5,57.1 176.2,52.1 180.0,61.0 183.8,58.8 187.5,51.2 191.2,47.1 195.0,38.4 198.8,29.9 202.5,36.5 206.2,29.3 210.0,33.4 213.8,31.7 217.5,28.9 221.2,32.1 225.0,31.2 228.8,35.4 232.5,37.8 236.2,31.5 240.0,31.1" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              
+            </div>
+            
+            <div class="snap-card">
+              <div class="snap-head"><span>USD/JPY</span><span class="chg up">+0.22%</span></div>
+              <div class="snap-price">159.92</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,59.1 3.6,49.3 7.2,41.3 10.7,53.6 14.3,45.0 17.9,31.1 21.5,40.1 25.1,36.0 28.7,21.0 32.2,19.0 35.8,13.4 39.4,20.6 43.0,23.9 46.6,9.8 50.1,39.0 53.7,18.6 57.3,30.3 60.9,26.6 64.5,16.2 68.1,11.3 71.6,3.0 75.2,9.1 78.8,28.8 82.4,27.1 86.0,14.6 89.6,10.1 93.1,11.6 96.7,26.6 100.3,27.8 103.9,20.5 107.5,11.6 111.0,18.9 114.6,25.4 118.2,25.2 121.8,19.2 125.4,19.7 129.0,24.6 132.5,16.4 136.1,14.6 139.7,10.6 143.3,13.2 146.9,16.7 150.4,13.6 154.0,3.8 157.6,53.7 161.2,55.7 164.8,50.3 168.4,42.8 171.9,61.0 175.5,56.0 179.1,55.6 182.7,49.7 186.3,42.9 189.9,40.1 193.4,31.8 197.0,24.6 200.6,24.4 204.2,21.7 207.8,24.0 211.3,21.9 214.9,23.0 218.5,22.9 222.1,18.4 225.7,13.4 229.3,18.0 232.8,16.7 236.4,12.3 240.0,7.7" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              
+            </div>
+            
+            <div class="snap-card">
+              <div class="snap-head"><span>USD/CNY</span><span class="chg down">-0.04%</span></div>
+              <div class="snap-price">6.76</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,32.2 3.6,25.0 7.2,19.7 10.7,20.5 14.3,20.5 17.9,20.7 21.5,16.3 25.1,26.6 28.7,29.9 32.2,28.9 35.8,20.8 39.4,3.0 43.0,23.7 46.6,27.8 50.1,19.7 53.7,23.9 57.3,25.6 60.9,22.1 64.5,19.3 68.1,16.4 71.6,16.1 75.2,16.1 78.8,21.3 82.4,28.4 86.0,24.1 89.6,24.9 93.1,24.9 96.7,32.6 100.3,40.9 103.9,40.1 107.5,41.2 111.0,40.5 114.6,44.8 118.2,44.2 121.8,43.2 125.4,44.5 129.0,44.3 132.5,43.3 136.1,42.3 139.7,41.8 143.3,38.8 146.9,42.7 150.4,38.3 154.0,38.3 157.6,41.4 161.2,41.3 164.8,40.6 168.4,40.5 171.9,46.2 175.5,49.1 179.1,49.4 182.7,51.1 186.3,51.9 189.9,52.3 193.4,54.0 197.0,46.8 200.6,49.5 204.2,45.2 207.8,49.4 211.3,48.8 214.9,51.2 218.5,51.2 222.1,53.7 225.7,55.9 229.3,55.7 232.8,59.7 236.4,60.0 240.0,61.0" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              
+            </div>
+            
+            <div class="snap-card">
+              <div class="snap-head"><span>USD/KRW</span><span class="chg up">+0.34%</span></div>
+              <div class="snap-price">1,517.48</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,61.0 3.6,50.9 7.2,28.3 10.7,44.7 14.3,30.9 17.9,27.7 21.5,41.9 25.1,35.8 28.7,33.9 32.2,37.4 35.8,14.6 39.4,24.0 43.0,26.9 46.6,12.0 50.1,23.3 53.7,12.7 57.3,26.6 60.9,17.8 64.5,15.1 68.1,9.7 71.6,10.7 75.2,4.0 78.8,13.4 82.4,7.0 86.0,9.1 89.6,9.0 93.1,10.1 96.7,16.5 100.3,32.3 103.9,35.5 107.5,28.9 111.0,32.8 114.6,38.3 118.2,34.9 121.8,32.1 125.4,41.4 129.0,38.4 132.5,26.3 136.1,32.0 139.7,30.6 143.3,34.4 146.9,35.7 150.4,36.4 154.0,25.1 157.6,34.9 161.2,36.6 164.8,33.4 168.4,35.0 171.9,56.6 175.5,49.0 179.1,44.8 182.7,34.6 186.3,21.0 189.9,23.3 193.4,20.7 197.0,17.9 200.6,21.5 204.2,10.1 207.8,16.0 211.3,12.6 214.9,6.4 218.5,5.0 222.1,11.8 225.7,13.6 229.3,19.3 232.8,10.8 236.4,7.6 240.0,3.0" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="spark-caption">트렌드 기준: 최근 3개월</div>
+              
+            </div>
+            </div>
+
+<section class="f13-section">
+  <h2 class="section-title">📋 기관투자자 13F 포지션 변화</h2>
+  <div class="f13-subtitle">분기 신고 기준 (SEC EDGAR) · 최신: 2026 Q1</div>
+  <div class="f13-grid">
+<div class="f13-card">
+  <div class="f13-fund-header">
+    <span class="f13-fund-name">Berkshire Hathaway</span>
+    <span class="f13-period">2025-12-31 → 2026-03-31</span>
+    <span class="f13-total">$263B · 26종목</span>
+  </div>
+  <div class="f13-body">
+    <div class="f13-top5">
+      <div class="f13-sub-title">Top 5 보유</div>
+      <div class="f13-top-row"><span class="f13-top-name">AAPL</span><div class="f13-top-bar"><div style="width:65px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">22.0%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">AXP</span><div class="f13-top-bar"><div style="width:52px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">17.4%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">KO</span><div class="f13-top-bar"><div style="width:34px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">11.6%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">BAC</span><div class="f13-top-bar"><div style="width:28px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">9.5%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">CVX</span><div class="f13-top-bar"><div style="width:19px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">6.6%</span></div>
+    </div>
+    <div class="f13-changes">
+      <div class="f13-sub-title">주요 변화</div>
+      <div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">GOOGL</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+198%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">6.3%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📉</span>
+  <span class="f13-chg-name">AXP</span>
+  <span class="f13-chg-pct" style="color:#ffa94d">-18%</span>
+  <span class="f13-chg-port" style="color:#ffa94d">17.4%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">OXY</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+58%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">6.5%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">🆕</span>
+  <span class="f13-chg-name">CVX</span>
+  <span class="f13-chg-pct" style="color:#51cf66">신규</span>
+  <span class="f13-chg-port" style="color:#51cf66">6.6%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">🚪</span>
+  <span class="f13-chg-name">ATLANTA BRAV</span>
+  <span class="f13-chg-pct" style="color:#ff6b6b">-100%</span>
+  <span class="f13-chg-port" style="color:#ff6b6b">청산</span>
+</div>
+    </div>
+  </div>
+</div>
+
+<div class="f13-card">
+  <div class="f13-fund-header">
+    <span class="f13-fund-name">Renaissance Tech</span>
+    <span class="f13-period">2025-12-31 → 2026-03-31</span>
+    <span class="f13-total">$64B · 2994종목</span>
+  </div>
+  <div class="f13-body">
+    <div class="f13-top5">
+      <div class="f13-sub-title">Top 5 보유</div>
+      <div class="f13-top-row"><span class="f13-top-name">UTHR</span><div class="f13-top-bar"><div style="width:4px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">1.7%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">PLTR</span><div class="f13-top-bar"><div style="width:4px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">1.6%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">AAPL</span><div class="f13-top-bar"><div style="width:3px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">1.2%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">KGC</span><div class="f13-top-bar"><div style="width:3px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">1.2%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">MU</span><div class="f13-top-bar"><div style="width:3px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">1.1%</span></div>
+    </div>
+    <div class="f13-changes">
+      <div class="f13-sub-title">주요 변화</div>
+      <div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">AVGO</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+79643%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">0.4%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">TER</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+19328%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">0.1%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">EXK</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+18376%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">0.0%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">ALIT</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+13630%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">0.0%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">XMAX INC</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+3765%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">0.0%</span>
+</div>
+    </div>
+  </div>
+</div>
+
+<div class="f13-card">
+  <div class="f13-fund-header">
+    <span class="f13-fund-name">Citadel Advisors</span>
+    <span class="f13-period">2025-12-31 → 2026-03-31</span>
+    <span class="f13-total">$618B · 4584종목</span>
+  </div>
+  <div class="f13-body">
+    <div class="f13-top5">
+      <div class="f13-sub-title">Top 5 보유</div>
+      <div class="f13-top-row"><span class="f13-top-name">SPY</span><div class="f13-top-bar"><div style="width:20px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">6.8%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">IVZ</span><div class="f13-top-bar"><div style="width:15px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">5.1%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">iSHR</span><div class="f13-top-bar"><div style="width:13px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">4.6%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">NVDA</span><div class="f13-top-bar"><div style="width:11px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">3.9%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">TSLA</span><div class="f13-top-bar"><div style="width:11px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">3.8%</span></div>
+    </div>
+    <div class="f13-changes">
+      <div class="f13-sub-title">주요 변화</div>
+      <div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">SUZ</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+10644%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">0.0%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">WINTRUST FIN</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+10417%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">0.0%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">WEX</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+6558%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">0.0%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">ETF</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+5934%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">0.0%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">AMPL</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+5262%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">0.0%</span>
+</div>
+    </div>
+  </div>
+</div>
+
+<div class="f13-card">
+  <div class="f13-fund-header">
+    <span class="f13-fund-name">Pershing Square</span>
+    <span class="f13-period">2025-12-31 → 2026-03-31</span>
+    <span class="f13-total">$14B · 10종목</span>
+  </div>
+  <div class="f13-body">
+    <div class="f13-top5">
+      <div class="f13-sub-title">Top 5 보유</div>
+      <div class="f13-top-row"><span class="f13-top-name">BROOKFIELD C</span><div class="f13-top-bar"><div style="width:52px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">17.6%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">AMZN</span><div class="f13-top-bar"><div style="width:52px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">17.4%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">UBER</span><div class="f13-top-bar"><div style="width:47px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">15.7%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">MSFT</span><div class="f13-top-bar"><div style="width:45px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">15.3%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">RESTAURANT B</span><div class="f13-top-bar"><div style="width:36px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">12.2%</span></div>
+    </div>
+    <div class="f13-changes">
+      <div class="f13-sub-title">주요 변화</div>
+      <div class="f13-chg-row">
+  <span class="f13-chg-icon">🆕</span>
+  <span class="f13-chg-name">MSFT</span>
+  <span class="f13-chg-pct" style="color:#51cf66">신규</span>
+  <span class="f13-chg-port" style="color:#51cf66">15.3%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📉</span>
+  <span class="f13-chg-name">BROOKFIELD C</span>
+  <span class="f13-chg-pct" style="color:#ffa94d">-14%</span>
+  <span class="f13-chg-port" style="color:#ffa94d">17.6%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📉</span>
+  <span class="f13-chg-name">UBER</span>
+  <span class="f13-chg-pct" style="color:#ffa94d">-13%</span>
+  <span class="f13-chg-port" style="color:#ffa94d">15.7%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📉</span>
+  <span class="f13-chg-name">META</span>
+  <span class="f13-chg-pct" style="color:#ffa94d">-14%</span>
+  <span class="f13-chg-port" style="color:#ffa94d">11.1%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📉</span>
+  <span class="f13-chg-name">HOWARD HUGHE</span>
+  <span class="f13-chg-pct" style="color:#ffa94d">-21%</span>
+  <span class="f13-chg-port" style="color:#ffa94d">8.7%</span>
+</div>
+    </div>
+  </div>
+</div>
+
+<div class="f13-card">
+  <div class="f13-fund-header">
+    <span class="f13-fund-name">Druckenmiller</span>
+    <span class="f13-period">2025-12-31 → 2026-03-31</span>
+    <span class="f13-total">$0B · 68종목</span>
+  </div>
+  <div class="f13-body">
+    <div class="f13-top5">
+      <div class="f13-sub-title">Top 5 보유</div>
+      <div class="f13-top-row"><span class="f13-top-name">NTRA</span><div class="f13-top-bar"><div style="width:54px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">18.1%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">iSHR</span><div class="f13-top-bar"><div style="width:26px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">8.7%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">INSM</span><div class="f13-top-bar"><div style="width:16px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">5.6%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">TSM</span><div class="f13-top-bar"><div style="width:14px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">5.0%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">IVZ</span><div class="f13-top-bar"><div style="width:13px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">4.7%</span></div>
+    </div>
+    <div class="f13-changes">
+      <div class="f13-sub-title">주요 변화</div>
+      <div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">YPF</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+581%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">4.4%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">STM</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+350%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">2.7%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">ADMA</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+203%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">0.4%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">iSHR</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+19%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">8.7%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">🚪</span>
+  <span class="f13-chg-name">Entegris Inc</span>
+  <span class="f13-chg-pct" style="color:#ff6b6b">-100%</span>
+  <span class="f13-chg-port" style="color:#ff6b6b">청산</span>
+</div>
+    </div>
+  </div>
+</div>
+
+<div class="f13-card">
+  <div class="f13-fund-header">
+    <span class="f13-fund-name">Soros Fund</span>
+    <span class="f13-period">2025-12-31 → 2026-03-31</span>
+    <span class="f13-total">$9B · 243종목</span>
+  </div>
+  <div class="f13-body">
+    <div class="f13-top5">
+      <div class="f13-sub-title">Top 5 보유</div>
+      <div class="f13-top-row"><span class="f13-top-name">SPY</span><div class="f13-top-bar"><div style="width:25px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">8.7%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">AMZN</span><div class="f13-top-bar"><div style="width:13px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">4.4%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">XLE</span><div class="f13-top-bar"><div style="width:9px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">3.3%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">TSM</span><div class="f13-top-bar"><div style="width:9px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">3.3%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">CRWV</span><div class="f13-top-bar"><div style="width:8px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">2.8%</span></div>
+    </div>
+    <div class="f13-changes">
+      <div class="f13-sub-title">주요 변화</div>
+      <div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">VSE</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+3886%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">0.5%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">BLACKLINE IN</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+2188%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">1.0%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">SNAP</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+781%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">0.9%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">CLEAR CHANNE</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+753%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">0.1%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">ONESTREAM IN</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+624%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">0.5%</span>
+</div>
+    </div>
+  </div>
+</div>
+
+<div class="f13-card">
+  <div class="f13-fund-header">
+    <span class="f13-fund-name">Tiger Global</span>
+    <span class="f13-period">2025-12-31 → 2026-03-31</span>
+    <span class="f13-total">$23B · 53종목</span>
+  </div>
+  <div class="f13-body">
+    <div class="f13-top5">
+      <div class="f13-sub-title">Top 5 보유</div>
+      <div class="f13-top-row"><span class="f13-top-name">GOOGL</span><div class="f13-top-bar"><div style="width:40px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">13.4%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">NVDA</span><div class="f13-top-bar"><div style="width:27px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">9.2%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">AMZN</span><div class="f13-top-bar"><div style="width:27px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">9.1%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">TSM</span><div class="f13-top-bar"><div style="width:24px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">8.2%</span></div>
+<div class="f13-top-row"><span class="f13-top-name">META</span><div class="f13-top-bar"><div style="width:23px;height:6px;background:#4fc3f7;border-radius:3px"></div></div><span class="f13-top-pct">7.7%</span></div>
+    </div>
+    <div class="f13-changes">
+      <div class="f13-sub-title">주요 변화</div>
+      <div class="f13-chg-row">
+  <span class="f13-chg-icon">📈</span>
+  <span class="f13-chg-name">APPLIED MATL</span>
+  <span class="f13-chg-pct" style="color:#74c0fc">+146%</span>
+  <span class="f13-chg-port" style="color:#74c0fc">2.5%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">🆕</span>
+  <span class="f13-chg-name">TSM</span>
+  <span class="f13-chg-pct" style="color:#51cf66">신규</span>
+  <span class="f13-chg-port" style="color:#51cf66">8.2%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">📉</span>
+  <span class="f13-chg-name">MSFT</span>
+  <span class="f13-chg-pct" style="color:#ffa94d">-65%</span>
+  <span class="f13-chg-port" style="color:#ffa94d">4.1%</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">🚪</span>
+  <span class="f13-chg-name">CIRCLE INTER</span>
+  <span class="f13-chg-pct" style="color:#ff6b6b">-100%</span>
+  <span class="f13-chg-port" style="color:#ff6b6b">청산</span>
+</div>
+<div class="f13-chg-row">
+  <span class="f13-chg-icon">🚪</span>
+  <span class="f13-chg-name">VEEVA SYS IN</span>
+  <span class="f13-chg-pct" style="color:#ff6b6b">-100%</span>
+  <span class="f13-chg-port" style="color:#ff6b6b">청산</span>
+</div>
+    </div>
+  </div>
+</div></div>
+</section>
+<style>
+.f13-section{margin:32px 0;}
+.f13-subtitle{font-size:11px;color:#546e7a;margin-bottom:14px;}
+.f13-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(500px,1fr));gap:16px;}
+.f13-card{background:#111a31;border:1px solid #1e2a3a;border-radius:10px;padding:16px 20px;}
+.f13-fund-header{display:flex;align-items:baseline;gap:8px;margin-bottom:12px;flex-wrap:wrap;}
+.f13-fund-name{font-size:14px;font-weight:700;color:#e8eaf6;}
+.f13-period{font-size:10px;color:#546e7a;}
+.f13-total{font-size:11px;color:#78909c;margin-left:auto;}
+.f13-body{display:flex;gap:20px;}
+.f13-top5{flex:0 0 160px;}
+.f13-changes{flex:1;min-width:0;}
+.f13-sub-title{font-size:10px;font-weight:700;color:#546e7a;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;}
+.f13-top-row{display:flex;align-items:center;gap:6px;margin-bottom:5px;}
+.f13-top-name{font-size:11px;color:#b0bec5;width:52px;flex-shrink:0;font-weight:600;}
+.f13-top-bar{flex:1;}
+.f13-top-pct{font-size:11px;color:#4fc3f7;width:42px;text-align:right;}
+.f13-chg-row{display:flex;align-items:center;gap:6px;margin-bottom:5px;}
+.f13-chg-icon{font-size:11px;width:16px;flex-shrink:0;}
+.f13-chg-name{font-size:11px;color:#b0bec5;width:56px;flex-shrink:0;font-weight:600;}
+.f13-chg-pct{font-size:11px;font-weight:700;width:72px;text-align:right;flex-shrink:0;}
+.f13-chg-port{font-size:11px;width:40px;text-align:right;flex-shrink:0;}
+.f13-no-chg{font-size:11px;color:#546e7a;font-style:italic;}
+</style>
+
+
+<section class="fed-section">
+  <h2 class="section-title">🏗️ 연준 통화정책 기조</h2>
+  <div class="fb-legend">
+    <span style="color:#ff6060">◀ 매파 (0)</span>
+    <span style="color:#9fa8da;font-size:12px">hawk_score 0~1</span>
+    <span style="color:#51cf66">(1) 비둘기파 ▶</span>
+  </div>
+  <div class="fb-chart">
+<div class="fb-row">
+  <div class="fb-name">Christopher Waller<span class="fb-role">이사</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:10%;background:rgb(229,75,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(229,75,80)">🦅 0.10</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Susan Collins<span class="fb-role">보스턴 총재</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:15%;background:rgb(216,85,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(216,85,80)">🦅 0.15</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Jerome Powell<span class="fb-role">의장</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:20%;background:rgb(204,95,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(204,95,80)">🦅 0.20</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Jeffrey Schmid<span class="fb-role">캔자스시티 총재</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:20%;background:rgb(204,95,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(204,95,80)">🦅 0.20</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Beth Hammack<span class="fb-role">클리블랜드 총재</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:25%;background:rgb(191,105,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(191,105,80)">🦅 0.25</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Alberto Musalem<span class="fb-role">세인트루이스 총재</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:25%;background:rgb(191,105,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(191,105,80)">🦅 0.25</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Neel Kashkari<span class="fb-role">미니애폴리스 총재</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:25%;background:rgb(191,105,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(191,105,80)">🦅 0.25</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Michael Barr<span class="fb-role">감독부의장</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:35%;background:rgb(165,125,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(165,125,80)">🦅 0.35</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Thomas Barkin<span class="fb-role">리치몬드 총재</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:35%;background:rgb(165,125,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(165,125,80)">🦅 0.35</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Lorie Logan<span class="fb-role">댈러스 총재</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:35%;background:rgb(165,125,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(165,125,80)">🦅 0.35</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">John Williams<span class="fb-role">뉴욕 총재</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:40%;background:rgb(153,135,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(153,135,80)">⚖️ 0.40</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Patrick Harker<span class="fb-role">필라델피아 총재</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:40%;background:rgb(153,135,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(153,135,80)">🦅 0.40</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Austan Goolsbee<span class="fb-role">시카고 총재</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:40%;background:rgb(153,135,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(153,135,80)">🦅 0.40</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Mary Daly<span class="fb-role">샌프란시스코 총재</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:45%;background:rgb(140,145,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(140,145,80)">⚖️ 0.45</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Adriana Kugler<span class="fb-role">이사</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:50%;background:rgb(127,155,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(127,155,80)">⚖️ 0.50</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Raphael Bostic<span class="fb-role">애틀랜타 총재</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:50%;background:rgb(127,155,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(127,155,80)">⚖️ 0.50</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Philip Jefferson<span class="fb-role">부의장</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:55%;background:rgb(114,165,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(114,165,80)">⚖️ 0.55</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Lisa Cook<span class="fb-role">이사</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:70%;background:rgb(76,195,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(76,195,80)">🕊️ 0.70</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Michelle Bowman<span class="fb-role">이사</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:85%;background:rgb(38,225,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(38,225,80)">🕊️ 0.85</div>
+</div></div>
+  <details class="fed-details">
+    <summary class="fed-details-btn">▼ 상세 뉴스 보기 (이사회 7명 + 총재 12명)</summary>
+    <div class="fed-group-title" style="margin-top:20px">이사회 (Board of Governors)</div>
+    <div class="fed-grid">
+<div class="fed-card" style="border-left:4px solid rgb(204,95,80)">
+  <div class="fed-header">
+    <span class="fed-name">Jerome Powell</span>
+    <span class="fed-role">의장</span>
+    <span class="fed-stance" style="background:rgb(204,95,80)">🦅 매파 0.20</span>
+  </div>
+  <p class="fed-summary">제롬 파월 전 연준 의장은 연준의 신뢰도가 위험에 처해 있다고 직접 경고하며, 추상적이지만 날카로운 메시지를 전달했습니다. 이는 그의 재임 기간 동안의 통화 정책에 대한 깊은 우려를 반영하는 것으로 분석됩니다.</p>
+  <p class="fed-reason">연준의 신뢰도가 위험에 처했다는 파월의 경고는 통화 정책의 유효성 상실 또는 인플레이션 통제 실패에 대한 강한 매파적 우려를 반영합니다.</p>
+  <div class="fed-meta"><span style="color:#78909c">57분 전</span> · <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxPZWRFVDVPTXZpM2FwWGl6b0t5Ynpva2tmcC01OHdScGZRSlpxek9IdHI2WkVnZU80eGFZd1MwYUI3eUxBSUZOZkhTY3V0UE9EN3ExODZHS2ROMGptZzN0YnB2VENoRzU1aW1pbnRSZEVCQkhmLW8zZEJHeHJfdUJYMGd6dkxzUzF2RXRnSXcxZDJsQkJrbkxHUWRQN2tvY2llNkR6dmQ0b1BnNXcx?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div>
+
+<div class="fed-card" style="border-left:4px solid rgb(114,165,80)">
+  <div class="fed-header">
+    <span class="fed-name">Philip Jefferson</span>
+    <span class="fed-role">부의장</span>
+    <span class="fed-stance" style="background:rgb(114,165,80)">⚖️ 중립 0.55</span>
+  </div>
+  <p class="fed-summary">제퍼슨 연준 부의장은 통화 정책이 대응할 준비가 되어 있으며 6월 회의를 예단하지 않을 것이라고 밝혔습니다. 그는 노동 시장 성과에 대해 신중한 입장을 보였으며, 고용과 인플레이션 양쪽에 위험이 있다고 언급했습니다.</p>
+  <p class="fed-reason">그는 통화 정책의 유연성과 데이터 의존성을 강조하면서도 노동 시장에 대한 신중함과 고용 및 인플레이션 양면의 위험을 모두 인지하고 있어 중립적인 입장을 견지합니다.</p>
+  <div class="fed-meta"><span style="color:#78909c">5일 전</span> · <a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZGxldGpnZDc3MXFIa25OLUI5eHR3ampUWE05RU9tcHhrVlB1cUJIR0U1d2dWejNOQ19NU1B6NlpmcFhzMHFPc2dEb0F1R0NDdThWWkhpRW9uSEphLUVGZU1qMUNkZlowSEI5LXREYkFVMHZOZUJ6b1dtUFVPaXpMYmgyRDJqTk5RWjRVUlZDSTB4R3Q2RDkyTGpLQkdVRThEMGxwZEhZc1pJSGpRN2VMV1dVMGliWTBib3lGQmlsOHFpNVJsbU9ybVpEejJuWEVQWFE?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div>
+
+<div class="fed-card" style="border-left:4px solid rgb(165,125,80)">
+  <div class="fed-header">
+    <span class="fed-name">Michael Barr</span>
+    <span class="fed-role">감독부의장</span>
+    <span class="fed-stance" style="background:rgb(165,125,80)">🦅 매파 0.35</span>
+  </div>
+  <p class="fed-summary">마이클 바 연준 감독 부의장은 &#x27;성과 중심의 금융 건전성 지표&#x27;를 강조하며, 연준 자산 축소를 위해 유동성 규제를 완화하는 것은 &#x27;잘못된 접근&#x27;이라고 언급했습니다. 그는 또한 &#x27;대차대조표 축소 자체가 잘못된 목표&#x27;라고 밝히며, 금융 시스템의 건전성 유지와 규제 강화를 우선시하는 입장을 보였습니다.</p>
+  <p class="fed-reason">바 부의장은 금융 안정성을 위해 유동성 규제 완화에 반대하고 엄격한 금융 건전성 지표를 요구하며, 규제 강화에 대한 매파적 입장을 보였습니다.</p>
+  <div class="fed-meta"><span style="color:#78909c">1일 전</span> · <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxQZ0R5Q196ejRUbkRpU0JMVGFvaEZFT0h3ajhVQmZ3aGUtOTc5cTlLRmNCcFB6TFFRT1ZRR0JWT2VpYmFVMU5xYnlqVzF3ZkxwWm5MaXI4UUdXelFUazl0c1Rud0JveGZ0T0J6Y3ZwNngxTDllbW55eXE0cDRsQ0Zzd29Yejk?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div>
+
+<div class="fed-card" style="border-left:4px solid rgb(38,225,80)">
+  <div class="fed-header">
+    <span class="fed-name">Michelle Bowman</span>
+    <span class="fed-role">이사</span>
+    <span class="fed-stance" style="background:rgb(38,225,80)">🕊️ 비둘기파 0.85</span>
+  </div>
+  <p class="fed-summary">미셸 Bowman 연준 이사는 인플레이션 급등에도 불구하고 금리 인상을 경고하며, 금리 인하에 대한 편향을 유지하고 있다고 밝혔습니다. 그녀는 전쟁으로 인한 인플레이션 상승은 일시적인 것으로 간주하고 이를 간과할 용의가 있다고 덧붙였습니다.</p>
+  <p class="fed-reason">Bowman 이사는 인플레이션에도 불구하고 금리 인상에 반대하고 금리 인하에 대한 편향을 유지하며, 전쟁으로 인한 인플레이션을 간과할 의사를 밝혀 강력한 비둘기파적 입장을 취하고 있습니다.</p>
+  <div class="fed-meta"><span style="color:#78909c">4일 전</span> · <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSU1FUWtLRzNfdWhmdVJvYVBMeFpYaVowRGhjUFN4NXZmbzdVNUx1OFAzdE42YktoU2tfOHNfeE5uNzdFNDdreXBZX0lBMDM3a0otZkhJbFgxaGlPSm9Kam44SW92bmkwX0lBeTZidmlDdEVVaGdxOFNmQUY3Q0d1UFJ4RmRMT0JGVUFLWlJad3VRVHk2YTRYRmRxVzZjUk9SWHdnRUw5MTNCemvSAbABQVVfeXFMTVVRMVlKLXIzTUdra0lSZm44VWxLWWozUF9vY0RTRHZPbExxcDRQQmVhb1pZU01rZGVLUEtyTDcyT2k4LUMwNU9PX2t5dFhPci1YTTJtbXU5blQzQnFkMEM4cy1BVjJTTE43NWtBZWpGTXJRSlZQWnI3YnJQS2ROOXdXVVFPX0MtVjdkck1GbUhNU0tFaUlaVU8yVUFMcDVTR05ScktyLXk1YkFvNDExd1o?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div>
+
+<div class="fed-card" style="border-left:4px solid rgb(229,75,80)">
+  <div class="fed-header">
+    <span class="fed-name">Christopher Waller</span>
+    <span class="fed-role">이사</span>
+    <span class="fed-stance" style="background:rgb(229,75,80)">🦅 매파 0.10</span>
+  </div>
+  <p class="fed-summary">월러 이사는 최근 금리 인하 논의를 &#x27;미친 짓(crazy)&#x27;이라고 일축하며 연준이 &#x27;완화 편향(easing bias)&#x27;을 없앨 준비가 되어 있다고 밝혔다. 그는 또한 스테이블코인이 미국 정책의 영향력을 확대할 것이라고 언급했다.</p>
+  <p class="fed-reason">금리 인하 논의를 &#x27;미친 짓&#x27;으로 표현하며 &#x27;완화 편향&#x27;을 제거할 의지를 보인 점에서 강한 매파적 입장을 취하고 있다.</p>
+  <div class="fed-meta"><span style="color:#78909c">2일 전</span> · <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOekgzVVJDc3lqSGJlNmhha0pPWXhqbzAtMVNCZHNzdVN6SDRPWEM5dnJicURReTZ4bnJNYVIwTzdDWjRjemNPeWxjMDI3Y1hjWC1aM3IwTEc1SUpXTTdERHBIMUEwZ3NIVy1ybmtnZW9yWkRhT2ZaX2tlVHd3Y0NCaFRtMGZBYVFqNllpZnVOY1lmX3V6X2VKbVdWdU83bTRfV0E?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div>
+
+<div class="fed-card" style="border-left:4px solid rgb(76,195,80)">
+  <div class="fed-header">
+    <span class="fed-name">Lisa Cook</span>
+    <span class="fed-role">이사</span>
+    <span class="fed-stance" style="background:rgb(76,195,80)">🕊️ 비둘기파 0.70</span>
+  </div>
+  <p class="fed-summary">리사 쿡 연준 이사는 최근 디지털 자산과 미국 금융 시스템에 대해 발언했으며, 전반적으로 더 신중한 정책 전망을 시사하며 완화적인 기조를 나타냈습니다. 또한, 파월 의장은 그녀와 관련된 소송을 연준 역사상 가장 중요한 법적 사건이라고 언급했습니다.</p>
+  <p class="fed-reason">그녀가 &#x27;더 신중한 정책 전망&#x27;을 시사하며 향후 통화 정책에 대해 완화적인 기조를 나타냈기 때문입니다.</p>
+  <div class="fed-meta"><span style="color:#78909c">6일 전</span> · <a href="https://news.google.com/rss/articles/CBMi8gFBVV95cUxOVlVoNjlUMTBTbDhGVG5yWWFya3g5c2pvY2hiZDgwX0VsWk1lU0RUaFl0REU2bXZrUm9PbmN2S0JFcFFQQXh3OVBna2hzenlxVnIzUmkzel9IcHRLbVdaeFRHWXg1bmhGd0RJbV9NNFJpaXlnR01lRWRrNi1IZ3MzQ1ZLd2pEQ2R2bjBJSm51Rnh5Yi1rNEVzS0I0ejNQMXRYZ2ZrM05jVm8tbld1RnBNYzI4QlY5M25UblRFSjBTUnBlMW9nWm1rVjBvUFNNZDFWLUcyc0ZHVjRGQm9ocmZSTkRnRlZIc1kyNWx3Q1dNeEVlZw?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div>
+
+<div class="fed-card" style="border-left:4px solid rgb(127,155,80)">
+  <div class="fed-header">
+    <span class="fed-name">Adriana Kugler</span>
+    <span class="fed-role">이사</span>
+    <span class="fed-stance" style="background:rgb(127,155,80)">⚖️ 중립 0.50</span>
+  </div>
+  <p class="fed-summary">최근 보도에 따르면, 전 연방준비제도 이사 아드리아나 쿠글러가 거래 규칙을 위반한 사실이 공개되었으며(CNN, 2025년 11월 15일), 이는 그녀가 연준 총재직을 사임한 이후(뉴욕타임스, 2025년 8월 1일) 드러난 것으로 보인다. 이와 관련하여 스콧 상원 은행위원회 위원장은 연준의 윤리 위반 보고서에 대한 개혁의 필요성을 강조했다.</p>
+  <p class="fed-reason">제공된 뉴스 기사는 아드리아나 쿠글러 전 이사의 윤리 위반 및 사임에 관한 것으로, 그녀의 통화 정책 스탠스에 대한 정보를 포함하고 있지 않아 중립으로 판단합니다.</p>
+  <div class="fed-meta"><span style="color:#78909c">199일 전</span> · <a href="https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWWpJZjlzM3FBTm9DZEZ4VGtUUVR1VVF1M1E4a1JPbGVkckdDMjVaakp1MEZpdXlFUG9lb3RpNFVUU1lkc0U0UU5NUE5RX3plQjZFcVNtbFpZQnFYNWItS1lDbUFrSnk0RFhPS3ZVeDNBcjlCNGlBZ3BrdXBlenBod1FqR2tVek5jWDhEZDh0VTVWaHNPS0ctTFJLNmhIOHJZRElCbE14NW05SndYX0FmeHZzcXN3RS1mYk1uVEhiNkhSZDZnTGhOdE9Kb3N0Z0JtVGFWWXVVSU1iMk81Mm5FdmkycVRVdw?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div></div>
+    <div class="fed-group-title" style="margin-top:24px">지역 연방준비은행 총재</div>
+    <div class="fed-grid">
+<div class="fed-card" style="border-left:4px solid rgb(216,85,80)">
+  <div class="fed-header">
+    <span class="fed-name">Susan Collins</span>
+    <span class="fed-role">보스턴 총재</span>
+    <span class="fed-stance" style="background:rgb(216,85,80)">🦅 매파 0.15</span>
+  </div>
+  <p class="fed-summary">보스턴 연은 총재 수잔 콜린스는 인플레이션 억제를 위해 금리 인상이 필요할 수 있다고 언급했다. 그녀는 또한 한동안 금리 인하에 반대하며 금리를 상당 기간 현재 수준으로 유지하는 것을 선호한다고 밝혔다.</p>
+  <p class="fed-reason">콜린스 총재는 인플레이션 억제를 위해 금리 인상 가능성을 시사하고 한동안 금리 인하에 반대하며 현 수준 유지를 선호한다고 밝혀 매파적 입장을 보였다.</p>
+  <div class="fed-meta"><span style="color:#78909c">20일 전</span> · <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTWdoRERINm1EMzhrWmdMWjRWZ2VQMmFjWF9MZGNieFc3UVd3YnhpNFJKX2I2R092Q0htdFFINnlmMmdELU5SR1VCM1Y5c3hvQlJsSXFuRnNEQWo0Si1nZFJ1d0VtQTdLakMwS2lNT0h0TXlZY1FQX2w0MUszMUhRYUVzQmg0ZDNuQ01uanFCTk9rMTJBeFIwWjMtbE9yM2xrRU5MRWg3LW0?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div>
+
+<div class="fed-card" style="border-left:4px solid rgb(153,135,80)">
+  <div class="fed-header">
+    <span class="fed-name">John Williams</span>
+    <span class="fed-role">뉴욕 총재</span>
+    <span class="fed-stance" style="background:rgb(153,135,80)">⚖️ 중립 0.40</span>
+  </div>
+  <p class="fed-summary">존 윌리엄스 뉴욕 연은 총재는 연준 정책이 경제 위험과 불확실성에 잘 대비하고 있다고 언급했습니다. 하지만 그는 이란 전쟁이 경제에 &#x27;상당하고 예측 불가능한&#x27; 위험을 초래하며, 이는 성장을 둔화시키고 인플레이션을 악화시킬 것이라고 경고했습니다.</p>
+  <p class="fed-reason">윌리엄스 총재는 전쟁으로 인한 성장 둔화 가능성을 언급했음에도 불구하고 인플레이션 악화를 명시적으로 우려하며, 연준 정책이 이러한 위험에 잘 대비되어 있다고 평가해 인플레이션 억제에 대한 경계를 유지하는 중립적인 입장을 보였습니다.</p>
+  <div class="fed-meta"><span style="color:#78909c">29일 전</span> · <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxPMmFOOVVYYjBZSWV1Rjd0N055dGRIb01lODF1Z2d2M1RCcXR3aUtPZHpNSXd2NTB6MVNRd3ZQVzFnQUFaX19SREdSTUZaRmxHWVd1UHdMS05kM0hVOU5wUTlDbVlCWGV5eXhHWTdzU3ZoQ3BKUGtnVUltdFFBeXlRTGdwV3dEWlplXzlCc3FHa3E0TmxkakhHSjh5V2dNWkktcEN3T1RRSUM4eE1mWHVMQXpB?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div>
+
+<div class="fed-card" style="border-left:4px solid rgb(153,135,80)">
+  <div class="fed-header">
+    <span class="fed-name">Patrick Harker</span>
+    <span class="fed-role">필라델피아 총재</span>
+    <span class="fed-stance" style="background:rgb(153,135,80)">🦅 매파 0.40</span>
+  </div>
+  <p class="fed-summary">필라델피아 연은 총재로서 마지막 연설에서 패트릭 하커는 경제적 불확실성이 지속됨에 따라 통화 정책에 대해 &#x27;신중하고&#x27; &#x27;의도적인&#x27; 조치를 계속할 것을 촉구했습니다. 그는 불확실성 속에서 성급한 정책 변화를 피하고 현 상태를 유지하며 신중하게 접근해야 한다고 강조했습니다.</p>
+  <p class="fed-reason">경제적 불확실성을 이유로 &#x27;신중하고 의도적인&#x27; 통화 정책 기조 유지를 강조하며, 성급한 정책 전환보다는 현상 유지 또는 점진적인 접근을 선호하는 매파적 입장을 시사합니다.</p>
+  <div class="fed-meta"><span style="color:#78909c">362일 전</span> · <a href="https://news.google.com/rss/articles/CBMi7wFBVV95cUxOcjRiMzRuSVpuNHBrUFdRZWJaSUlhU1JZVTFxOTRkTmd1cG82bWFUQzlodk1aVzBoT1hINGZPYlRHYWdUQTUyVHdWY3ZCZXBHeVJlSE5HN056SVRBTHlmNml4bDhveU9CZWVfeG85VmZYRU1Tanh2TFdaeUtuM196QmEwYjBkT2dwaTNaRm1TRWpJSVFyM29yOXZVMWZRY2xENURGRlpTcHhwYjBJR3RSNjM0STNmVWl5ODMtRmlPWnNrU0NYX1RRTjl1NFk0RHpWSFhEbzE4REJDZ294eko3UnFkdzFqeFhqTC1BcVRLMA?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div>
+
+<div class="fed-card" style="border-left:4px solid rgb(191,105,80)">
+  <div class="fed-header">
+    <span class="fed-name">Beth Hammack</span>
+    <span class="fed-role">클리블랜드 총재</span>
+    <span class="fed-stance" style="background:rgb(191,105,80)">🦅 매파 0.25</span>
+  </div>
+  <p class="fed-summary">클리블랜드 연은 총재 베스 해먹은 최근 발언에서 인플레이션이 진정되지 않으면 금리 인상이 필요할 수 있다고 밝혔다 (2026년 6월 2일). 또한, 그녀는 FOMC의 금리 경로 신호가 오해의 소지가 있었다고 언급하며(2026년 5월 7일), 시장이 완화적인 금리 기대를 가질 위험에 대해 경고했다.</p>
+  <p class="fed-reason">그녀는 인플레이션 지속 시 금리 인상 가능성을 직접적으로 언급하고 FOMC의 금리 경로 신호에 대한 우려를 표하며 매파적 입장을 분명히 했다.</p>
+  <div class="fed-meta"><span style="color:#78909c">4시간 전</span> · <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxNUnlFX3A5V2xBWWxKelM4cmExZDd0cnJyYkdITElQTzZxU04wR2hQUDZCOTY4R0FPQXBHLWJJTUhscWFjaU5zRVpOR0VmelZNVXRab1doQ29yZFR5azFqX3h0UWlZQk81VkU0Vm1pT0ZUc2FvRE5CaU13OHptSlh6dUE3SnhrUzZKUVFBTWNZRVVONGNNVWVvbW9WQlU3eDkxYnd5WXN3?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div>
+
+<div class="fed-card" style="border-left:4px solid rgb(165,125,80)">
+  <div class="fed-header">
+    <span class="fed-name">Thomas Barkin</span>
+    <span class="fed-role">리치몬드 총재</span>
+    <span class="fed-stance" style="background:rgb(165,125,80)">🦅 매파 0.35</span>
+  </div>
+  <p class="fed-summary">토마스 바킨 리치몬드 연은 총재는 현재의 정책이 진행 중인 충격에 대응하기에 적절한 위치에 있다고 평가하며, 추가 금리 인하에 대해 회의적인 입장을 보였습니다. 그는 관세 혼란이 불확실성과 고용 둔화를 야기한다고 언급했음에도 불구하고, 현재의 통화 정책 스탠스를 유지하려는 신중한 태도를 보였습니다.</p>
+  <p class="fed-reason">현재의 통화 정책이 적절하며 추가 금리 인하에 대해 회의적이라는 발언을 통해 긴축적인 기조를 시사합니다.</p>
+  <div class="fed-meta"><span style="color:#78909c">12일 전</span> · <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxOVVVCcUNuUnh6QXpnbmdFdjBSOUdXemRsLW44WXN0TXQzQkdlcWZzNmNJdVR3ZVIxeXVvYXRVMnptTjlWUHpnSlVFbEpyZUZKTTNrTlpHZ2MxbjhoMmw1dXM4cjU3emF3STQzeGRXbVJKSGx6T2I0eVRmQ3cza25TZGlMdFN4UnJtWXJTMUw4R1ZuU0xHQkE?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div>
+
+<div class="fed-card" style="border-left:4px solid rgb(127,155,80)">
+  <div class="fed-header">
+    <span class="fed-name">Raphael Bostic</span>
+    <span class="fed-role">애틀랜타 총재</span>
+    <span class="fed-stance" style="background:rgb(127,155,80)">⚖️ 중립 0.50</span>
+  </div>
+  <p class="fed-summary">라파엘 보스틱 애틀랜타 연은 총재는 &#x27;Farm Journal&#x27;s Top Producer Summit&#x27;에서 연설하는 등 최근 대외 활동을 가졌습니다. 그는 약 9년간의 애틀랜타 연은 재임 기간을 회고하며 &#x27;퇴임하는 연준 총재&#x27;로서 중앙은행 독립성에 대한 공격이 타격을 주고 있다고 우려를 표명했습니다.</p>
+  <p class="fed-reason">제공된 뉴스에서는 보스틱 총재의 금리 정책에 대한 직접적인 견해나 경제 전망이 언급되지 않았으며, 그의 퇴임 및 중앙은행 독립성 관련 발언이 주를 이루기 때문에 중립으로 평가합니다.</p>
+  <div class="fed-meta"><span style="color:#78909c">113일 전</span> · <a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxOQzBGQU1SSHVwNXhiZVJWdzM5VkJNM2wycnctNTZCYWpCRnZHZWxPNG5Fb2otYTBmTU10cFZheFVKbnljdU1SX000MFpKMENoand2Q3l1TVF6bXhSWTU4T3ZVZXIwekZJbkhVRXBua3dRMkVibzlpRFZUcWs3anc2a1hfUXFIS3R5b3RIamhiakh5OEphT1p5Vzg5N3JRT05NRlg2NVBwTU41V1B2amhOREFoWUQ?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div>
+
+<div class="fed-card" style="border-left:4px solid rgb(153,135,80)">
+  <div class="fed-header">
+    <span class="fed-name">Austan Goolsbee</span>
+    <span class="fed-role">시카고 총재</span>
+    <span class="fed-stance" style="background:rgb(153,135,80)">🦅 매파 0.40</span>
+  </div>
+  <p class="fed-summary">시카고 연은의 오스탄 굴스비 총재는 최근 유가 충격이 AI 열풍으로 인한 인플레이션 압력을 가중시킬 수 있다고 경고했습니다. 그는 또한 인공지능으로 인한 생산성 증가를 너무 앞서 기대하여 통화 정책을 결정하는 것에 대해 신중해야 한다고 강조했습니다.</p>
+  <p class="fed-reason">굴스비 총재는 인플레이션 상방 위험을 강조하고 생산성 증가에 대한 섣부른 낙관론을 경계하며, 통화 정책에 신중한 접근을 시사했습니다.</p>
+  <div class="fed-meta"><span style="color:#78909c">5일 전</span> · <a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxObDJ1d0Nvb3VHbjFycUJ6QmFGWUE1bDYzRWdVcjBpSk83MlA2eDZIUWxmN0VhMlFITi16MXgwSFpSVnZIS3VERi05VVVWaGpKRHFfZWJDbmlDZnkwYU05VUk2RGc1NGpGUnRZSThIRFBDM0xzUHdSTzlqQUVIXzBKX25JSjVzVWRhd1ZPS1ZkcWpjWHJxc00zVXIyeFQ0c1lLTm9fekJ4UnI1UzNRdWFaWU5JVWpvT2VUdHFj?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div>
+
+<div class="fed-card" style="border-left:4px solid rgb(191,105,80)">
+  <div class="fed-header">
+    <span class="fed-name">Alberto Musalem</span>
+    <span class="fed-role">세인트루이스 총재</span>
+    <span class="fed-stance" style="background:rgb(191,105,80)">🦅 매파 0.25</span>
+  </div>
+  <p class="fed-summary">알베르토 무살렘 세인트루이스 연은 총재는 인공지능(AI)이 인플레이션을 완화할 것이라고 기대하는 것은 위험하다고 경고했습니다. 그는 AI로 인한 생산성 증가가 통화 정책에 미칠 영향에 대해 논하면서도, 인플레이션 완화에 대한 AI의 역할을 과신해서는 안 된다는 신중론을 펼쳤습니다. 이는 연준 내 금리 인상 시나리오 논의가 깊어지는 가운데 나온 발언으로, AI가 인플레이션을 자연스럽게 낮출 것이라는 낙관론에 대한 회의적인 입장을 나타냅니다.</p>
+  <p class="fed-reason">무살렘 총재는 AI의 인플레이션 완화 효과에 대한 기대를 경계하며, 통화 정책이 기술 발전과 무관하게 인플레이션을 억제하는 데 적극적이어야 함을 시사하여 매파적 입장을 취했습니다.</p>
+  <div class="fed-meta"><span style="color:#78909c">5일 전</span> · <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRUpBejdBTjRsS01SZUN6RUNzV3Z5QVFWdDkwdXV6RTE2SVQtbzVOUlV1WFFmSkZWUDZkUW9EeTZhTjFjbElxTVM5Nm9CM2VpNi1MWE12T0tMaG9XV05sS2VVX1FWcnl6aGNYa2JCbGE5Y3dBS2V0Nndwa09NOG9SUjRiQ3JKUS05T2dqS3VyMFhkMkN2SFRfbFJQQmtUX182WmItWURZdm15dw?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div>
+
+<div class="fed-card" style="border-left:4px solid rgb(191,105,80)">
+  <div class="fed-header">
+    <span class="fed-name">Neel Kashkari</span>
+    <span class="fed-role">미니애폴리스 총재</span>
+    <span class="fed-stance" style="background:rgb(191,105,80)">🦅 매파 0.25</span>
+  </div>
+  <p class="fed-summary">닐 카슈카리 미니애폴리스 연은 총재는 CNBC 인터뷰에서 노동 시장이 &#x27;괜찮은 상태&#x27;이므로 인플레이션과의 싸움이 최우선이라고 강조했습니다. 또한 로이터 통신과의 인터뷰에서는 다음 금리 인상 시점에 대해서는 함구한 채 인플레이션 위험에 집중할 것을 촉구했습니다.</p>
+  <p class="fed-reason">그는 인플레이션 퇴치를 최우선 과제로 삼고 노동 시장이 견조하다고 평가하며 매파적 입장을 분명히 했습니다.</p>
+  <div class="fed-meta"><span style="color:#78909c">5일 전</span> · <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSU1pQXdKUjZMVGpoWFRoN3ZpaVhFU21SNUg4WnN2VVdEY2VoRG9senIwNUNwdTVLR2otZ2RzMUtESU92RDNWcEdJejhWUmZsN01aanp3Q2I5d3M1Yy03V2NCckFWWGxsM2hESzFHVGRkOFMxM0tCUzJBQXZUZjdLZzh1M21fTDBzYVhr0gGQAUFVX3lxTE9tbmxOSzF1YThKbU0zNUtlQ0ZLQ1MyQVNWQnlHNHRBLVF5Z0Z5czFzVjhaT2xHMVp3RG9IaFlkcWZPdW9iRGhfblFMMEVMZmtuZ1ZSUm9HNjlLR1ItVWxyNk1fVDh3N3VIeDVlbE9wZWdYSXpscnBkUVhQNVdfZXN5WjBaZllWYWc0MXk0ak5Qbw?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div>
+
+<div class="fed-card" style="border-left:4px solid rgb(204,95,80)">
+  <div class="fed-header">
+    <span class="fed-name">Jeffrey Schmid</span>
+    <span class="fed-role">캔자스시티 총재</span>
+    <span class="fed-stance" style="background:rgb(204,95,80)">🦅 매파 0.20</span>
+  </div>
+  <p class="fed-summary">캔자스시티 연은 총재 제프리 슈미드는 인플레이션이 &#x27;너무 뜨겁다&#x27;는 것이 자신의 주된 우려라고 밝혔습니다. 그는 유가 및 에너지 충격을 일시적인 것으로 간주해서는 안 되며, 인플레이션이 높은 수준을 유지할 수 있다고 경고했습니다.</p>
+  <p class="fed-reason">그는 인플레이션이 &#x27;너무 뜨겁다&#x27;고 밝히며 에너지 충격이 일시적이지 않을 수 있다고 경고해 통화 긴축적 입장을 시사했습니다.</p>
+  <div class="fed-meta"><span style="color:#78909c">4일 전</span> · <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOVGtUZExfTVVUZVRXYVZPd3QzcEs4OVZFcDFvNm1BTGhMTWd3SEVPNTZnWVhJYU0zNGRxRzA2QnZ1cHFhRGxPbVJFcWxVR2d0WUdpcUdkOUhFNVVUb05qSGNCREYyRS1kRmVsQldDYjhCbnNVcy13bmVKc2NURDRteVl5X1lGQjl1NnpSZnJzQ3Q5MmNveE1BejJyN1hONDg3?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div>
+
+<div class="fed-card" style="border-left:4px solid rgb(165,125,80)">
+  <div class="fed-header">
+    <span class="fed-name">Lorie Logan</span>
+    <span class="fed-role">댈러스 총재</span>
+    <span class="fed-stance" style="background:rgb(165,125,80)">🦅 매파 0.35</span>
+  </div>
+  <p class="fed-summary">댈러스 연은 로리 로건 총재는 2026년 5월 27일 ‘통화 정책과 불균형’ 패널 개회사에서 통화 정책의 광범위한 영향과 잠재적 시스템 문제에 대해 언급했으며, 같은 날 로이터 통신에 따르면 세계가 석유 및 천연가스 사용을 줄여야 할 수도 있다고 발언하며 장기적인 인플레이션 동인에 대한 인식을 드러냈습니다.</p>
+  <p class="fed-reason">&#x27;불균형&#x27;에 대한 우려와 장기적인 인플레이션 동인(에너지 사용)을 지적한 발언은 물가 안정에 대한 집중과 긴축적 시각을 암시합니다.</p>
+  <div class="fed-meta"><span style="color:#78909c">6일 전</span> · <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9rY3Fhd24wbjctdmVFUnNhNEcwOTNfRkRrTEV3c3BvZDJBT09wcWdqZ2VZM1ZYeFhkdmRJSGdMVEdjTkVveUxIa05sUHdTLVA5S09QMDdIdUkxSGI3QTc3QWh0T2k3VDdGR2Vicw?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div>
+
+<div class="fed-card" style="border-left:4px solid rgb(140,145,80)">
+  <div class="fed-header">
+    <span class="fed-name">Mary Daly</span>
+    <span class="fed-role">샌프란시스코 총재</span>
+    <span class="fed-stance" style="background:rgb(140,145,80)">⚖️ 중립 0.45</span>
+  </div>
+  <p class="fed-summary">메리 데일리 샌프란시스코 총재는 AI가 대량 실업이나 노동력 이탈을 야기하지 않을 것이라며 생산성 향상 가능성에 주목했습니다. 또한, 연준의 성명서 문구보다는 실제 정책 행동이 더 중요하다고 강조했습니다.</p>
+  <p class="fed-reason">AI가 대량 실업을 초래하지 않을 것이라는 발언은 경제의 견고함을 시사하며, 정책 행동의 중요성을 강조하는 것은 필요시 단호한 조치를 취할 의지를 내포할 수 있기 때문이다.</p>
+  <div class="fed-meta"><span style="color:#78909c">105일 전</span> · <a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxPRTFJbDMyMzhveE5IRWl5NG9hMXo1V3QxN245MERKelRQa1BYVldNdVRBNER5RjJqajBGYjFfMlBHaUdTcDVZSDdtWUg5LXdZYkdsaDJXNDN2RjM0c29KVUlQLS04YW1nZGFYT3lMMjRvdm11NTN2XzZyMm41OEhKaEN2WWYtRG9ETGt6WjBIcG1UdW93UUFBMmREYWhoZkxQYkg0Z0w3S0k3NlJTQVc1cFF6aUtMcmVCLWc?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
+</div></div>
+  </details>
+</section>
+<style>
+.fed-section{margin:32px 0;}
+.fed-section .section-title{font-size:20px;font-weight:700;color:#e8eaf6;margin-bottom:12px;}
+.fb-legend{display:flex;justify-content:space-between;font-size:12px;font-weight:600;margin-bottom:10px;}
+.fb-chart{background:#111a31;border-radius:10px;padding:16px 20px;}
+.fb-row{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
+.fb-name{width:160px;flex-shrink:0;font-size:13px;font-weight:600;color:#e8eaf6;}
+.fb-role{display:block;font-size:10px;color:#78909c;font-weight:400;}
+.fb-bar-wrap{flex:1;background:#1e2a3a;border-radius:4px;height:18px;overflow:hidden;}
+.fb-bar{height:100%;border-radius:4px;transition:width .3s;}
+.fb-score{width:70px;flex-shrink:0;font-size:12px;font-weight:700;text-align:right;}
+.fed-details-btn{cursor:pointer;font-size:13px;color:#9fc2ff;padding:10px 0;margin-top:16px;list-style:none;}
+.fed-details-btn::-webkit-details-marker{display:none;}
+.fed-group-title{font-size:13px;font-weight:600;color:#9fa8da;text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px;}
+.fed-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;}
+.fed-card{background:#1e2a3a;border-radius:8px;padding:14px 16px;}
+.fed-header{display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap;}
+.fed-name{font-weight:700;color:#e8eaf6;font-size:14px;}
+.fed-role{font-size:11px;color:#90a4ae;background:#263040;padding:2px 6px;border-radius:4px;}
+.fed-stance{font-size:11px;font-weight:700;padding:2px 8px;border-radius:12px;color:#fff;margin-left:auto;}
+.fed-summary{font-size:12px;color:#b0bec5;line-height:1.6;margin:0 0 6px;}
+.fed-reason{font-size:11px;color:#78909c;font-style:italic;margin:0 0 6px;}
+.fed-meta{font-size:11px;}
+</style>
+
+
+<h3 class='section-title'>트럼프 + Top 10 뉴스</h3>
+<div class="grid">
+        <article class="card">
+          <span class="badge">Top 1</span>
+          <h2 class="title">골드만삭스 CEO &quot;AI 기업 수십억 유치, 시장은 &#x27;탐욕&#x27; 모드&quot;</h2>
+          <p class="sum">골드만삭스 CEO의 발언은 투자자들이 수년 내 가장 활발한 주식 발행 시기를 준비하는 가운데 나왔다.</p>
+          <div class="meta">발행: 2026-06-03 04:06 (KST) · 1시간 전 · <a href="https://www.cnbc.com/2026/06/02/goldman-ceo-david-solomon-greed-mode-ai-firms-ipos.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.cnbc.com/2026/06/02/goldman-ceo-david-solomon-greed-mode-ai-firms-ipos.html" target="_blank">한국어 번역본(서버)</a></div>
+        </article>
+        
+        <article class="card">
+          <span class="badge">Top 2</span>
+          <h2 class="title">트럼프, 주택국장 빌 풀테를 정보국장 대행 임명 (툴시 가바드 교체)</h2>
+          <p class="sum">풀테는 트럼프의 정적(연준 리사 쿡, 뉴욕 검찰총장 레티샤 제임스)에 대한 모기지 관련 비리를 주장한 바 있다.</p>
+          <div class="meta">발행: 2026-06-03 01:42 (KST) · 4시간 전 · <a href="https://www.cnbc.com/2026/06/02/intelligence-trump-bill-pulte-tulsi-gabbard.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.cnbc.com/2026/06/02/intelligence-trump-bill-pulte-tulsi-gabbard.html" target="_blank">한국어 번역본(서버)</a></div>
+        </article>
+        
+        <article class="card">
+          <span class="badge">Top 3</span>
+          <h2 class="title">블랙록 릭 리더, AI 강세장이 닷컴 시대보다 &#x27;더 편안한&#x27; 이유</h2>
+          <p class="sum">블랙록 투자 책임자는 실적 성장과 재투자 현금이 AI 강세장을 지지하므로 &quot;시장에 머물러야 한다&quot;고 말했다.</p>
+          <div class="meta">발행: 2026-06-03 04:56 (KST) · 57분 전 · <a href="https://www.cnbc.com/2026/06/02/ai-tech-stocks-bull-market-blackrock.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.cnbc.com/2026/06/02/ai-tech-stocks-bull-market-blackrock.html" target="_blank">한국어 번역본(서버)</a></div>
+        </article>
+        
+        <article class="card">
+          <span class="badge">Top 4</span>
+          <h2 class="title">엔비디아 CEO &quot;마벨, 다음 조 달러 기업 될 것&quot; 발언에 주가 32% 폭등</h2>
+          <p class="sum">젠슨 황 엔비디아 CEO가 이 칩 설계 회사를 다음 조 달러 기업으로 지목하자, 개장 초 주가가 급등했다.</p>
+          <div class="meta">발행: 2026-06-03 05:49 (KST) · 4분 전 · <a href="https://www.cnbc.com/2026/06/02/jensen-huang-nvidia-marvell-technology-trillion-dollar-ai.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.cnbc.com/2026/06/02/jensen-huang-nvidia-marvell-technology-trillion-dollar-ai.html" target="_blank">한국어 번역본(서버)</a></div>
+        </article>
+        
+        <article class="card">
+          <span class="badge">Top 5</span>
+          <h2 class="title">빅토리아 시크릿 주가 사상 최고일 기록 전망, 더 나은 브라 덕분</h2>
+          <p class="sum">란제리 소매업체의 주가는 화요일에 47% 상승했다.</p>
+          <div class="meta">발행: 2026-06-03 04:34 (KST) · 1시간 전 · <a href="https://www.marketwatch.com/story/victorias-secrets-stock-is-on-track-for-its-best-day-ever-it-came-down-to-better-bras-fb82f017?mod=mw_rss_topstories" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.marketwatch.com/story/victorias-secrets-stock-is-on-track-for-its-best-day-ever-it-came-down-to-better-bras-fb82f017?mod=mw_rss_topstories" target="_blank">한국어 번역본(서버)</a></div>
+        </article>
+        
+        <article class="card">
+          <span class="badge">Top 6</span>
+          <h2 class="title">트럼프, AI 축소 행정명령 서명…비판론자 &quot;거의 무의미&quot;</h2>
+          <p class="sum">도널드 트럼프 대통령은 AI 기업이 새 모델 출시 30일 전 연방 정부에 자발적으로 통보하도록 하는 AI 행정명령에 서명했다.</p>
+          <div class="meta">발행: 2026-06-03 04:17 (KST) · 1시간 전 · <a href="https://www.marketwatch.com/story/trump-signs-an-executive-order-on-ai-after-its-scaled-back-critics-says-its-almost-meaningless-ec1c25b9?mod=mw_rss_topstories" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.marketwatch.com/story/trump-signs-an-executive-order-on-ai-after-its-scaled-back-critics-says-its-almost-meaningless-ec1c25b9?mod=mw_rss_topstories" target="_blank">한국어 번역본(서버)</a></div>
+        </article>
+        
+        <article class="card">
+          <span class="badge">Top 7</span>
+          <h2 class="title">S&amp;P 500 9일 연속 상승 중, 그러나 &#x27;폭 역설&#x27;이 이례적 경고 보내</h2>
+          <p class="sum">S&amp;P 500의 최근 기록적인 상승세는 한 가지 단서가 있다: 상승 랠리에 참여하는 종목 수가 적다는 것이다.</p>
+          <div class="meta">발행: 2026-06-03 04:11 (KST) · 1시간 전 · <a href="https://www.marketwatch.com/story/s-p-500-climbing-for-9th-straight-day-but-breadth-sends-a-rare-warning-1577195d?mod=mw_rss_topstories" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.marketwatch.com/story/s-p-500-climbing-for-9th-straight-day-but-breadth-sends-a-rare-warning-1577195d?mod=mw_rss_topstories" target="_blank">한국어 번역본(서버)</a></div>
+        </article>
+        
+        <article class="card">
+          <span class="badge">Top 8</span>
+          <h2 class="title">2026년 주식 시장은 닷컴 버블에는 없던 핵심 요인 보유</h2>
+          <p class="sum"></p>
+          <div class="meta">발행: - (KST) · 시간 정보 없음 · <a href="https://finance.yahoo.com/markets/article/the-2026-stock-market-has-a-key-factor-the-dot-com-boom-lacked-121423029.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://finance.yahoo.com/markets/article/the-2026-stock-market-has-a-key-factor-the-dot-com-boom-lacked-121423029.html" target="_blank">한국어 번역본(서버)</a></div>
+        </article>
+        
+        <article class="card">
+          <span class="badge">Top 9</span>
+          <h2 class="title">로우스 주식, 다우 지수보다 실적 부진인가?</h2>
+          <p class="sum"></p>
+          <div class="meta">발행: - (KST) · 시간 정보 없음 · <a href="https://finance.yahoo.com/markets/stocks/articles/lowes-stock-underperforming-dow-120403557.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://finance.yahoo.com/markets/stocks/articles/lowes-stock-underperforming-dow-120403557.html" target="_blank">한국어 번역본(서버)</a></div>
+        </article>
+        
+        <article class="card">
+          <span class="badge">Top 10</span>
+          <h2 class="title">기술주 랠리 6월까지 지속 가능, 그러나 시장은 3가지 큰 장애물 직면</h2>
+          <p class="sum"></p>
+          <div class="meta">발행: - (KST) · 시간 정보 없음 · <a href="https://www.barrons.com/articles/tech-stock-rally-markets-things-to-know-today-de2c2b2e?siteid=yhoof2&amp;yptr=yahoo" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.barrons.com/articles/tech-stock-rally-markets-things-to-know-today-de2c2b2e?siteid=yhoof2&amp;yptr=yahoo" target="_blank">한국어 번역본(서버)</a></div>
+        </article>
+        </div>
+<p style="margin-top:16px;font-size:12px;color:#9fb0de">영문 속보 수집 → 한국어 번역 표시 (원문 링크 유지)<br/>※ 일본국채(10Y/2Y)는 Investing.com 실시간 데이터를 사용합니다.</p>
+</div>
+<script>
+document.getElementById('refreshNow').addEventListener('click', async () => {
+  const btn = document.getElementById('refreshNow');
+  btn.disabled = true; btn.textContent = '재수집 중...';
+  try {
+    const r = await fetch('/refresh', {method:'POST'});
+    if (!r.ok) {
+      let msg = 'refresh failed';
+      try { const j = await r.json(); msg = (j.stderr || j.stdout || msg).slice(0,1000); } catch(_) {}
+      throw new Error(msg);
+    }
+    location.reload();
+  } catch(e) {
+    alert('갱신 실패: ' + e.message);
+    btn.disabled = false; btn.textContent = '지금 새로고침(재수집+번역)';
+  }
+});
+</script>
+</body></html>
