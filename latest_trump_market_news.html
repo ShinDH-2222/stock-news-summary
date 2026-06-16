@@ -35,10 +35,52 @@ a{color:#9fc2ff}
 </style></head>
 <body><div class="wrap">
 <h1>증시/연준 스냅샷</h1>
-<div>업데이트 시각: 2026-06-17 05:48:04 (KST)</div>
+<div>업데이트 시각: 2026-06-17 07:45:41 (KST)</div>
 <div class="toolbar">
   <span style="font-size:12px;color:#a7b0d6">자동 업데이트: 매일 05:00</span>
 </div>
+
+<section class="fg-section">
+  <h3 class="section-title">🧠 공포·탐욕 지수 (Fear & Greed Index)</h3>
+  <div class="fg-card">
+    <div class="fg-main">
+      <div class="fg-gauge">
+        <div class="fg-gauge-bg">
+          <div class="fg-gauge-fill" style="width:39.2%;background:linear-gradient(90deg,#ea580c,#f97316)"></div>
+        </div>
+        <div class="fg-needle" style="left:39.2%"></div>
+        <div class="fg-gauge-labels">
+          <span>극도의 공포</span><span>공포</span><span>중립</span><span>탐욕</span><span>극도의 탐욕</span>
+        </div>
+      </div>
+      <div class="fg-value">
+        <div class="fg-score" style="color:#f97316">39.2</div>
+        <div class="fg-rating" style="color:#f97316">공포</div>
+      </div>
+    </div>
+    <div class="fg-comparisons">
+      <span>전일 <b>40.9</b> <span style='color:#ef4444'>▼ 1.7</span></span> · <span>1주 전 <b>32.4</b> <span style='color:#4ade80'>▲ 6.8</span></span> · <span>1개월 전 <b>63.0</b> <span style='color:#ef4444'>▼ 23.8</span></span> · <span>1년 전 <b>61.1</b> <span style='color:#ef4444'>▼ 21.9</span></span>
+    </div>
+    <div class="fg-note">출처: CNN Business Fear & Greed Index</div>
+  </div>
+</section>
+<style>
+.fg-section{margin:28px 0 8px;}
+.fg-card{background:#111a31;border:1px solid #273a70;border-radius:12px;padding:18px 22px 14px;}
+.fg-main{display:flex;gap:24px;align-items:center;flex-wrap:wrap;}
+.fg-gauge{flex:1;min-width:240px;position:relative;padding:0 0 18px;}
+.fg-gauge-bg{height:12px;background:#1e2a3a;border-radius:6px;overflow:hidden;}
+.fg-gauge-fill{height:100%;border-radius:6px;transition:width .6s;}
+.fg-needle{position:absolute;top:1px;width:4px;height:22px;background:#fff;border-radius:2px;transform:translateX(-50%);z-index:2;box-shadow:0 0 6px rgba(255,255,255,.6);}
+.fg-gauge-labels{display:flex;justify-content:space-between;font-size:9px;color:#546e7a;margin-top:6px;}
+.fg-value{text-align:center;min-width:100px;}
+.fg-score{font-size:42px;font-weight:800;line-height:1;}
+.fg-rating{font-size:16px;font-weight:600;margin-top:4px;}
+.fg-comparisons{margin-top:12px;font-size:11px;color:#78909c;display:flex;flex-wrap:wrap;gap:4px 12px;}
+.fg-comparisons b{color:#b0bec5;}
+.fg-note{font-size:10px;color:#546e7a;margin-top:8px;}
+</style>
+
 <h3 class='section-title'>국가별 지수</h3><div class='snap-grid'>
             <div class="snap-card">
               <div class="snap-head"><span>S&P 500</span><span class="chg down">-0.57%</span></div>
@@ -129,49 +171,49 @@ a{color:#9fc2ff}
             </div>
             </div><h3 class='section-title'>원자재 선물</h3><div class='snap-grid'>
             <div class="snap-card">
-              <div class="snap-head"><span>WTI</span><span class="chg down">-4.39%</span></div>
-              <div class="snap-price">75.95</div>
-              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,33.5 3.8,29.2 7.5,29.1 11.2,29.4 15.0,25.9 18.8,41.9 22.5,35.3 26.2,38.5 30.0,32.0 33.8,23.9 37.5,18.8 41.2,21.1 45.0,23.1 48.8,5.2 52.5,3.8 56.2,3.0 60.0,32.1 63.8,26.6 67.5,28.7 71.2,24.7 75.0,37.0 78.8,37.0 82.5,31.6 86.2,48.6 90.0,39.6 93.8,35.6 97.5,34.3 101.2,29.8 105.0,32.1 108.8,29.0 112.5,23.4 116.2,12.5 120.0,15.4 123.8,20.3 127.5,13.2 131.2,19.7 135.0,31.0 138.8,31.4 142.5,30.5 146.2,26.3 150.0,19.9 153.8,21.7 157.5,21.5 161.2,14.8 165.0,9.7 168.8,11.1 172.5,26.0 176.2,29.0 180.0,28.6 183.8,32.9 187.5,41.0 191.2,40.7 195.0,43.1 198.8,35.6 202.5,33.1 206.2,29.5 210.0,34.2 213.8,38.1 217.5,36.9 221.2,41.8 225.0,38.9 228.8,42.6 232.5,47.0 236.2,53.5 240.0,61.0" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="snap-head"><span>WTI</span><span class="chg up">+0.97%</span></div>
+              <div class="snap-price">76.00</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,33.5 3.8,29.3 7.5,29.1 11.2,29.4 15.0,26.0 18.8,42.0 22.5,35.3 26.2,38.5 30.0,32.0 33.8,23.9 37.5,18.8 41.2,21.2 45.0,23.1 48.8,5.2 52.5,3.8 56.2,3.0 60.0,32.1 63.8,26.7 67.5,28.7 71.2,24.8 75.0,37.0 78.8,37.0 82.5,31.7 86.2,48.7 90.0,39.6 93.8,35.7 97.5,34.4 101.2,29.8 105.0,32.1 108.8,29.0 112.5,23.4 116.2,12.5 120.0,15.4 123.8,20.3 127.5,13.3 131.2,19.8 135.0,31.1 138.8,31.5 142.5,30.5 146.2,26.4 150.0,19.9 153.8,21.7 157.5,21.5 161.2,14.8 165.0,9.7 168.8,11.1 172.5,26.1 176.2,29.1 180.0,28.7 183.8,32.9 187.5,41.1 191.2,40.8 195.0,43.2 198.8,35.6 202.5,33.1 206.2,29.6 210.0,34.3 213.8,38.2 217.5,37.0 221.2,41.8 225.0,39.0 228.8,42.6 232.5,47.1 236.2,53.5 240.0,61.0" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
               <div class="spark-caption">트렌드 기준: 최근 3개월</div>
               
             </div>
             
             <div class="snap-card">
-              <div class="snap-head"><span>Brent</span><span class="chg down">-4.42%</span></div>
-              <div class="snap-price">79.49</div>
-              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,30.1 3.8,25.3 7.5,19.4 11.2,17.5 15.0,12.2 18.8,30.5 22.5,23.7 26.2,27.1 30.0,18.4 33.8,11.6 37.5,11.3 41.2,3.0 45.0,28.7 48.8,16.9 52.5,15.8 56.2,16.6 60.0,38.2 63.8,36.5 67.5,37.6 71.2,31.3 75.0,38.2 78.8,38.0 82.5,31.3 86.2,44.7 90.0,37.1 93.8,32.7 97.5,27.5 101.2,22.8 105.0,22.4 108.8,18.1 112.5,13.6 116.2,3.5 120.0,9.5 123.8,18.2 127.5,8.8 131.2,15.7 135.0,28.5 138.8,30.3 142.5,28.5 146.2,24.1 150.0,18.8 153.8,22.0 157.5,21.9 161.2,16.6 165.0,12.3 168.8,13.6 172.5,22.9 176.2,26.5 180.0,25.1 183.8,31.0 187.5,38.9 191.2,39.8 195.0,42.3 198.8,37.9 202.5,36.4 206.2,33.7 210.0,37.8 213.8,40.7 217.5,39.0 221.2,43.1 225.0,40.7 228.8,44.7 232.5,49.3 236.2,55.5 240.0,61.0" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="snap-head"><span>Brent</span><span class="chg up">+0.90%</span></div>
+              <div class="snap-price">79.67</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,30.2 3.8,25.4 7.5,19.4 11.2,17.5 15.0,12.2 18.8,30.6 22.5,23.8 26.2,27.2 30.0,18.5 33.8,11.7 37.5,11.4 41.2,3.0 45.0,28.8 48.8,17.0 52.5,15.9 56.2,16.6 60.0,38.4 63.8,36.6 67.5,37.7 71.2,31.5 75.0,38.3 78.8,38.1 82.5,31.4 86.2,44.9 90.0,37.3 93.8,32.8 97.5,27.7 101.2,22.9 105.0,22.5 108.8,18.2 112.5,13.6 116.2,3.5 120.0,9.5 123.8,18.3 127.5,8.9 131.2,15.7 135.0,28.6 138.8,30.4 142.5,28.6 146.2,24.2 150.0,18.9 153.8,22.1 157.5,21.9 161.2,16.6 165.0,12.4 168.8,13.6 172.5,23.0 176.2,26.6 180.0,25.2 183.8,31.1 187.5,39.1 191.2,39.9 195.0,42.4 198.8,38.0 202.5,36.5 206.2,33.8 210.0,38.0 213.8,40.9 217.5,39.1 221.2,43.3 225.0,40.9 228.8,44.9 232.5,49.5 236.2,55.8 240.0,61.0" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
               <div class="spark-caption">트렌드 기준: 최근 3개월</div>
               
             </div>
             
             <div class="snap-card">
-              <div class="snap-head"><span>Gold</span><span class="chg up">+0.04%</span></div>
-              <div class="snap-price">4,353.50</div>
-              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,3.4 3.8,3.0 7.5,10.1 11.2,28.5 15.0,30.4 18.8,41.0 22.5,41.3 26.2,31.7 30.0,42.8 33.8,35.4 37.5,33.3 41.2,25.5 45.0,16.9 48.8,25.3 52.5,24.9 56.2,24.9 60.0,19.0 63.8,16.3 67.5,18.2 71.2,19.5 75.0,14.2 78.8,15.8 82.5,16.7 86.2,12.1 90.0,15.4 93.8,22.3 97.5,20.1 101.2,21.8 105.0,20.7 108.8,23.7 112.5,29.1 116.2,32.0 120.0,27.6 123.8,26.6 127.5,33.7 131.2,31.4 135.0,23.3 138.8,22.2 142.5,20.9 146.2,21.0 150.0,23.6 153.8,22.3 157.5,23.6 161.2,31.4 165.0,31.6 168.8,34.5 172.5,32.9 176.2,32.4 180.0,33.6 183.8,34.9 187.5,38.3 191.2,35.0 195.0,31.1 198.8,36.5 202.5,35.6 206.2,38.9 210.0,36.4 213.8,45.3 217.5,45.4 221.2,50.2 225.0,59.9 228.8,61.0 232.5,53.1 236.2,45.9 240.0,44.2" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="snap-head"><span>Gold</span><span class="chg down">-0.07%</span></div>
+              <div class="snap-price">4,351.40</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,3.4 3.8,3.0 7.5,10.1 11.2,28.5 15.0,30.4 18.8,41.0 22.5,41.3 26.2,31.7 30.0,42.8 33.8,35.4 37.5,33.3 41.2,25.5 45.0,16.9 48.8,25.3 52.5,24.9 56.2,24.9 60.0,19.0 63.8,16.3 67.5,18.2 71.2,19.5 75.0,14.2 78.8,15.8 82.5,16.7 86.2,12.1 90.0,15.4 93.8,22.3 97.5,20.1 101.2,21.8 105.0,20.7 108.8,23.7 112.5,29.1 116.2,32.0 120.0,27.6 123.8,26.6 127.5,33.7 131.2,31.4 135.0,23.3 138.8,22.2 142.5,20.9 146.2,21.0 150.0,23.6 153.8,22.3 157.5,23.6 161.2,31.4 165.0,31.6 168.8,34.5 172.5,32.9 176.2,32.4 180.0,33.6 183.8,34.9 187.5,38.3 191.2,35.0 195.0,31.1 198.8,36.5 202.5,35.6 206.2,38.9 210.0,36.4 213.8,45.3 217.5,45.4 221.2,50.2 225.0,59.9 228.8,61.0 232.5,53.1 236.2,45.9 240.0,44.4" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
               <div class="spark-caption">트렌드 기준: 최근 3개월</div>
               
             </div>
             
             <div class="snap-card">
-              <div class="snap-head"><span>Silver</span><span class="chg down">-0.10%</span></div>
-              <div class="snap-price">70.11</div>
+              <div class="snap-head"><span>Silver</span><span class="chg up">+0.10%</span></div>
+              <div class="snap-price">70.08</div>
               <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,23.0 3.8,24.7 7.5,30.0 11.2,44.7 15.0,48.3 18.8,49.0 22.5,48.5 26.2,41.3 30.0,52.2 33.8,47.9 37.5,46.1 41.2,35.9 45.0,33.2 48.8,40.5 52.5,40.6 56.2,42.6 60.0,34.7 63.8,32.3 67.5,32.1 71.2,34.0 75.0,25.0 78.8,24.8 82.5,26.9 86.2,19.6 90.0,23.7 93.8,31.9 97.5,28.5 101.2,34.1 105.0,32.0 108.8,35.2 112.5,39.4 116.2,43.2 120.0,38.6 123.8,33.0 127.5,39.7 131.2,39.6 135.0,31.0 138.8,24.3 142.5,22.7 146.2,10.9 150.0,11.7 153.8,3.0 157.5,12.2 161.2,30.2 165.0,30.4 168.8,35.6 172.5,33.2 176.2,31.9 180.0,33.1 183.8,32.2 187.5,36.1 191.2,33.7 195.0,33.8 198.8,35.2 202.5,34.5 206.2,38.8 210.0,38.0 213.8,49.3 217.5,50.5 221.2,58.2 225.0,59.3 228.8,61.0 232.5,51.8 236.2,46.7 240.0,46.6" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
               <div class="spark-caption">트렌드 기준: 최근 3개월</div>
               
             </div>
             </div><h3 class='section-title'>외환</h3><div class='snap-grid'>
             <div class="snap-card">
-              <div class="snap-head"><span>Dollar Index (DXY)</span><span class="chg down">-0.06%</span></div>
-              <div class="snap-price">99.57</div>
-              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,20.4 3.8,23.2 7.5,12.1 11.2,30.8 15.0,21.7 18.8,36.9 22.5,26.5 26.2,22.8 30.0,16.3 33.8,10.8 37.5,3.0 41.2,14.9 45.0,21.7 48.8,13.4 52.5,14.5 56.2,21.9 60.0,33.0 63.8,39.7 67.5,43.4 71.2,49.5 75.0,54.9 78.8,56.2 82.5,52.7 86.2,55.4 90.0,56.4 93.8,48.6 97.5,44.7 101.2,40.1 105.0,46.4 108.8,47.1 112.5,44.1 116.2,37.5 120.0,55.8 123.8,53.0 127.5,47.3 131.2,47.1 135.0,57.1 138.8,52.1 142.5,61.0 146.2,58.8 150.0,51.2 153.8,47.1 157.5,38.4 161.2,29.9 165.0,36.5 168.8,29.3 172.5,33.4 176.2,31.7 180.0,28.9 183.8,32.1 187.5,31.2 191.2,35.4 195.0,37.8 198.8,31.5 202.5,31.0 206.2,24.3 210.0,26.9 213.8,12.6 217.5,13.0 221.2,16.0 225.0,15.2 228.8,17.1 232.5,19.5 236.2,22.1 240.0,23.4" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="snap-head"><span>Dollar Index (DXY)</span><span class="chg down">-0.09%</span></div>
+              <div class="snap-price">99.54</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,20.4 3.8,23.2 7.5,12.1 11.2,30.8 15.0,21.7 18.8,36.9 22.5,26.5 26.2,22.8 30.0,16.3 33.8,10.8 37.5,3.0 41.2,14.9 45.0,21.7 48.8,13.4 52.5,14.5 56.2,21.9 60.0,33.0 63.8,39.7 67.5,43.4 71.2,49.5 75.0,54.9 78.8,56.2 82.5,52.7 86.2,55.4 90.0,56.4 93.8,48.6 97.5,44.7 101.2,40.1 105.0,46.4 108.8,47.1 112.5,44.1 116.2,37.5 120.0,55.8 123.8,53.0 127.5,47.3 131.2,47.1 135.0,57.1 138.8,52.1 142.5,61.0 146.2,58.8 150.0,51.2 153.8,47.1 157.5,38.4 161.2,29.9 165.0,36.5 168.8,29.3 172.5,33.4 176.2,31.7 180.0,28.9 183.8,32.1 187.5,31.2 191.2,35.4 195.0,37.8 198.8,31.5 202.5,31.0 206.2,24.3 210.0,26.9 213.8,12.6 217.5,13.0 221.2,16.0 225.0,15.2 228.8,17.1 232.5,19.5 236.2,22.1 240.0,24.1" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
               <div class="spark-caption">트렌드 기준: 최근 3개월</div>
               
             </div>
             
             <div class="snap-card">
-              <div class="snap-head"><span>USD/JPY</span><span class="chg up">+0.09%</span></div>
-              <div class="snap-price">160.47</div>
-              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,16.8 3.6,23.5 7.2,26.6 10.7,13.6 14.3,40.6 17.9,21.7 21.5,32.6 25.1,29.1 28.7,19.5 32.2,14.9 35.8,7.2 39.4,12.9 43.0,31.1 46.6,29.5 50.1,18.0 53.7,13.8 57.3,15.2 60.9,29.1 64.5,30.2 68.1,23.4 71.6,15.2 75.2,21.9 78.8,28.0 82.4,27.8 86.0,22.2 89.6,22.7 93.1,27.3 96.7,19.7 100.3,18.0 103.9,14.3 107.5,16.7 111.0,19.9 114.6,17.1 118.2,7.9 121.8,54.2 125.4,56.1 129.0,51.1 132.5,44.1 136.1,61.0 139.7,56.4 143.3,55.9 146.9,50.6 150.4,44.2 154.0,41.6 157.6,34.0 161.2,27.3 164.8,27.0 168.4,24.5 171.9,26.7 175.5,24.8 179.1,25.8 182.7,25.7 186.3,21.5 189.9,16.8 193.4,21.1 197.0,19.9 200.6,15.9 204.2,11.1 207.8,11.5 211.3,10.7 214.9,5.9 218.5,8.1 222.1,5.1 225.7,3.0 229.3,8.7 232.8,11.3 236.4,7.3 240.0,3.8" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="snap-head"><span>USD/JPY</span><span class="chg up">+0.06%</span></div>
+              <div class="snap-price">160.42</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,16.8 3.6,23.5 7.2,26.6 10.7,13.6 14.3,40.6 17.9,21.7 21.5,32.6 25.1,29.1 28.7,19.5 32.2,14.9 35.8,7.2 39.4,12.9 43.0,31.1 46.6,29.5 50.1,18.0 53.7,13.8 57.3,15.2 60.9,29.1 64.5,30.2 68.1,23.4 71.6,15.2 75.2,21.9 78.8,28.0 82.4,27.8 86.0,22.2 89.6,22.7 93.1,27.3 96.7,19.7 100.3,18.0 103.9,14.3 107.5,16.7 111.0,19.9 114.6,17.1 118.2,7.9 121.8,54.2 125.4,56.1 129.0,51.1 132.5,44.1 136.1,61.0 139.7,56.4 143.3,55.9 146.9,50.6 150.4,44.2 154.0,41.6 157.6,34.0 161.2,27.3 164.8,27.0 168.4,24.5 171.9,26.7 175.5,24.8 179.1,25.8 182.7,25.7 186.3,21.5 189.9,16.8 193.4,21.1 197.0,19.9 200.6,15.9 204.2,11.1 207.8,11.5 211.3,10.7 214.9,5.9 218.5,8.1 222.1,5.1 225.7,3.0 229.3,8.7 232.8,11.3 236.4,7.3 240.0,4.6" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
               <div class="spark-caption">트렌드 기준: 최근 3개월</div>
               
             </div>
@@ -185,9 +227,9 @@ a{color:#9fc2ff}
             </div>
             
             <div class="snap-card">
-              <div class="snap-head"><span>USD/KRW</span><span class="chg down">-0.51%</span></div>
-              <div class="snap-price">1,508.16</div>
-              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,30.8 3.6,37.6 7.2,39.7 10.7,29.0 14.3,37.1 17.9,29.5 21.5,39.4 25.1,33.1 28.7,31.2 32.2,27.3 35.8,28.0 39.4,23.2 43.0,30.0 46.6,25.3 50.1,26.9 53.7,26.8 57.3,27.6 60.9,32.2 64.5,43.5 68.1,45.8 71.6,41.1 75.2,43.9 78.8,47.8 82.4,45.4 86.0,43.4 89.6,50.1 93.1,47.9 96.7,39.2 100.3,43.3 103.9,42.3 107.5,45.1 111.0,46.0 114.6,46.5 118.2,38.4 121.8,45.4 125.4,46.6 129.0,44.3 132.5,45.4 136.1,61.0 139.7,55.5 143.3,52.5 146.9,45.2 150.4,35.4 154.0,37.1 157.6,35.2 161.2,33.2 164.8,35.8 168.4,27.6 171.9,31.8 175.5,29.4 179.1,25.0 182.7,23.9 186.3,28.9 189.9,30.1 193.4,34.2 197.0,28.1 200.6,25.8 204.2,23.0 207.8,15.8 211.3,14.3 214.9,3.0 218.5,16.5 222.1,18.1 225.7,18.5 229.3,22.6 232.8,26.7 236.4,24.7 240.0,27.4" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div class="snap-head"><span>USD/KRW</span><span class="chg down">-0.20%</span></div>
+              <div class="snap-price">1,512.91</div>
+              <div class="spark-wrap"><svg viewBox="0 0 240 64" class="spark-svg" preserveAspectRatio="none"><polyline points="0.0,30.8 3.6,37.6 7.2,39.7 10.7,29.0 14.3,37.1 17.9,29.5 21.5,39.4 25.1,33.1 28.7,31.2 32.2,27.3 35.8,28.0 39.4,23.2 43.0,30.0 46.6,25.3 50.1,26.9 53.7,26.8 57.3,27.6 60.9,32.2 64.5,43.5 68.1,45.8 71.6,41.1 75.2,43.9 78.8,47.8 82.4,45.4 86.0,43.4 89.6,50.1 93.1,47.9 96.7,39.2 100.3,43.3 103.9,42.3 107.5,45.1 111.0,46.0 114.6,46.5 118.2,38.4 121.8,45.4 125.4,46.6 129.0,44.3 132.5,45.4 136.1,61.0 139.7,55.5 143.3,52.5 146.9,45.2 150.4,35.4 154.0,37.1 157.6,35.2 161.2,33.2 164.8,35.8 168.4,27.6 171.9,31.8 175.5,29.4 179.1,25.0 182.7,23.9 186.3,28.9 189.9,30.1 193.4,34.2 197.0,28.1 200.6,25.8 204.2,23.0 207.8,15.8 211.3,14.3 214.9,3.0 218.5,16.5 222.1,18.1 225.7,18.5 229.3,22.6 232.8,26.7 236.4,24.7 240.0,24.9" fill="none" stroke="#9ac0ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
               <div class="spark-caption">트렌드 기준: 최근 3개월</div>
               
             </div>
@@ -195,8 +237,8 @@ a{color:#9fc2ff}
 <div class="heatmap-wrap"><img src="heatmap_us.jpg" alt="US Stock Heatmap" class="heatmap-img" loading="lazy"/></div>
 <div class="heatmap-wrap"><img src="heatmap_rut.jpg" alt="Russell 2000 Heatmap" class="heatmap-img" loading="lazy"/></div>
 <div class="heatmap-wrap"><img src="heatmap_kr.jpg" alt="KOSPI KRX 300 Heatmap" class="heatmap-img" loading="lazy"/></div>
-<div class="heatmap-wrap"><img src="heatmap_kq.jpg?t=1781642884" alt="KOSDAQ Heatmap" class="heatmap-img" loading="lazy"/></div>
-<div class="heatmap-wrap"><img src="heatmap_biztoc.jpg?t=1781642884" alt="BizToc 한국어 뉴스" class="heatmap-img" loading="lazy"/></div>
+<div class="heatmap-wrap"><img src="heatmap_kq.jpg?t=1781649941" alt="KOSDAQ Heatmap" class="heatmap-img" loading="lazy"/></div>
+<div class="heatmap-wrap"><img src="heatmap_biztoc.jpg?t=1781649941" alt="BizToc 한국어 뉴스" class="heatmap-img" loading="lazy"/></div>
 
 <section class="f13-section">
   <h2 class="section-title">📋 기관투자자 13F 포지션 변화</h2>
@@ -594,6 +636,14 @@ a{color:#9fc2ff}
   </div>
   <div class="fb-chart">
 <div class="fb-row">
+  <div class="fb-name">Jeffrey Schmid<span class="fb-role">캔자스시티 총재</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:5%;background:rgb(242,65,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(242,65,80)">🦅 0.05</div>
+</div>
+
+<div class="fb-row">
   <div class="fb-name">Neel Kashkari<span class="fb-role">미니애폴리스 총재</span></div>
   <div class="fb-bar-wrap">
     <div class="fb-bar" style="width:10%;background:rgb(229,75,80)"></div>
@@ -602,27 +652,35 @@ a{color:#9fc2ff}
 </div>
 
 <div class="fb-row">
-  <div class="fb-name">Jeffrey Schmid<span class="fb-role">캔자스시티 총재</span></div>
+  <div class="fb-name">Lorie Logan<span class="fb-role">댈러스 총재</span></div>
   <div class="fb-bar-wrap">
-    <div class="fb-bar" style="width:10%;background:rgb(229,75,80)"></div>
+    <div class="fb-bar" style="width:15%;background:rgb(216,85,80)"></div>
   </div>
-  <div class="fb-score" style="color:rgb(229,75,80)">🦅 0.10</div>
+  <div class="fb-score" style="color:rgb(216,85,80)">🦅 0.15</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Susan Collins<span class="fb-role">보스턴 총재</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:20%;background:rgb(204,95,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(204,95,80)">🦅 0.20</div>
+</div>
+
+<div class="fb-row">
+  <div class="fb-name">Beth Hammack<span class="fb-role">클리블랜드 총재</span></div>
+  <div class="fb-bar-wrap">
+    <div class="fb-bar" style="width:20%;background:rgb(204,95,80)"></div>
+  </div>
+  <div class="fb-score" style="color:rgb(204,95,80)">🦅 0.20</div>
 </div>
 
 <div class="fb-row">
   <div class="fb-name">Michael Barr<span class="fb-role">감독부의장</span></div>
   <div class="fb-bar-wrap">
-    <div class="fb-bar" style="width:20%;background:rgb(204,95,80)"></div>
+    <div class="fb-bar" style="width:25%;background:rgb(191,105,80)"></div>
   </div>
-  <div class="fb-score" style="color:rgb(204,95,80)">🦅 0.20</div>
-</div>
-
-<div class="fb-row">
-  <div class="fb-name">Lorie Logan<span class="fb-role">댈러스 총재</span></div>
-  <div class="fb-bar-wrap">
-    <div class="fb-bar" style="width:20%;background:rgb(204,95,80)"></div>
-  </div>
-  <div class="fb-score" style="color:rgb(204,95,80)">🦅 0.20</div>
+  <div class="fb-score" style="color:rgb(191,105,80)">🦅 0.25</div>
 </div>
 
 <div class="fb-row">
@@ -634,15 +692,7 @@ a{color:#9fc2ff}
 </div>
 
 <div class="fb-row">
-  <div class="fb-name">Susan Collins<span class="fb-role">보스턴 총재</span></div>
-  <div class="fb-bar-wrap">
-    <div class="fb-bar" style="width:25%;background:rgb(191,105,80)"></div>
-  </div>
-  <div class="fb-score" style="color:rgb(191,105,80)">🦅 0.25</div>
-</div>
-
-<div class="fb-row">
-  <div class="fb-name">Beth Hammack<span class="fb-role">클리블랜드 총재</span></div>
+  <div class="fb-name">Patrick Harker<span class="fb-role">필라델피아 총재</span></div>
   <div class="fb-bar-wrap">
     <div class="fb-bar" style="width:25%;background:rgb(191,105,80)"></div>
   </div>
@@ -652,21 +702,13 @@ a{color:#9fc2ff}
 <div class="fb-row">
   <div class="fb-name">Alberto Musalem<span class="fb-role">세인트루이스 총재</span></div>
   <div class="fb-bar-wrap">
-    <div class="fb-bar" style="width:25%;background:rgb(191,105,80)"></div>
+    <div class="fb-bar" style="width:30%;background:rgb(178,115,80)"></div>
   </div>
-  <div class="fb-score" style="color:rgb(191,105,80)">🦅 0.25</div>
+  <div class="fb-score" style="color:rgb(178,115,80)">🦅 0.30</div>
 </div>
 
 <div class="fb-row">
   <div class="fb-name">John Williams<span class="fb-role">뉴욕 총재</span></div>
-  <div class="fb-bar-wrap">
-    <div class="fb-bar" style="width:35%;background:rgb(165,125,80)"></div>
-  </div>
-  <div class="fb-score" style="color:rgb(165,125,80)">🦅 0.35</div>
-</div>
-
-<div class="fb-row">
-  <div class="fb-name">Patrick Harker<span class="fb-role">필라델피아 총재</span></div>
   <div class="fb-bar-wrap">
     <div class="fb-bar" style="width:35%;background:rgb(165,125,80)"></div>
   </div>
@@ -684,9 +726,9 @@ a{color:#9fc2ff}
 <div class="fb-row">
   <div class="fb-name">Philip Jefferson<span class="fb-role">부의장</span></div>
   <div class="fb-bar-wrap">
-    <div class="fb-bar" style="width:45%;background:rgb(140,145,80)"></div>
+    <div class="fb-bar" style="width:40%;background:rgb(153,135,80)"></div>
   </div>
-  <div class="fb-score" style="color:rgb(140,145,80)">⚖️ 0.45</div>
+  <div class="fb-score" style="color:rgb(153,135,80)">🦅 0.40</div>
 </div>
 
 <div class="fb-row">
@@ -754,19 +796,19 @@ a{color:#9fc2ff}
     <span class="fed-role">의장</span>
     <span class="fed-stance" style="background:rgb(127,155,80)">⚖️ 중립 0.50</span>
   </div>
-  <p class="fed-summary">전 연방준비제도(Fed) 의장 제롬 파월은 최근 JFK 시상식 연설과 언론 인터뷰를 통해 Fed, 법원, 학교 등 주요 기관에 대한 정치적 간섭 및 압력에 대해 강하게 경고했습니다. 그는 기관의 독립성을 훼손하는 정치적 개입에 대한 우려를 표명하며 그 중요성을 강조했습니다.</p>
-  <p class="fed-reason">보도된 내용은 파월 전 의장의 통화 정책 스탠스가 아닌, 연준 등 주요 기관의 정치적 독립성 유지에 대한 경고에 초점을 맞추고 있어 통화 정책적 매파/비둘기파 성향을 판단할 수 없습니다.</p>
+  <p class="fed-summary">전 연준 의장 제롬 파월은 최근 JFK 기념상 연설과 기타 발언을 통해 연준, 법원, 학교 등 독립적 기관에 대한 정치적 간섭 및 압력에 대해 강하게 경고했습니다. 그는 기관의 독립성이 중요하며, 정치적 개입이 미칠 수 있는 부정적인 영향에 대해 우려를 표명했습니다.</p>
+  <p class="fed-reason">파월의 최근 발언은 통화 정책 방향이 아닌 연준을 포함한 독립 기관의 정치적 간섭 방지에 초점을 맞추고 있어 중립으로 판단됩니다.</p>
   <div class="fed-meta"><span style="color:#78909c">1일 전</span> · <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE50N2tvTUx6RlRpbEFvVkpINEtEa2VlUkIxazl1aWVPaFMxLVpabzBFRW15X002U3BLUGpJQ1M5eWl1Vk9SMDVKUnR5OTBwMnphaGlnaXB0MkpUYU55emxBN2dZeG1CTUNfd18xN9IBckFVX3lxTE1lVGNMcDd4NlRURElSQUlTNHc0bTNacVEwOU0xemxkQlNBb2tOcXU5TmhwWE1XU3QybHc3TFdBTmJnU1U2dXFVRXpfSS11eGR3cVdQSFNaVUlSajNGY2k2LXZlZXJPb1RiUkplN1pIVURqQQ?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div>
 
-<div class="fed-card" style="border-left:4px solid rgb(204,95,80)">
+<div class="fed-card" style="border-left:4px solid rgb(191,105,80)">
   <div class="fed-header">
     <span class="fed-name">Michael Barr</span>
     <span class="fed-role">감독부의장</span>
-    <span class="fed-stance" style="background:rgb(204,95,80)">🦅 매파 0.20</span>
+    <span class="fed-stance" style="background:rgb(191,105,80)">🦅 매파 0.25</span>
   </div>
-  <p class="fed-summary">마이클 바 연준 감독부의장은 최근 은행 규제 완화가 금융 안정성을 위협하며 비은행권 리스크 또한 크다고 강력히 경고했습니다. 그는 금융 시스템의 안정성을 유지하기 위해 엄격한 감독의 중요성을 거듭 강조했습니다.</p>
-  <p class="fed-reason">바 부의장은 은행 규제 완화와 비은행권 리스크에 대한 경고를 통해 금융 안정성을 최우선으로 여기며 강력한 감독 기조를 유지하려는 매파적 입장을 분명히 했습니다.</p>
+  <p class="fed-summary">마이클 바 연준 감독 부의장은 최근 은행 규제 완화가 금융 안정성을 위협하며 비은행권 리스크를 증가시킬 수 있다고 강력히 경고했습니다. 이는 그가 금융 시스템의 안정성을 최우선으로 여기며 엄격한 규제 기조를 유지하려는 의지를 명확히 드러낸 것입니다.</p>
+  <p class="fed-reason">그는 은행 규제 완화에 대한 강력한 경고를 통해 금융 시스템의 안정성 확보를 위한 보수적이고 엄격한 감독 기조를 유지하려는 매파적 입장을 표명했기 때문입니다.</p>
   <div class="fed-meta"><span style="color:#78909c">4일 전</span> · <a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxNOFFLb19xcG9IUHVXREFBUFk4MVNiZk5fMlppNVY4TjJrN3EzcUYwbnRsS0Nka3NvbS0zblEyeUlwMHQ5bEJsWkhaa0ZFaGptbmpMY1YxQmlnWklrVktNTk9BeGJ4bjJFYk1zOF9uS3daREN4bE1NX01xcFF3NFRKUGlURnZBTmVfeVA5LXp1eEVVcDdQaHU1b1kwbGgtTld1bVRZODl0RG9oNThCSm9qdTA4TnU?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div>
 
@@ -776,8 +818,8 @@ a{color:#9fc2ff}
     <span class="fed-role">이사</span>
     <span class="fed-stance" style="background:rgb(127,155,80)">⚖️ 중립 0.50</span>
   </div>
-  <p class="fed-summary">리사 쿡 연준 이사는 2026년 5월 27일 C-SPAN에서 디지털 자산과 미국 금융 시스템에 대한 연설을 했습니다. 이 연설은 주로 금융 혁신 및 규제 프레임워크와 관련된 내용으로 보입니다.</p>
-  <p class="fed-reason">제공된 뉴스에서는 리사 쿡 이사의 금리 정책에 대한 매파적 또는 비둘기파적 발언이 확인되지 않아 중립으로 판단됩니다.</p>
+  <p class="fed-summary">리사 쿡 연준 이사는 2026년 5월 27일 C-SPAN에서 디지털 자산과 미국 금융 시스템에 대해 연설했습니다. 또한, 그녀는 2026년 6월 4일 ABC 뉴스에서 트럼프 행정부의 표적이 된 인물 목록에 포함되었으며, 2026년 3월 26일 블룸버그 보도에 따르면 연준 관계자들이 이란 전쟁의 여파에 대한 우려를 표명한 바 있습니다.</p>
+  <p class="fed-reason">제공된 뉴스 기사에는 리사 쿡 이사의 금리 또는 인플레이션에 대한 직접적인 매파적 또는 비둘기파적 발언이 없어 중립으로 평가됩니다.</p>
   <div class="fed-meta"><span style="color:#78909c">12일 전</span> · <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div>
 
@@ -787,8 +829,8 @@ a{color:#9fc2ff}
     <span class="fed-role">이사</span>
     <span class="fed-stance" style="background:rgb(191,105,80)">🦅 매파 0.25</span>
   </div>
-  <p class="fed-summary">크리스토퍼 월러 이사는 최근 스테이블코인이 미국 정책의 영향력을 확대할 수 있다고 언급했습니다. 특히 그는 통화 정책에서 매파적 입장으로 전환한 것으로 평가되었으며, 연준의 21세기 운영 방식 변화에 대해서도 발언했습니다.</p>
-  <p class="fed-reason">최근 뉴스에서 월러 이사가 매파적 입장으로 전환했다고 명시적으로 언급되었기 때문입니다.</p>
+  <p class="fed-summary">크리스토퍼 월러 이사는 최근 통화 정책에서 매파적 입장으로 전환했습니다. 그는 또한 스테이블코인이 미국 정책의 영향력을 확대할 것이라고 밝혔으며, 연준의 21세기 운영 혁신을 강조했습니다.</p>
+  <p class="fed-reason">최근 뉴스에서 월러 이사가 &#x27;매파적으로 돌아섰다&#x27;고 명시적으로 언급되었기 때문입니다.</p>
   <div class="fed-meta"><span style="color:#78909c">16일 전</span> · <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOekgzVVJDc3lqSGJlNmhha0pPWXhqbzAtMVNCZHNzdVN6SDRPWEM5dnJicURReTZ4bnJNYVIwTzdDWjRjemNPeWxjMDI3Y1hjWC1aM3IwTEc1SUpXTTdERHBIMUEwZ3NIVy1ybmtnZW9yWkRhT2ZaX2tlVHd3Y0NCaFRtMGZBYVFqNllpZnVOY1lmX3V6X2VKbVdWdU83bTRfV0E?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div>
 
@@ -798,19 +840,19 @@ a{color:#9fc2ff}
     <span class="fed-role">이사</span>
     <span class="fed-stance" style="background:rgb(38,225,80)">🕊️ 비둘기파 0.85</span>
   </div>
-  <p class="fed-summary">미셸 보우만 연준 이사는 인플레이션 급등에도 불구하고 금리 인상에 대해 경고하며, 여전히 금리 인하에 대한 편향을 가지고 있다고 밝혔다. 다만, 그녀는 장기적인 에너지 충격이 정책 전망의 변화를 야기할 수 있다고 언급하여 상황에 따라 입장이 바뀔 수 있음을 시사했다.</p>
-  <p class="fed-reason">인플레이션에도 불구하고 금리 인상을 경고하고 금리 인하에 대한 편향을 유지하고 있어 비둘기파적 스탠스를 보인다.</p>
+  <p class="fed-summary">미셸 보먼 연준 이사는 인플레이션 급등에도 불구하고 금리 인상에 반대하며 금리 인하에 대한 편향을 여전히 가지고 있다고 밝혔다. 다만, 장기적인 에너지 충격은 정책 전망의 변화를 야기할 수 있다고 언급하며, 현재의 비둘기파적 입장이 바뀔 가능성도 시사했다.</p>
+  <p class="fed-reason">그녀는 인플레이션 급등에도 금리 인상에 반대하고 금리 인하에 대한 편향을 유지하고 있어 비둘기파적 입장입니다.</p>
   <div class="fed-meta"><span style="color:#78909c">18일 전</span> · <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSU1FUWtLRzNfdWhmdVJvYVBMeFpYaVowRGhjUFN4NXZmbzdVNUx1OFAzdE42YktoU2tfOHNfeE5uNzdFNDdreXBZX0lBMDM3a0otZkhJbFgxaGlPSm9Kam44SW92bmkwX0lBeTZidmlDdEVVaGdxOFNmQUY3Q0d1UFJ4RmRMT0JGVUFLWlJad3VRVHk2YTRYRmRxVzZjUk9SWHdnRUw5MTNCemvSAbABQVVfeXFMTVVRMVlKLXIzTUdra0lSZm44VWxLWWozUF9vY0RTRHZPbExxcDRQQmVhb1pZU01rZGVLUEtyTDcyT2k4LUMwNU9PX2t5dFhPci1YTTJtbXU5blQzQnFkMEM4cy1BVjJTTE43NWtBZWpGTXJRSlZQWnI3YnJQS2ROOXdXVVFPX0MtVjdkck1GbUhNU0tFaUlaVU8yVUFMcDVTR05ScktyLXk1YkFvNDExd1o?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div>
 
-<div class="fed-card" style="border-left:4px solid rgb(140,145,80)">
+<div class="fed-card" style="border-left:4px solid rgb(153,135,80)">
   <div class="fed-header">
     <span class="fed-name">Philip Jefferson</span>
     <span class="fed-role">부의장</span>
-    <span class="fed-stance" style="background:rgb(140,145,80)">⚖️ 중립 0.45</span>
+    <span class="fed-stance" style="background:rgb(153,135,80)">🦅 매파 0.40</span>
   </div>
-  <p class="fed-summary">제퍼슨 부의장은 최근 통화 정책이 인플레이션 위험에 대응하기에 &quot;잘 준비되어 있다&quot;고 평가하며, 6월 회의를 미리 예단하지 않을 것이라고 밝혔습니다. 또한, 지난 4월에는 노동 시장의 성과에 대해 &quot;신중하다&quot;는 입장을 보였습니다.</p>
-  <p class="fed-reason">인플레이션 위험에 대비한 통화 정책의 준비 태세를 강조했으나, 6월 회의를 예단하지 않겠다고 밝혀 데이터 의존적인 중립적 입장을 유지하고 있습니다.</p>
+  <p class="fed-summary">제퍼슨 부의장은 최근 연준의 통화 정책이 인플레이션 위험에 대응하기 위해 &#x27;잘 준비되어 있다&#x27;고 밝히며, 다가오는 6월 회의를 미리 예단하지 않고 데이터에 따라 대응할 것이라고 강조했습니다. 그는 또한 노동 시장 개선세에 대해 &#x27;신중한&#x27; 입장을 표명했습니다.</p>
+  <p class="fed-reason">인플레이션 위험에 대한 경계를 분명히 하고 노동 시장의 강세에 대해 신중한 입장을 보이며 정책의 유연한 대응력을 강조하는 점에서 매파적 기조를 내비칩니다.</p>
   <div class="fed-meta"><span style="color:#78909c">19일 전</span> · <a href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxPc0x0N3hQRjBSRXZxSHpMdVo2cVk1VFlwSUJSZjludUlpUE5qY1VmUzYwVGowNDNYQkgyTk04RldFaWlJeWNLbEtVd01xMm80dnpZNWJZbUstWnVNQnZweXpjS29Iai13YVA5UDRBMUtLR2I1b2gxX21FY19Qdy1kbzQzVGVybXRuVGJXM2tUZlNUektqdXFza0ZmR1pxX05MZnhZdnpSX2dZNEJsbFpJQ0FmVVJYdUtfbWJBYnNWY1piMHhrcldkRnVleEtnTkhIUV9nc3dLcDlLcFBYc0swd3kwOA?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div>
 
@@ -820,42 +862,42 @@ a{color:#9fc2ff}
     <span class="fed-role">이사</span>
     <span class="fed-stance" style="background:rgb(127,155,80)">⚖️ 중립 0.50</span>
   </div>
-  <p class="fed-summary">아드리아나 쿠글러 연방준비제도 이사가 2025년 8월 8일부로 사임할 예정이며, 이는 트럼프 대통령에게 그녀의 후임자를 조기에 지명할 기회를 제공합니다. 한편, 연준의 윤리 위반 보고서와 관련하여 연방준비제도 개혁 필요성에 대한 논의가 제기되었습니다.</p>
-  <p class="fed-reason">제공된 뉴스 기사들은 아드리아나 쿠글러 이사의 사임 소식만을 다루고 있으며, 그녀의 통화 정책 성향(매파 또는 비둘기파)에 대한 어떠한 발언이나 분석도 포함하고 있지 않습니다.</p>
+  <p class="fed-summary">연방준비제도 이사 아드리아나 쿠글러가 2025년 8월 8일부로 사임할 예정이며, 이로 인해 트럼프 대통령이 연준 이사직을 조기에 채울 수 있게 됩니다. 이러한 소식은 뱅킹위원회 스콧 위원장이 새로운 윤리 위반 보고서와 관련하여 연방준비제도 개혁의 필요성을 강조하는 성명을 발표한 가운데 나왔습니다.</p>
+  <p class="fed-reason">제공된 뉴스 기사에는 쿠글러 이사의 통화 정책 스탠스에 대한 구체적인 발언이나 입장이 언급되어 있지 않아 매파 또는 비둘기파 성향을 판단할 수 없습니다.</p>
   <div class="fed-meta"><span style="color:#78909c">213일 전</span> · <a href="https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWWpJZjlzM3FBTm9DZEZ4VGtUUVR1VVF1M1E4a1JPbGVkckdDMjVaakp1MEZpdXlFUG9lb3RpNFVUU1lkc0U0UU5NUE5RX3plQjZFcVNtbFpZQnFYNWItS1lDbUFrSnk0RFhPS3ZVeDNBcjlCNGlBZ3BrdXBlenBod1FqR2tVek5jWDhEZDh0VTVWaHNPS0ctTFJLNmhIOHJZRElCbE14NW05SndYX0FmeHZzcXN3RS1mYk1uVEhiNkhSZDZnTGhOdE9Kb3N0Z0JtVGFWWXVVSU1iMk81Mm5FdmkycVRVdw?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div></div>
     <div class="fed-group-title" style="margin-top:24px">지역 연방준비은행 총재</div>
     <div class="fed-grid">
-<div class="fed-card" style="border-left:4px solid rgb(191,105,80)">
+<div class="fed-card" style="border-left:4px solid rgb(204,95,80)">
   <div class="fed-header">
     <span class="fed-name">Beth Hammack</span>
     <span class="fed-role">클리블랜드 총재</span>
-    <span class="fed-stance" style="background:rgb(191,105,80)">🦅 매파 0.25</span>
+    <span class="fed-stance" style="background:rgb(204,95,80)">🦅 매파 0.20</span>
   </div>
-  <p class="fed-summary">클리블랜드 연은 총재 벳 해맥은 인플레이션이 진정되지 않거나 최근 추세가 지속될 경우 금리 인상이 필요할 수 있다고 경고하며, 금리 인상 가능성을 시사했습니다. 더불어 연준의 독립성과 책임성이 중요하다고 강조했습니다.</p>
-  <p class="fed-reason">인플레이션이 지속될 경우 금리 인상이 필요할 수 있다고 명확히 언급하며 매파적 입장을 보였습니다.</p>
+  <p class="fed-summary">클리블랜드 연은의 베스 해맥 총재는 인플레이션이 진정되지 않거나 최근 추세가 지속될 경우 금리 인상이 필요할 수 있다고 경고했습니다. 또한 그녀는 연준이 독립성과 책무성을 유지해야 한다고 강조했습니다.</p>
+  <p class="fed-reason">그녀는 인플레이션 지속 시 금리 인상 가능성을 언급하며 명확하게 매파적 입장을 표명했습니다.</p>
   <div class="fed-meta"><span style="color:#78909c">4일 전</span> · <a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxPeDdEYkIwNGJlMFZDMHJ4QVFuX0MzUkg1MFZJUFpXLXpXdUw4ZC1rc3U2LWozWGd3MFl0ZVJMc2tBcld4TWd1YXhLVkVfYktUZk5wZUF5eFFsNzdlNUZERnRtWGhsRW9XSi1OMDdtSDAxTlk5Y3daajU5ZDhvN2R2OUVDUkM5ZnluUHFLUlo0amRmUlFhOGgyR0lERWFScmpuZVFqdzFIRndTcWFHWjk0Skx3RGRhVlVLM0ZLcU1Ncw?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div>
 
-<div class="fed-card" style="border-left:4px solid rgb(165,125,80)">
+<div class="fed-card" style="border-left:4px solid rgb(191,105,80)">
   <div class="fed-header">
     <span class="fed-name">Patrick Harker</span>
     <span class="fed-role">필라델피아 총재</span>
-    <span class="fed-stance" style="background:rgb(165,125,80)">🦅 매파 0.35</span>
+    <span class="fed-stance" style="background:rgb(191,105,80)">🦅 매파 0.25</span>
   </div>
-  <p class="fed-summary">패트릭 하커 필라델피아 연은 총재는 인플레이션이 고착화될 경우 금리 인상이 가능하다고 언급하며, 인플레이션 억제에 대한 의지를 보였습니다. 다만, 그는 이전에 경제 불확실성 속에서 통화 정책에 신중하고 &#x27;의도적인&#x27; 조치를 취해야 한다고 강조했습니다.</p>
-  <p class="fed-reason">가장 최근 발언에서 인플레이션 고착 시 금리 인상 가능성을 언급하며 통화 긴축에 대한 문을 열어두었기 때문입니다.</p>
+  <p class="fed-summary">필라델피아 연은 총재 패트릭 하커는 인플레이션이 고착화될 경우 추가 금리 인상이 가능하다고 언급하며, 통화 정책에 있어 신중하고 &#x27;고의적인&#x27; 조치들이 필요하다고 강조했습니다.</p>
+  <p class="fed-reason">그는 인플레이션이 지속될 경우 금리 인상 가능성을 언급하며 인플레이션 통제에 대한 의지를 명확히 했습니다.</p>
   <div class="fed-meta"><span style="color:#78909c">11일 전</span> · <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxQUEVYWkxYMWs5enJRS09OS0ViNl8tYTFzc0YzTy1xbDVSUUpTZ0RaN0tHVGZSdTNFQS1TQXloVXFWeU94S09QRUxtSWhra2IyaWRaeDFvMld4c0NDUHRvNnJtazVlUEdwcDhoY3dNMjVDeDBTb2tXQ01YWVdNd2UxVU9NMi0?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div>
 
-<div class="fed-card" style="border-left:4px solid rgb(204,95,80)">
+<div class="fed-card" style="border-left:4px solid rgb(216,85,80)">
   <div class="fed-header">
     <span class="fed-name">Lorie Logan</span>
     <span class="fed-role">댈러스 총재</span>
-    <span class="fed-stance" style="background:rgb(204,95,80)">🦅 매파 0.20</span>
+    <span class="fed-stance" style="background:rgb(216,85,80)">🦅 매파 0.15</span>
   </div>
-  <p class="fed-summary">댈러스 연은 총재 로리 로건은 인플레이션을 잡기 위해 금리 인상이 필요할 수 있다고 언급했습니다. 이는 최근 두 명의 연준 관료가 금리 인상 가능성을 경고했다는 보도와도 일치하는 강경한 입장입니다.</p>
-  <p class="fed-reason">로건 총재는 인플레이션 억제를 위해 추가 금리 인상 가능성을 직접적으로 시사하며 매파적 견해를 밝혔습니다.</p>
+  <p class="fed-summary">로리 로건 댈러스 연은 총재는 최근 인플레이션을 잡기 위해 금리 인상이 필요할 수도 있다고 경고했습니다. 그녀는 추가적인 금리 인상 가능성을 열어두며 매파적인 입장을 명확히 했습니다.</p>
+  <p class="fed-reason">로건 총재는 인플레이션 억제를 위해 금리 인상이 필요할 수 있다고 명확히 밝혀 추가 긴축 가능성을 열어두었습니다.</p>
   <div class="fed-meta"><span style="color:#78909c">12일 전</span> · <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE5abjRCRjZsTVctUURZYnY3Z3BYUGFaeXZXSWpvbk1OQ3JxMUg3dGpmZ1VPd01VeE00SmYzTTNFT1IxZU1WaFg1V1lISEstQUpyYWRSWE1zNG55NXdzRmsxM1dWZmdSVl9XbnhnUmRIYTRUSEE?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div>
 
@@ -865,30 +907,30 @@ a{color:#9fc2ff}
     <span class="fed-role">샌프란시스코 총재</span>
     <span class="fed-stance" style="background:rgb(127,155,80)">⚖️ 중립 0.50</span>
   </div>
-  <p class="fed-summary">샌프란시스코 총재 메리 데일리는 현재 인공지능(AI)이 인플레이션을 높이거나 낮추는 주요 동력이 아니라고 언급했으며, 정책 성명 언어보다는 실제 행동이 더 중요하다고 강조했다. 이는 AI의 경제적 영향에 대해 중립적인 시각을 가지고 있으며, 통화 정책 결정에 있어 유연하고 데이터 중심적인 접근 방식을 선호함을 시사한다.</p>
-  <p class="fed-reason">발언들이 현재 인플레이션 또는 통화 정책 방향에 대한 명확한 매파적/비둘기파적 신호를 주지 않고, AI의 영향에 대한 중립적인 평가와 정책 실행의 유연성을 강조하기 때문이다.</p>
+  <p class="fed-summary">메리 데일리 샌프란시스코 연은 총재는 최근 AI가 현재 인플레이션을 상승시키거나 하락시키지 않고 있다고 발언했으며, 연준의 성명 언어보다는 실제 행동이 더 중요하다고 강조했습니다.</p>
+  <p class="fed-reason">그녀는 AI가 현재 인플레이션에 중립적인 영향을 미치고 있다고 명시적으로 밝혔으며, 통화정책 방향에 대한 명확한 매파적 또는 비둘기파적 신호를 보내지 않았습니다.</p>
   <div class="fed-meta"><span style="color:#78909c">12일 전</span> · <a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxPd2g0LUprUTdPU25oT0lxNndVaVp1WjlXNjJUTkdOSjJYeWJIMVl2WHJMRkdfY1l0TjRfZTBMLUtXR3F0QjFKMnRZRVMyWUlvVXRhZDlXWllBcThQS1pVUDl1bVlDLXlQRU9lbkdHeFRrYTdFQXZpVWZHVGdtNUt5SE1xcmllVDdWMm5PajJ3alpvUUxVb3NtTjRyTXd6dGNsR3VtWg?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div>
 
-<div class="fed-card" style="border-left:4px solid rgb(229,75,80)">
+<div class="fed-card" style="border-left:4px solid rgb(242,65,80)">
   <div class="fed-header">
     <span class="fed-name">Jeffrey Schmid</span>
     <span class="fed-role">캔자스시티 총재</span>
-    <span class="fed-stance" style="background:rgb(229,75,80)">🦅 매파 0.10</span>
+    <span class="fed-stance" style="background:rgb(242,65,80)">🦅 매파 0.05</span>
   </div>
-  <p class="fed-summary">캔자스시티 연은 총재 제프리 슈미드는 인플레이션이 &quot;너무 뜨겁다&quot;며 이를 자신의 &quot;가장 큰 우려&quot;라고 밝혔다. 그는 또한 유가 충격을 일시적인 것으로 봐서는 안 된다고 경고하며, 인플레이션이 미국 경제에 &quot;가장 시급한 위험&quot;이라고 강조했다.</p>
-  <p class="fed-reason">그는 인플레이션을 &quot;가장 큰 우려&quot;이자 &quot;가장 시급한 위험&quot;으로 지목하고, 유가 충격의 지속 가능성을 경고하며 강력한 인플레이션 억제 의지를 드러냈다.</p>
+  <p class="fed-summary">캔자스시티 연은 총재 제프리 슈미드는 인플레이션이 &#x27;너무 뜨겁다&#x27;며 미국 경제의 가장 시급한 위험이라고 강조했다. 그는 특히 유가 충격을 일시적인 것으로 보지 말아야 한다고 경고하며 인플레이션에 대한 깊은 우려를 드러냈다.</p>
+  <p class="fed-reason">그는 인플레이션이 &#x27;너무 뜨겁다&#x27;고 지적하고 유가 충격이 일시적이지 않을 수 있다고 경고하며 강력한 매파적 입장을 표명했다.</p>
   <div class="fed-meta"><span style="color:#78909c">18일 전</span> · <a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxObFlBVEl2cnF5eTZBVXZXMW1OTTM2ZnZtcFduRk5tNFBJbTRUMFpFNmk2SE9tT3JSbmZqa3FiNlczWTBaZjVjVk1lTzBvRG5MSUIySTdsZWEwbTJ3bjY4RzRBeGxfWXgtbFgwallQejUzU0JvZ3I3RGY0OVdsMHEzTWJFUkxxc2hlQUJiM3l0YjloYWFPRmVNdUhKZGFHelAwWnhYTmY0a2U2cHZvR3poSDlweHBDclQxVGtJ?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div>
 
-<div class="fed-card" style="border-left:4px solid rgb(191,105,80)">
+<div class="fed-card" style="border-left:4px solid rgb(178,115,80)">
   <div class="fed-header">
     <span class="fed-name">Alberto Musalem</span>
     <span class="fed-role">세인트루이스 총재</span>
-    <span class="fed-stance" style="background:rgb(191,105,80)">🦅 매파 0.25</span>
+    <span class="fed-stance" style="background:rgb(178,115,80)">🦅 매파 0.30</span>
   </div>
-  <p class="fed-summary">알베르토 무살렘 세인트루이스 연은 총재는 2026년 5월 28일 &quot;AI가 인플레이션을 완화할 것이라고 베팅하는 것은 위험하다&quot;고 발언했습니다. 그는 미래 생산성 증가에 대한 기대만으로 인플레이션 압력이 완화될 것이라고 섣불리 가정하지 말고 통화정책의 현실을 신중하게 다뤄야 한다고 강조했습니다.</p>
-  <p class="fed-reason">AI발 생산성 증가가 인플레이션을 완화할 것이라는 전망에 대해 &#x27;위험하다&#x27;고 경고하며 물가 압력에 대한 경계심을 강조했기 때문입니다.</p>
+  <p class="fed-summary">세인트루이스 연은의 알베르토 무살렘 총재는 5월 28일, AI가 인플레이션을 완화할 것이라고 기대하는 것은 &quot;위험하다&quot;고 경고하며, 높은 생산성 성장이 통화 정책에 미치는 영향에 대해 논의했다. 그의 발언은 인플레이션 압력이 기술 발전으로 인해 자연스럽게 해소될 것이라는 낙관론을 경계하고 통화 정책의 지속적인 주의를 강조하는 것으로 해석된다.</p>
+  <p class="fed-reason">그는 AI의 인플레이션 완화 효과에 대한 기대를 경계하며, 통화 정책이 인플레이션에 대해 더욱 신중한 접근을 유지해야 함을 시사하기 때문이다.</p>
   <div class="fed-meta"><span style="color:#78909c">19일 전</span> · <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNUI0TG94aXZNb3FyY0t3dXgyb0xYRWhBMWNFeFpCVDFNWHJ3dUhtVVNyYURhWlBxYUxPeXVyZERYamNlNjBhUzJxTnV5UXF4VTNNRnE3SUdJUzhLQ2dWUzFrVDJVZEczSnIxNjVXeGltc0JKaXF6M1hyUVlQM1NwQmhzQUE2cTJYeWZlaGxnc2dCaEtIRzgycEhLdGpsVFU1YkQxOVRhYVVLdw?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div>
 
@@ -898,8 +940,8 @@ a{color:#9fc2ff}
     <span class="fed-role">뉴욕 총재</span>
     <span class="fed-stance" style="background:rgb(165,125,80)">🦅 매파 0.35</span>
   </div>
-  <p class="fed-summary">존 윌리엄스 뉴욕 연은 총재는 5월 28일 생산성 변화를 실시간으로 파악하기 어렵다고 언급하며 경제 성장 잠재력 평가의 불확실성을 시사했습니다. 또한, 5월 초 이란 전쟁으로 인한 &quot;상당하고 예측 불가능한&quot; 경제 위험을 경고하고, 이러한 전쟁이 성장을 둔화시키는 동시에 인플레이션을 &quot;악화시킬&quot; 것이라는 깊은 우려를 표명했습니다.</p>
-  <p class="fed-reason">지정학적 위험으로 인해 성장이 둔화되더라도 인플레이션이 &quot;악화될&quot; 수 있다는 우려를 명확히 밝혀, 물가 안정 목표에 대한 강한 경계심을 드러내기 때문입니다.</p>
+  <p class="fed-summary">뉴욕 연은 총재 존 윌리엄스는 이란 전쟁이 경제에 &#x27;상당하고 예측 불가능한 위험&#x27;을 초래하며, 이는 성장을 둔화시키고 인플레이션을 악화시킬 것이라고 경고했습니다. 그는 또한 생산성 변화를 실시간으로 파악하기 어렵다고 언급하며 경제 전망의 불확실성을 강조했습니다.</p>
+  <p class="fed-reason">전쟁으로 인한 인플레이션 악화 가능성을 명시적으로 언급하며 경제 안정에 대한 경계를 드러냈기에 매파적 스탠스로 평가됩니다.</p>
   <div class="fed-meta"><span style="color:#78909c">19일 전</span> · <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxPQmtfbXdBQzEtVnBvMUstMVk4Yl9jZVctb2NzV25PRFVSLWhMeGlaN1J0ZFJIaGo5Z1ExdVliall6THgxbW92N0FhRDhBb3pBaEpodHNyWVIyWV9pNG9WMGhyNTVHWll3T0UxUExQTHNFclZkOFB3WWp0LTdqUk02QjRuMVdnal8zZkhrTEJoMlBGcmRmZHdQbFhQeEcyNmM?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div>
 
@@ -909,8 +951,8 @@ a{color:#9fc2ff}
     <span class="fed-role">시카고 총재</span>
     <span class="fed-stance" style="background:rgb(165,125,80)">🦅 매파 0.35</span>
   </div>
-  <p class="fed-summary">시카고 연은 총재 오스탄 굴스비는 AI 관련 인플레이션 압력이 유가 충격으로 악화될 수 있다고 경고했으며, 생산성 증가 가정을 너무 앞서나가지 말라고 조언했습니다.</p>
-  <p class="fed-reason">그는 AI와 유가 충격으로 인한 인플레이션 악화 가능성을 경고하고 생산성 성장 가정을 앞서나가지 말 것을 조언하며, 인플레이션 위험에 대한 경계심을 드러냈습니다.</p>
+  <p class="fed-summary">시카고 연은 총재 오스탄 굴스비는 최근 발언에서 인플레이션 위험에 대한 우려를 표명했습니다. 그는 유가 충격이 AI 과열에 따른 인플레이션 압력을 심화시킬 수 있다고 경고했으며, 생산성 증가를 섣불리 앞서나가는 통화 정책에 대해서도 경계해야 한다고 강조했습니다.</p>
+  <p class="fed-reason">물가 상승 위험에 대한 경고와 생산성 증가에 대한 신중한 접근을 강조하며 통화 정책의 조기 완화를 경계하는 입장입니다.</p>
   <div class="fed-meta"><span style="color:#78909c">20일 전</span> · <a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxObDJ1d0Nvb3VHbjFycUJ6QmFGWUE1bDYzRWdVcjBpSk83MlA2eDZIUWxmN0VhMlFITi16MXgwSFpSVnZIS3VERi05VVVWaGpKRHFfZWJDbmlDZnkwYU05VUk2RGc1NGpGUnRZSThIRFBDM0xzUHdSTzlqQUVIXzBKX25JSjVzVWRhd1ZPS1ZkcWpjWHJxc00zVXIyeFQ0c1lLTm9fekJ4UnI1UzNRdWFaWU5JVWpvT2VUdHFj?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div>
 
@@ -920,8 +962,8 @@ a{color:#9fc2ff}
     <span class="fed-role">미니애폴리스 총재</span>
     <span class="fed-stance" style="background:rgb(229,75,80)">🦅 매파 0.10</span>
   </div>
-  <p class="fed-summary">미니애폴리스 연은 총재 닐 카슈카리는 최근 인플레이션과의 싸움이 우선순위이며, 노동 시장은 &#x27;괜찮은 상태&#x27;라고 언급하며 인플레이션 위험에 집중해야 한다고 강조했습니다. 그는 다음 금리 인상 시기에 대해서는 언급하지 않았습니다.</p>
-  <p class="fed-reason">노동 시장이 양호하다고 평가하며 인플레이션 억제를 최우선 과제로 삼아야 한다고 강조하여 강력한 매파적 입장을 보입니다.</p>
+  <p class="fed-summary">미니애폴리스 연은 총재 닐 카슈카리는 최근 CNBC와의 인터뷰에서 노동 시장이 &#x27;상당히 양호한 상태&#x27;이므로 인플레이션과의 싸움이 우선순위라고 밝혔습니다. 그는 인플레이션 위험에 집중할 것을 촉구했으나, 다음 금리 인상 시기에 대해서는 구체적인 언급을 피했습니다.</p>
+  <p class="fed-reason">노동 시장이 양호한 상태임에도 불구하고 인플레이션 억제를 최우선 과제로 강조했기 때문입니다.</p>
   <div class="fed-meta"><span style="color:#78909c">20일 전</span> · <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSU1pQXdKUjZMVGpoWFRoN3ZpaVhFU21SNUg4WnN2VVdEY2VoRG9senIwNUNwdTVLR2otZ2RzMUtESU92RDNWcEdJejhWUmZsN01aanp3Q2I5d3M1Yy03V2NCckFWWGxsM2hESzFHVGRkOFMxM0tCUzJBQXZUZjdLZzh1M21fTDBzYVhr0gGQAUFVX3lxTE9tbmxOSzF1YThKbU0zNUtlQ0ZLQ1MyQVNWQnlHNHRBLVF5Z0Z5czFzVjhaT2xHMVp3RG9IaFlkcWZPdW9iRGhfblFMMEVMZmtuZ1ZSUm9HNjlLR1ItVWxyNk1fVDh3N3VIeDVlbE9wZWdYSXpscnBkUVhQNVdfZXN5WjBaZllWYWc0MXk0ak5Qbw?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div>
 
@@ -931,19 +973,19 @@ a{color:#9fc2ff}
     <span class="fed-role">리치몬드 총재</span>
     <span class="fed-stance" style="background:rgb(76,195,80)">🕊️ 비둘기파 0.70</span>
   </div>
-  <p class="fed-summary">리치몬드 총재 토마스 바킨은 최근 공급 충격 대응에 대해 논하며, 현재 통화 정책이 지속적인 충격에 잘 대처할 위치에 있다고 평가했습니다. 특히, 그는 연준이 유가 충격으로 인한 인플레이션에 대해서는 당분간 &#x27;간과&#x27;할 수 있다고 시사하며, 일시적 물가 상승에 즉각적인 정책 대응을 하지 않을 가능성을 내비쳤습니다.</p>
-  <p class="fed-reason">그가 일시적인 유가 충격으로 인한 인플레이션 상승을 당분간 간과할 수 있다고 언급한 것은 즉각적인 통화정책 긴축에 대한 압력을 낮추는 비둘기파적 신호로 해석됩니다.</p>
+  <p class="fed-summary">리치몬드 총재 토마스 바킨은 현재의 정책이 지속적인 충격에 대응하기에 좋은 위치에 있다고 발언하며, 특히 유가 충격에 대해서는 당분간 이를 &quot;지나쳐 볼 수 있다&quot;고 시사했다. 이는 물가와 고용에 영향을 미치는 공급 충격에 대한 Fed의 인내심을 나타낸다.</p>
+  <p class="fed-reason">유가 충격을 당분간 &quot;지나쳐 볼 수 있다&quot;고 언급하며, 새로운 인플레이션 압력에 대한 즉각적인 금리 인상 필요성이 낮음을 시사했기 때문입니다.</p>
   <div class="fed-meta"><span style="color:#78909c">26일 전</span> · <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxOVVVCcUNuUnh6QXpnbmdFdjBSOUdXemRsLW44WXN0TXQzQkdlcWZzNmNJdVR3ZVIxeXVvYXRVMnptTjlWUHpnSlVFbEpyZUZKTTNrTlpHZ2MxbjhoMmw1dXM4cjU3emF3STQzeGRXbVJKSGx6T2I0eVRmQ3cza25TZGlMdFN4UnJtWXJTMUw4R1ZuU0xHQkE?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div>
 
-<div class="fed-card" style="border-left:4px solid rgb(191,105,80)">
+<div class="fed-card" style="border-left:4px solid rgb(204,95,80)">
   <div class="fed-header">
     <span class="fed-name">Susan Collins</span>
     <span class="fed-role">보스턴 총재</span>
-    <span class="fed-stance" style="background:rgb(191,105,80)">🦅 매파 0.25</span>
+    <span class="fed-stance" style="background:rgb(204,95,80)">🦅 매파 0.20</span>
   </div>
-  <p class="fed-summary">보스턴 연은 총재 수잔 콜린스는 최근 인플레이션을 억제하기 위해 금리 인상이 필요할 수도 있다고 발언하며 매파적 입장을 보였습니다. 또한 그녀는 FOMC 성명에 대한 소수 의견에 동의한 것으로 전해졌습니다.</p>
-  <p class="fed-reason">인플레이션 억제를 위해 금리 인상이 필요할 수 있다고 언급하며 금리 인상 가능성을 시사했기 때문입니다.</p>
+  <p class="fed-summary">보스턴 연은 총재 수잔 콜린스는 인플레이션을 억제하기 위해 금리 인상이 필요할 수 있다고 언급하며 매파적 견해를 표명했습니다. 또한, FOMC 성명에 대해 반대 의견을 낸 위원들과 입장을 같이하며 추가적인 긴축 가능성에 대한 우려를 내비쳤습니다.</p>
+  <p class="fed-reason">인플레이션 억제를 위해 금리 인상이 필요할 수 있다고 명시적으로 발언했으며, FOMC 성명 반대 의견 위원들과 입장을 같이하여 긴축 선호 경향을 보입니다.</p>
   <div class="fed-meta"><span style="color:#78909c">34일 전</span> · <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTWdoRERINm1EMzhrWmdMWjRWZ2VQMmFjWF9MZGNieFc3UVd3YnhpNFJKX2I2R092Q0htdFFINnlmMmdELU5SR1VCM1Y5c3hvQlJsSXFuRnNEQWo0Si1nZFJ1d0VtQTdLakMwS2lNT0h0TXlZY1FQX2w0MUszMUhRYUVzQmg0ZDNuQ01uanFCTk9rMTJBeFIwWjMtbE9yM2xrRU5MRWg3LW0?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div>
 
@@ -953,8 +995,8 @@ a{color:#9fc2ff}
     <span class="fed-role">애틀랜타 총재</span>
     <span class="fed-stance" style="background:rgb(127,155,80)">⚖️ 중립 0.50</span>
   </div>
-  <p class="fed-summary">라파엘 보스틱 애틀랜타 연은 총재는 최근 발언에서 중앙은행 독립성에 대한 공격이 피해를 주고 있다고 우려를 표명했습니다. 그는 거의 9년간의 재임 기간을 되돌아보며 퇴임을 앞두고 있으며, 최근 한 행사에서 연설했습니다.</p>
-  <p class="fed-reason">제공된 뉴스에는 금리 인상 또는 인하에 대한 그의 구체적인 통화 정책 입장이 명시되어 있지 않습니다.</p>
+  <p class="fed-summary">라파엘 보스틱 애틀랜타 연은 총재가 거의 9년간의 재임 기간을 마치고 퇴임을 앞두고 있습니다. 그는 최근 중앙은행 독립성에 대한 공격이 큰 타격을 주고 있다고 발언했으며, 자신의 재임 기간을 회고하는 시간을 가졌습니다.</p>
+  <p class="fed-reason">보스틱 총재의 최근 발언은 퇴임을 앞두고 중앙은행의 독립성 중요성에 대한 회고적 시각을 담고 있으며, 이는 현재의 통화 정책 방향에 대한 매파적 또는 비둘기파적 신호를 담고 있지 않으므로 중립으로 판단됩니다.</p>
   <div class="fed-meta"><span style="color:#78909c">110일 전</span> · <a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxNYUFiM3o2dTV6TjV3SWpvaEVtZ0xMSnRoeG9WdnJYblRJajQzS1dWTTZhMl9nLVVsS2wyRUN0ek40TkpZY3ljMmRCM1c4TEt0RFRYTTY0UmM3a2J4RDhyOWViamVOM2FMSGhJZEdSaWZBc3ZpeWxEdWZ0aEdYcTdRS3AwMFRza3Uyc2xaVGdMRGppUkM0VXY3VEc1ekFaUlZwbFBsa211Rm9nWUpyRFplUnFZMndfSFE?oc=5" target="_blank" style="color:#aac">최근 뉴스 →</a></div>
 </div></div>
   </details>
@@ -996,64 +1038,72 @@ a{color:#9fc2ff}
     <div class="fw-meeting">
   <div class="fw-meeting-date">📅 Jun 18, 2026</div>
   <div class="fw-row">
-  <div class="fw-rate">3.50 - 3.75</div>
-  <div class="fw-bar-wrap">
-    <div class="fw-bar-bg"><div class="fw-bar" style="width:98%;background:#4fc3f7"></div></div>
-    <span class="fw-pct" style="color:#4fc3f7">98.9%</span>
-  </div>
-  <div class="fw-prev">99.6%</div>
-</div>
-<div class="fw-row">
-  <div class="fw-rate">3.75 - 4.00</div>
+  <div class="fw-rate">3.25 - 3.50</div>
   <div class="fw-bar-wrap">
     <div class="fw-bar-bg"><div class="fw-bar" style="width:1%;background:#3a4a5a"></div></div>
-    <span class="fw-pct" style="color:#3a4a5a">1.1%</span>
+    <span class="fw-pct" style="color:#3a4a5a">0.9%</span>
   </div>
-  <div class="fw-prev">—</div>
+  <div class="fw-prev">0.4%</div>
+</div>
+<div class="fw-row">
+  <div class="fw-rate">3.50 - 3.75</div>
+  <div class="fw-bar-wrap">
+    <div class="fw-bar-bg"><div class="fw-bar" style="width:99%;background:#4fc3f7"></div></div>
+    <span class="fw-pct" style="color:#4fc3f7">99.1%</span>
+  </div>
+  <div class="fw-prev">99.6%</div>
 </div>
 </div>
 <div class="fw-meeting">
   <div class="fw-meeting-date">📅 Jul 30, 2026</div>
   <div class="fw-row">
+  <div class="fw-rate">3.25 - 3.50</div>
+  <div class="fw-bar-wrap">
+    <div class="fw-bar-bg"><div class="fw-bar" style="width:1%;background:#3a4a5a"></div></div>
+    <span class="fw-pct" style="color:#3a4a5a">0.8%</span>
+  </div>
+  <div class="fw-prev">0.4%</div>
+</div>
+<div class="fw-row">
   <div class="fw-rate">3.50 - 3.75</div>
   <div class="fw-bar-wrap">
     <div class="fw-bar-bg"><div class="fw-bar" style="width:90%;background:#4fc3f7"></div></div>
-    <span class="fw-pct" style="color:#4fc3f7">90.1%</span>
+    <span class="fw-pct" style="color:#4fc3f7">90.4%</span>
   </div>
   <div class="fw-prev">95.2%</div>
 </div>
 <div class="fw-row">
   <div class="fw-rate">3.75 - 4.00</div>
   <div class="fw-bar-wrap">
-    <div class="fw-bar-bg"><div class="fw-bar" style="width:9%;background:#3a4a5a"></div></div>
-    <span class="fw-pct" style="color:#3a4a5a">9.8%</span>
+    <div class="fw-bar-bg"><div class="fw-bar" style="width:8%;background:#3a4a5a"></div></div>
+    <span class="fw-pct" style="color:#3a4a5a">8.8%</span>
   </div>
   <div class="fw-prev">4.4%</div>
-</div>
-<div class="fw-row">
-  <div class="fw-rate">4.00 - 4.25</div>
-  <div class="fw-bar-wrap">
-    <div class="fw-bar-bg"><div class="fw-bar" style="width:1%;background:#3a4a5a"></div></div>
-    <span class="fw-pct" style="color:#3a4a5a">0.1%</span>
-  </div>
-  <div class="fw-prev">—</div>
 </div>
 </div>
 <div class="fw-meeting">
   <div class="fw-meeting-date">📅 Sep 17, 2026</div>
   <div class="fw-row">
+  <div class="fw-rate">3.25 - 3.50</div>
+  <div class="fw-bar-wrap">
+    <div class="fw-bar-bg"><div class="fw-bar" style="width:1%;background:#3a4a5a"></div></div>
+    <span class="fw-pct" style="color:#3a4a5a">0.6%</span>
+  </div>
+  <div class="fw-prev">0.3%</div>
+</div>
+<div class="fw-row">
   <div class="fw-rate">3.50 - 3.75</div>
   <div class="fw-bar-wrap">
     <div class="fw-bar-bg"><div class="fw-bar" style="width:70%;background:#4fc3f7"></div></div>
-    <span class="fw-pct" style="color:#4fc3f7">70.1%</span>
+    <span class="fw-pct" style="color:#4fc3f7">70.5%</span>
   </div>
   <div class="fw-prev">71.9%</div>
 </div>
 <div class="fw-row">
   <div class="fw-rate">3.75 - 4.00</div>
   <div class="fw-bar-wrap">
-    <div class="fw-bar-bg"><div class="fw-bar" style="width:27%;background:#78bcd4"></div></div>
-    <span class="fw-pct" style="color:#78bcd4">27.6%</span>
+    <div class="fw-bar-bg"><div class="fw-bar" style="width:26%;background:#78bcd4"></div></div>
+    <span class="fw-pct" style="color:#78bcd4">26.9%</span>
   </div>
   <div class="fw-prev">26.7%</div>
 </div>
@@ -1061,34 +1111,34 @@ a{color:#9fc2ff}
   <div class="fw-rate">4.00 - 4.25</div>
   <div class="fw-bar-wrap">
     <div class="fw-bar-bg"><div class="fw-bar" style="width:2%;background:#3a4a5a"></div></div>
-    <span class="fw-pct" style="color:#3a4a5a">2.3%</span>
+    <span class="fw-pct" style="color:#3a4a5a">2.0%</span>
   </div>
   <div class="fw-prev">1.1%</div>
-</div>
-<div class="fw-row">
-  <div class="fw-rate">4.25 - 4.50</div>
-  <div class="fw-bar-wrap">
-    <div class="fw-bar-bg"><div class="fw-bar" style="width:1%;background:#3a4a5a"></div></div>
-    <span class="fw-pct" style="color:#3a4a5a">0.0%</span>
-  </div>
-  <div class="fw-prev">—</div>
 </div>
 </div>
 <div class="fw-meeting">
   <div class="fw-meeting-date">📅 Oct 29, 2026</div>
   <div class="fw-row">
+  <div class="fw-rate">3.25 - 3.50</div>
+  <div class="fw-bar-wrap">
+    <div class="fw-bar-bg"><div class="fw-bar" style="width:1%;background:#3a4a5a"></div></div>
+    <span class="fw-pct" style="color:#3a4a5a">0.5%</span>
+  </div>
+  <div class="fw-prev">0.3%</div>
+</div>
+<div class="fw-row">
   <div class="fw-rate">3.50 - 3.75</div>
   <div class="fw-bar-wrap">
     <div class="fw-bar-bg"><div class="fw-bar" style="width:60%;background:#4fc3f7"></div></div>
-    <span class="fw-pct" style="color:#4fc3f7">60.4%</span>
+    <span class="fw-pct" style="color:#4fc3f7">60.9%</span>
   </div>
   <div class="fw-prev">63.7%</div>
 </div>
 <div class="fw-row">
   <div class="fw-rate">3.75 - 4.00</div>
   <div class="fw-bar-wrap">
-    <div class="fw-bar-bg"><div class="fw-bar" style="width:33%;background:#78bcd4"></div></div>
-    <span class="fw-pct" style="color:#78bcd4">33.5%</span>
+    <div class="fw-bar-bg"><div class="fw-bar" style="width:32%;background:#78bcd4"></div></div>
+    <span class="fw-pct" style="color:#78bcd4">32.9%</span>
   </div>
   <div class="fw-prev">31.9%</div>
 </div>
@@ -1096,7 +1146,7 @@ a{color:#9fc2ff}
   <div class="fw-rate">4.00 - 4.25</div>
   <div class="fw-bar-wrap">
     <div class="fw-bar-bg"><div class="fw-bar" style="width:5%;background:#3a4a5a"></div></div>
-    <span class="fw-pct" style="color:#3a4a5a">5.8%</span>
+    <span class="fw-pct" style="color:#3a4a5a">5.4%</span>
   </div>
   <div class="fw-prev">4.0%</div>
 </div>
@@ -1108,75 +1158,24 @@ a{color:#9fc2ff}
   </div>
   <div class="fw-prev">0.1%</div>
 </div>
-<div class="fw-row">
-  <div class="fw-rate">4.50 - 4.75</div>
-  <div class="fw-bar-wrap">
-    <div class="fw-bar-bg"><div class="fw-bar" style="width:1%;background:#3a4a5a"></div></div>
-    <span class="fw-pct" style="color:#3a4a5a">0.0%</span>
-  </div>
-  <div class="fw-prev">—</div>
-</div>
 </div>
 <div class="fw-meeting">
   <div class="fw-meeting-date">📅 Dec 10, 2026</div>
   <div class="fw-row">
+  <div class="fw-rate">3.25 - 3.50</div>
+  <div class="fw-bar-wrap">
+    <div class="fw-bar-bg"><div class="fw-bar" style="width:1%;background:#3a4a5a"></div></div>
+    <span class="fw-pct" style="color:#3a4a5a">0.3%</span>
+  </div>
+  <div class="fw-prev">0.2%</div>
+</div>
+<div class="fw-row">
   <div class="fw-rate">3.50 - 3.75</div>
   <div class="fw-bar-wrap">
-    <div class="fw-bar-bg"><div class="fw-bar" style="width:39%;background:#78bcd4"></div></div>
-    <span class="fw-pct" style="color:#78bcd4">39.8%</span>
+    <div class="fw-bar-bg"><div class="fw-bar" style="width:40%;background:#78bcd4"></div></div>
+    <span class="fw-pct" style="color:#78bcd4">40.5%</span>
   </div>
   <div class="fw-prev">42.6%</div>
-</div>
-<div class="fw-row">
-  <div class="fw-rate">3.75 - 4.00</div>
-  <div class="fw-bar-wrap">
-    <div class="fw-bar-bg"><div class="fw-bar" style="width:42%;background:#78bcd4"></div></div>
-    <span class="fw-pct" style="color:#78bcd4">42.7%</span>
-  </div>
-  <div class="fw-prev">42.5%</div>
-</div>
-<div class="fw-row">
-  <div class="fw-rate">4.00 - 4.25</div>
-  <div class="fw-bar-wrap">
-    <div class="fw-bar-bg"><div class="fw-bar" style="width:15%;background:#78bcd4"></div></div>
-    <span class="fw-pct" style="color:#78bcd4">15.2%</span>
-  </div>
-  <div class="fw-prev">13.3%</div>
-</div>
-<div class="fw-row">
-  <div class="fw-rate">4.25 - 4.50</div>
-  <div class="fw-bar-wrap">
-    <div class="fw-bar-bg"><div class="fw-bar" style="width:2%;background:#3a4a5a"></div></div>
-    <span class="fw-pct" style="color:#3a4a5a">2.2%</span>
-  </div>
-  <div class="fw-prev">1.4%</div>
-</div>
-<div class="fw-row">
-  <div class="fw-rate">4.50 - 4.75</div>
-  <div class="fw-bar-wrap">
-    <div class="fw-bar-bg"><div class="fw-bar" style="width:1%;background:#3a4a5a"></div></div>
-    <span class="fw-pct" style="color:#3a4a5a">0.1%</span>
-  </div>
-  <div class="fw-prev">0.0%</div>
-</div>
-<div class="fw-row">
-  <div class="fw-rate">4.75 - 5.00</div>
-  <div class="fw-bar-wrap">
-    <div class="fw-bar-bg"><div class="fw-bar" style="width:1%;background:#3a4a5a"></div></div>
-    <span class="fw-pct" style="color:#3a4a5a">0.0%</span>
-  </div>
-  <div class="fw-prev">—</div>
-</div>
-</div>
-<div class="fw-meeting">
-  <div class="fw-meeting-date">📅 Jan 28, 2027</div>
-  <div class="fw-row">
-  <div class="fw-rate">3.50 - 3.75</div>
-  <div class="fw-bar-wrap">
-    <div class="fw-bar-bg"><div class="fw-bar" style="width:35%;background:#78bcd4"></div></div>
-    <span class="fw-pct" style="color:#78bcd4">35.1%</span>
-  </div>
-  <div class="fw-prev">35.5%</div>
 </div>
 <div class="fw-row">
   <div class="fw-rate">3.75 - 4.00</div>
@@ -1189,8 +1188,59 @@ a{color:#9fc2ff}
 <div class="fw-row">
   <div class="fw-rate">4.00 - 4.25</div>
   <div class="fw-bar-wrap">
+    <div class="fw-bar-bg"><div class="fw-bar" style="width:14%;background:#78bcd4"></div></div>
+    <span class="fw-pct" style="color:#78bcd4">14.7%</span>
+  </div>
+  <div class="fw-prev">13.3%</div>
+</div>
+<div class="fw-row">
+  <div class="fw-rate">4.25 - 4.50</div>
+  <div class="fw-bar-wrap">
+    <div class="fw-bar-bg"><div class="fw-bar" style="width:2%;background:#3a4a5a"></div></div>
+    <span class="fw-pct" style="color:#3a4a5a">2.0%</span>
+  </div>
+  <div class="fw-prev">1.4%</div>
+</div>
+<div class="fw-row">
+  <div class="fw-rate">4.50 - 4.75</div>
+  <div class="fw-bar-wrap">
+    <div class="fw-bar-bg"><div class="fw-bar" style="width:1%;background:#3a4a5a"></div></div>
+    <span class="fw-pct" style="color:#3a4a5a">0.1%</span>
+  </div>
+  <div class="fw-prev">0.0%</div>
+</div>
+</div>
+<div class="fw-meeting">
+  <div class="fw-meeting-date">📅 Jan 28, 2027</div>
+  <div class="fw-row">
+  <div class="fw-rate">3.25 - 3.50</div>
+  <div class="fw-bar-wrap">
+    <div class="fw-bar-bg"><div class="fw-bar" style="width:1%;background:#3a4a5a"></div></div>
+    <span class="fw-pct" style="color:#3a4a5a">0.3%</span>
+  </div>
+  <div class="fw-prev">0.2%</div>
+</div>
+<div class="fw-row">
+  <div class="fw-rate">3.50 - 3.75</div>
+  <div class="fw-bar-wrap">
+    <div class="fw-bar-bg"><div class="fw-bar" style="width:34%;background:#78bcd4"></div></div>
+    <span class="fw-pct" style="color:#78bcd4">34.8%</span>
+  </div>
+  <div class="fw-prev">35.5%</div>
+</div>
+<div class="fw-row">
+  <div class="fw-rate">3.75 - 4.00</div>
+  <div class="fw-bar-wrap">
+    <div class="fw-bar-bg"><div class="fw-bar" style="width:42%;background:#78bcd4"></div></div>
+    <span class="fw-pct" style="color:#78bcd4">42.1%</span>
+  </div>
+  <div class="fw-prev">42.5%</div>
+</div>
+<div class="fw-row">
+  <div class="fw-rate">4.00 - 4.25</div>
+  <div class="fw-bar-wrap">
     <div class="fw-bar-bg"><div class="fw-bar" style="width:18%;background:#78bcd4"></div></div>
-    <span class="fw-pct" style="color:#78bcd4">18.5%</span>
+    <span class="fw-pct" style="color:#78bcd4">18.6%</span>
   </div>
   <div class="fw-prev">18.2%</div>
 </div>
@@ -1198,7 +1248,7 @@ a{color:#9fc2ff}
   <div class="fw-rate">4.25 - 4.50</div>
   <div class="fw-bar-wrap">
     <div class="fw-bar-bg"><div class="fw-bar" style="width:3%;background:#3a4a5a"></div></div>
-    <span class="fw-pct" style="color:#3a4a5a">3.7%</span>
+    <span class="fw-pct" style="color:#3a4a5a">3.8%</span>
   </div>
   <div class="fw-prev">3.4%</div>
 </div>
@@ -1217,14 +1267,6 @@ a{color:#9fc2ff}
     <span class="fw-pct" style="color:#3a4a5a">0.0%</span>
   </div>
   <div class="fw-prev">0.0%</div>
-</div>
-<div class="fw-row">
-  <div class="fw-rate">5.00 - 5.25</div>
-  <div class="fw-bar-wrap">
-    <div class="fw-bar-bg"><div class="fw-bar" style="width:1%;background:#3a4a5a"></div></div>
-    <span class="fw-pct" style="color:#3a4a5a">0.0%</span>
-  </div>
-  <div class="fw-prev">—</div>
 </div>
 </div>
   </div>
@@ -1251,72 +1293,72 @@ a{color:#9fc2ff}
 <div class="grid">
         <article class="card">
           <span class="badge">Top 1</span>
-          <h2 class="title">미국과 이란, 무엇에 합의했나? 시장의 초점은 여기에.</h2>
-          <p class="sum">트럼프 행정부와 이란이 평화 협상 틀에 합의했다. 합의문 공개를 앞두고 시장이 주목하는 핵심 내용을 살펴본다.</p>
-          <div class="meta">발행: 2026-06-17 03:16 (KST) · 2시간 전 · <a href="https://www.marketwatch.com/story/what-have-the-u-s-and-iran-agreed-to-this-is-what-markets-are-focused-on-fefbfa08?mod=mw_rss_topstories" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.marketwatch.com/story/what-have-the-u-s-and-iran-agreed-to-this-is-what-markets-are-focused-on-fefbfa08?mod=mw_rss_topstories" target="_blank">한국어 번역본(서버)</a></div>
+          <h2 class="title">연준 의장 워시, 금리 전망서 &#x27;점도표&#x27; 제외 예상</h2>
+          <p class="sum">연방공개시장위원회(FOMC)는 분기별 금리 전망을 발표할 예정.</p>
+          <div class="meta">발행: 2026-06-17 04:12 (KST) · 3시간 전 · <a href="https://www.cnbc.com/2026/06/16/fed-chair-warsh-expected-to-withhold-dot-from-central-banks-interest-rate-outlook.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.cnbc.com/2026/06/16/fed-chair-warsh-expected-to-withhold-dot-from-central-banks-interest-rate-outlook.html" target="_blank">한국어 번역본(서버)</a></div>
         </article>
         
         <article class="card">
           <span class="badge">Top 2</span>
-          <h2 class="title">연준 의장 워시, 금리 전망 &#x27;점도표&#x27; 공개 보류 예상</h2>
-          <p class="sum">연방공개시장위원회(FOMC)는 분기별로 개별 위원들의 예상 금리 경로를 담은 업데이트를 발표할 예정이다.</p>
-          <div class="meta">발행: 2026-06-17 04:12 (KST) · 1시간 전 · <a href="https://www.cnbc.com/2026/06/16/fed-chair-warsh-expected-to-withhold-dot-from-central-banks-interest-rate-outlook.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.cnbc.com/2026/06/16/fed-chair-warsh-expected-to-withhold-dot-from-central-banks-interest-rate-outlook.html" target="_blank">한국어 번역본(서버)</a></div>
+          <h2 class="title">새로운 석유? AI 컴퓨팅 파워를 거래 가능한 상품으로 전환하려는 노력</h2>
+          <p class="sum">AI 컴퓨팅 선물은 세계 최대 상품 시장과 경쟁할 수 있다고 실리콘 데이터의 카르멘 리가 전망.</p>
+          <div class="meta">발행: 2026-06-17 03:42 (KST) · 4시간 전 · <a href="https://www.cnbc.com/2026/06/16/the-new-oil-inside-the-effort-to-turn-ai-computing-power-into-a-tradeable-commodity.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.cnbc.com/2026/06/16/the-new-oil-inside-the-effort-to-turn-ai-computing-power-into-a-tradeable-commodity.html" target="_blank">한국어 번역본(서버)</a></div>
         </article>
         
         <article class="card">
           <span class="badge">Top 3</span>
-          <h2 class="title">새로운 석유? AI 컴퓨팅 파워를 거래 가능한 상품으로 만들려는 노력</h2>
-          <p class="sum">실리콘 데이터의 카르멘 리는 AI 컴퓨팅 선물 시장이 결국 세계 최대 상품 시장과 경쟁할 수 있다고 믿는다.</p>
-          <div class="meta">발행: 2026-06-17 03:42 (KST) · 2시간 전 · <a href="https://www.cnbc.com/2026/06/16/the-new-oil-inside-the-effort-to-turn-ai-computing-power-into-a-tradeable-commodity.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.cnbc.com/2026/06/16/the-new-oil-inside-the-effort-to-turn-ai-computing-power-into-a-tradeable-commodity.html" target="_blank">한국어 번역본(서버)</a></div>
+          <h2 class="title">STERIS 주식은 다우지수보다 부진한가?</h2>
+          <p class="sum"></p>
+          <div class="meta">발행: - (KST) · 시간 정보 없음 · <a href="https://finance.yahoo.com/markets/stocks/articles/steris-stock-underperforming-dow-140204854.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://finance.yahoo.com/markets/stocks/articles/steris-stock-underperforming-dow-140204854.html" target="_blank">한국어 번역본(서버)</a></div>
         </article>
         
         <article class="card">
           <span class="badge">Top 4</span>
-          <h2 class="title">예측 시장 트레이더들, 트럼프 행정부의 접근 제한 지시 후 Anthropic이 AI 모델 접근을 신속히 복원할 것으로 예상</h2>
-          <p class="sum">트레이더들은 7월 1일까지 접근이 복원될 가능성이 높다고 본다.</p>
-          <div class="meta">발행: 2026-06-17 00:44 (KST) · 5시간 전 · <a href="https://www.cnbc.com/2026/06/16/kalshi-traders-think-anthropic-will-restore-access-to-ai-model-quickly.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.cnbc.com/2026/06/16/kalshi-traders-think-anthropic-will-restore-access-to-ai-model-quickly.html" target="_blank">한국어 번역본(서버)</a></div>
+          <h2 class="title">스페이스X IPO, 주식시장의 놀라운 사실 하나를 공개: 숫자로 본</h2>
+          <p class="sum"></p>
+          <div class="meta">발행: - (KST) · 시간 정보 없음 · <a href="https://finance.yahoo.com/markets/article/spacex-ipo-reveals-one-stunning-fact-about-the-stock-market-by-the-numbers-144602845.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://finance.yahoo.com/markets/article/spacex-ipo-reveals-one-stunning-fact-about-the-stock-market-by-the-numbers-144602845.html" target="_blank">한국어 번역본(서버)</a></div>
         </article>
         
         <article class="card">
           <span class="badge">Top 5</span>
-          <h2 class="title">짐머 바이오메트 주식, S&amp;P 500 지수보다 저조한가?</h2>
-          <p class="sum"></p>
-          <div class="meta">발행: - (KST) · 시간 정보 없음 · <a href="https://finance.yahoo.com/markets/stocks/articles/zimmer-biomet-stock-underperforming-p-114911067.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://finance.yahoo.com/markets/stocks/articles/zimmer-biomet-stock-underperforming-p-114911067.html" target="_blank">한국어 번역본(서버)</a></div>
+          <h2 class="title">카바나, 신차 사업 확장. 미국 자동차 소매 시장 재편 가능성</h2>
+          <p class="sum">카바나는 작년부터 스텔란티스 브랜드(크라이슬러, 닷지, 지프, 램)를 주로 판매하는 신차 프랜차이즈 7곳을 인수.</p>
+          <div class="meta">발행: 2026-06-17 00:51 (KST) · 6시간 전 · <a href="https://www.cnbc.com/2026/06/16/carvana-new-cars-dealerships.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.cnbc.com/2026/06/16/carvana-new-cars-dealerships.html" target="_blank">한국어 번역본(서버)</a></div>
         </article>
         
         <article class="card">
           <span class="badge">Top 6</span>
-          <h2 class="title">MAGS에서 Rags로? 매그니피센트 7 주식, 시장의 발목 잡나</h2>
-          <p class="sum"></p>
-          <div class="meta">발행: - (KST) · 시간 정보 없음 · <a href="https://www.investors.com/news/magnificent-seven-stocks-market-drags-apple-nvidia-tesla/?src=A00220&amp;yptr=yahoo" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.investors.com/news/magnificent-seven-stocks-market-drags-apple-nvidia-tesla/?src=A00220&amp;yptr=yahoo" target="_blank">한국어 번역본(서버)</a></div>
+          <h2 class="title">마이클 버리, 스페이스X에 베팅 유혹 느끼지만 비싼 옵션은 포기</h2>
+          <p class="sum">버리는 스페이스X의 시가총액이 많은 기존 기업과 자산을 압도하는 수준에 도달했다고 주장.</p>
+          <div class="meta">발행: 2026-06-17 05:55 (KST) · 1시간 전 · <a href="https://www.cnbc.com/2026/06/16/michael-burry-says-hes-tempted-to-bet-against-spacex-but-passes-on-expensive-options.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.cnbc.com/2026/06/16/michael-burry-says-hes-tempted-to-bet-against-spacex-but-passes-on-expensive-options.html" target="_blank">한국어 번역본(서버)</a></div>
         </article>
         
         <article class="card">
           <span class="badge">Top 7</span>
-          <h2 class="title">NVR 주식, 다우 지수보다 저조한가?</h2>
-          <p class="sum"></p>
-          <div class="meta">발행: - (KST) · 시간 정보 없음 · <a href="https://finance.yahoo.com/markets/stocks/articles/nvr-stock-underperforming-dow-113846804.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://finance.yahoo.com/markets/stocks/articles/nvr-stock-underperforming-dow-113846804.html" target="_blank">한국어 번역본(서버)</a></div>
+          <h2 class="title">앤스로픽의 Fable 서비스 중단, 오픈소스 AI에 중요한 순간</h2>
+          <p class="sum">앤스로픽의 Fable 중단이 오픈소스 AI를 활성화할 수 있으나, 주목받는 모델 중 상당수는 중국산.</p>
+          <div class="meta">발행: 2026-06-17 07:34 (KST) · 11분 전 · <a href="https://www.cnbc.com/2026/06/16/anthropics-fable-shutdown-is-a-big-moment-for-open-source-ai.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.cnbc.com/2026/06/16/anthropics-fable-shutdown-is-a-big-moment-for-open-source-ai.html" target="_blank">한국어 번역본(서버)</a></div>
         </article>
         
         <article class="card">
           <span class="badge">Top 8</span>
-          <h2 class="title">카바나, 신차 판매로 확장. 미국 자동차 소매 시장 재편 가능성</h2>
-          <p class="sum">카바나는 작년부터 스텔란티스의 크라이슬러, 닷지, 지프, 램 브랜드를 주로 판매하는 신차 프랜차이즈 7개를 인수했다.</p>
-          <div class="meta">발행: 2026-06-17 00:51 (KST) · 4시간 전 · <a href="https://www.cnbc.com/2026/06/16/carvana-new-cars-dealerships.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.cnbc.com/2026/06/16/carvana-new-cars-dealerships.html" target="_blank">한국어 번역본(서버)</a></div>
+          <h2 class="title">기술적 요인, 스페이스X의 밈 주식 열기에 기름을 붓다</h2>
+          <p class="sum">옵션, 레버리지 ETF 및 지수 차익거래가 일부 벤치마크 지수 편입을 앞두고 주가를 부양하는 것으로 보임.</p>
+          <div class="meta">발행: 2026-06-17 04:33 (KST) · 3시간 전 · <a href="https://www.cnbc.com/2026/06/16/technical-factors-are-adding-fuel-to-spacexs-meme-stock-fire.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.cnbc.com/2026/06/16/technical-factors-are-adding-fuel-to-spacexs-meme-stock-fire.html" target="_blank">한국어 번역본(서버)</a></div>
         </article>
         
         <article class="card">
           <span class="badge">Top 9</span>
-          <h2 class="title">마이클 버리, 스페이스X에 베팅하고 싶지만 비싼 옵션 포기</h2>
-          <p class="sum">버리는 스페이스X의 시가총액이 많은 기존 기업과 자산을 압도하는 수준에 도달했다고 주장했다.</p>
-          <div class="meta">발행: 2026-06-17 05:19 (KST) · 28분 전 · <a href="https://www.cnbc.com/2026/06/16/michael-burry-says-hes-tempted-to-bet-against-spacex-but-passes-on-expensive-options.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.cnbc.com/2026/06/16/michael-burry-says-hes-tempted-to-bet-against-spacex-but-passes-on-expensive-options.html" target="_blank">한국어 번역본(서버)</a></div>
+          <h2 class="title">스페이스X 4% 상승, 아마존 시총 추월, 마이크로소프트에 근접</h2>
+          <p class="sum">일론 머스크 CEO는 2030년까지 회사 매출이 약 1조 달러에 도달할 수 있다고 일요일에 밝힘.</p>
+          <div class="meta">발행: 2026-06-17 07:03 (KST) · 42분 전 · <a href="https://www.cnbc.com/2026/06/16/spacex-stock-rally-market-cap.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.cnbc.com/2026/06/16/spacex-stock-rally-market-cap.html" target="_blank">한국어 번역본(서버)</a></div>
         </article>
         
         <article class="card">
           <span class="badge">Top 10</span>
-          <h2 class="title">기술적 요인, 스페이스X 밈 주식 열기에 불 붙이다</h2>
-          <p class="sum">옵션, 레버리지 ETF, 지수 차익거래가 일부 벤치마크 주가 지수 편입을 앞두고 주가를 끌어올릴 가능성이 있다.</p>
-          <div class="meta">발행: 2026-06-17 04:33 (KST) · 1시간 전 · <a href="https://www.cnbc.com/2026/06/16/technical-factors-are-adding-fuel-to-spacexs-meme-stock-fire.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.cnbc.com/2026/06/16/technical-factors-are-adding-fuel-to-spacexs-meme-stock-fire.html" target="_blank">한국어 번역본(서버)</a></div>
+          <h2 class="title">로쿠가 폭스의 미래에 어떻게 부합하는가 — 투자자들이 놓치는 거래의 핵심</h2>
+          <p class="sum">폭스는 로쿠를 220억 달러에 인수한다고 발표한 후 주가가 하락했지만, 분석가들은 여전히 좋은 거래라고 평가.</p>
+          <div class="meta">발행: 2026-06-17 07:14 (KST) · 31분 전 · <a href="https://www.cnbc.com/2026/06/16/fox-roku-stock-investors-streaming.html" target="_blank">원문 링크</a> · <a href="/translate?u=https://www.cnbc.com/2026/06/16/fox-roku-stock-investors-streaming.html" target="_blank">한국어 번역본(서버)</a></div>
         </article>
         </div>
 <p style="margin-top:16px;font-size:12px;color:#9fb0de">영문 속보 수집 → 한국어 번역 표시 (원문 링크 유지)<br/>※ 일본국채(10Y/2Y)는 Investing.com 실시간 데이터를 사용합니다.</p>
