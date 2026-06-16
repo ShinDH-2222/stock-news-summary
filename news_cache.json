@@ -2,39 +2,55 @@
   {
     "link": "https://www.marketwatch.com/story/what-have-the-u-s-and-iran-agreed-to-this-is-what-markets-are-focused-on-fefbfa08?mod=mw_rss_topstories",
     "title_en": "What have the U.S. and Iran agreed to? This is what markets are focused on.",
-    "title_ko": "미국-이란 합의 내용: 시장의 주요 관심사",
+    "title_ko": "미국과 이란, 무엇에 합의했나? 시장의 초점은 이것에 집중.",
     "summary_en": "The Trump administration and Iran have agreed on a framework for a peace deal. As everyone waits for the text of the framework to get released, here is a rundown of what the key points are for markets.",
-    "summary_ko": "트럼프 행정부와 이란이 평화 협정 기본 틀에 합의했다. 시장은 합의안 발표를 기다리며 핵심 내용을 주시하고 있다.",
+    "summary_ko": "트럼프 행정부와 이란이 평화 협정의 틀에 합의했다. 합의문 공개를 기다리는 가운데, 시장의 주요 쟁점들을 정리했다.",
     "pubDate": "Tue, 16 Jun 2026 18:16:00 GMT"
   },
   {
     "link": "https://www.cnbc.com/2026/06/16/fed-chair-warsh-expected-to-withhold-dot-from-central-banks-interest-rate-outlook.html",
     "title_en": "Fed Chair Warsh expected to withhold 'dot' from central bank's interest rate outlook",
-    "title_ko": "연준 의장 워시, 금리 전망 '점도표' 발표 보류 예상",
+    "title_ko": "연준 의장 워시, 중앙은행 금리 전망서 '점(dot)' 공개 안 할 듯",
     "summary_en": "The central bank's Federal Open Market Committee is set to release its quarterly update of where individual officials expect interest rates to head.",
-    "summary_ko": "연방공개시장위원회(FOMC)는 분기별로 개별 위원들의 금리 전망을 담은 업데이트를 발표할 예정이다.",
+    "summary_ko": "연방공개시장위원회(FOMC)는 분기별로 개별 위원들의 예상 금리 경로를 담은 전망치를 발표할 예정이다.",
     "pubDate": "Tue, 16 Jun 2026 19:12:13 GMT"
   },
   {
     "link": "https://www.cnbc.com/2026/06/16/the-new-oil-inside-the-effort-to-turn-ai-computing-power-into-a-tradeable-commodity.html",
     "title_en": "The new oil? Inside the effort to turn AI computing power into a tradeable commodity",
-    "title_ko": "새로운 석유? AI 연산 능력 거래 가능한 상품화 노력",
+    "title_ko": "새로운 석유? AI 컴퓨팅 파워를 거래 가능한 상품으로 만들려는 노력",
     "summary_en": "AI compute futures could eventually rival some of the world's largest commodity markets, Silicon Data's Carmen Li believes.",
-    "summary_ko": "실리콘 데이터의 카르멘 리는 AI 컴퓨팅 선물 시장이 세계 최대 상품 시장과 경쟁할 수 있다고 본다.",
+    "summary_ko": "실리콘 데이터의 카르멘 리는 AI 컴퓨팅 선물 시장이 결국 세계 최대 상품 시장들과 경쟁할 수 있을 것이라고 믿는다.",
     "pubDate": "Tue, 16 Jun 2026 18:42:28 GMT"
   },
   {
     "link": "https://www.cnbc.com/2026/06/16/kalshi-traders-think-anthropic-will-restore-access-to-ai-model-quickly.html",
     "title_en": "Prediction market traders speculate Anthropic will restore access quickly to AI model after Trump admin directed it to limit reach",
-    "title_ko": "예측 시장 트레이더, 트럼프 행정부 지시에도 앤스로픽 AI 모델 접근 신속 복원 예상",
+    "title_ko": "예측 시장 트레이더들, '트럼프 행정부 지시에 따른 AI 모델 접근 제한, Anthropic이 빠르게 복원할 것'으로 예상",
     "summary_en": "Traders think it's more likely than not that access is restored by July 1.",
     "summary_ko": "트레이더들은 7월 1일까지 접근이 복원될 가능성이 높다고 본다.",
     "pubDate": "Tue, 16 Jun 2026 15:44:01 GMT"
   },
   {
+    "link": "https://finance.yahoo.com/markets/stocks/articles/zimmer-biomet-stock-underperforming-p-114911067.html",
+    "title_en": "Is Zimmer Biomet Stock Underperforming the S&P 500?",
+    "title_ko": "짐머 바이오메트 주식, S&P 500 대비 저조한가?",
+    "summary_en": "",
+    "summary_ko": "",
+    "pubDate": "2026-06-15T11:49:11Z"
+  },
+  {
+    "link": "https://finance.yahoo.com/markets/stocks/articles/iron-mountain-stock-underperforming-nasdaq-121218171.html",
+    "title_en": "Is Iron Mountain Stock Underperforming the Nasdaq?",
+    "title_ko": "아이언 마운틴 주식, 나스닥 대비 저조한가?",
+    "summary_en": "",
+    "summary_ko": "",
+    "pubDate": "2026-06-15T12:12:18Z"
+  },
+  {
     "link": "https://www.investors.com/news/magnificent-seven-stocks-market-drags-apple-nvidia-tesla/?src=A00220&yptr=yahoo",
     "title_en": "MAGS To Rags? Magnificent Seven Stocks Are Market Drags",
-    "title_ko": "MAGS, 몰락하나? '매그니피센트 7' 주식 시장에 부담",
+    "title_ko": "MAGS에서 Rags로? '매그니피센트 7' 주식 시장에 부담",
     "summary_en": "",
     "summary_ko": "",
     "pubDate": "2026-06-15T11:41:09Z"
@@ -42,41 +58,25 @@
   {
     "link": "https://finance.yahoo.com/markets/stocks/articles/nvr-stock-underperforming-dow-113846804.html",
     "title_en": "Is NVR Stock Underperforming the Dow?",
-    "title_ko": "NVR 주식, 다우 지수 대비 부진한가?",
+    "title_ko": "NVR 주식, 다우 대비 저조한가?",
     "summary_en": "",
     "summary_ko": "",
     "pubDate": "2026-06-15T11:38:46Z"
   },
   {
-    "link": "https://finance.yahoo.com/markets/stocks/articles/zimmer-biomet-stock-underperforming-p-114911067.html",
-    "title_en": "Is Zimmer Biomet Stock Underperforming the S&P 500?",
-    "title_ko": "짐머 바이오메트 주식, S&P 500 대비 부진한가?",
-    "summary_en": "",
-    "summary_ko": "",
-    "pubDate": "2026-06-15T11:49:11Z"
-  },
-  {
-    "link": "https://www.barrons.com/articles/trump-iran-deal-stock-markets-ba4f1aee?siteid=yhoof2&yptr=yahoo",
-    "title_en": "Trump’s Iran Deal Is Big On Hope, Light On Detail—and the Markets Love It",
-    "title_ko": "트럼프의 이란 협상, 희망은 크지만 내용은 부족—시장은 환호",
-    "summary_en": "",
-    "summary_ko": "",
-    "pubDate": "2026-06-15T11:43:00Z"
-  },
-  {
-    "link": "https://finance.yahoo.com/markets/stocks/articles/dte-energy-stock-underperforming-nasdaq-112514099.html",
-    "title_en": "Is DTE Energy Stock Underperforming the Nasdaq?",
-    "title_ko": "DTE 에너지 주식, 나스닥 대비 부진한가?",
-    "summary_en": "",
-    "summary_ko": "",
-    "pubDate": "2026-06-15T11:25:14Z"
-  },
-  {
     "link": "https://www.cnbc.com/2026/06/16/carvana-new-cars-dealerships.html",
     "title_en": "Carvana is expanding into new vehicles. The implications could reshape the U.S. automotive retail market",
-    "title_ko": "카바나, 신차 시장 진출로 미국 자동차 소매 시장 재편 가능성",
+    "title_ko": "카바나, 신차 시장 진출 확대. 미국 자동차 소매 시장 재편 가능성",
     "summary_en": "Carvana has bought seven new vehicle franchises since last year that primarily sell Stellantis' Chrysler, Dodge, Jeep and Ram brands.",
-    "summary_ko": "카바나는 작년부터 스텔란티스의 크라이슬러, 닷지, 지프, 램 브랜드를 주로 판매하는 7개의 신차 프랜차이즈를 인수했다.",
+    "summary_ko": "카바나는 작년부터 주로 스텔란티스의 크라이슬러, 닷지, 지프, 램 브랜드를 판매하는 7개의 신차 프랜차이즈를 인수했다.",
     "pubDate": "Tue, 16 Jun 2026 15:51:53 GMT"
+  },
+  {
+    "link": "https://www.cnbc.com/2026/06/16/michael-burry-says-hes-tempted-to-bet-against-spacex-but-passes-on-expensive-options.html",
+    "title_en": "Michael Burry says he's tempted to bet against SpaceX, but passes on expensive options",
+    "title_ko": "마이클 버리, 스페이스X에 반대 베팅 유혹 느끼지만 고가 옵션은 포기",
+    "summary_en": "Burry argued the company's market capitalization had reached levels that dwarf many established businesses and fortunes.",
+    "summary_ko": "버리는 스페이스X의 시가총액이 많은 기존 기업과 부를 압도하는 수준에 도달했다고 주장했다.",
+    "pubDate": "Tue, 16 Jun 2026 20:19:49 GMT"
   }
 ]
