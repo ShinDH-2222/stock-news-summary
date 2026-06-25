@@ -2,10 +2,18 @@
   {
     "link": "https://www.cnbc.com/2026/06/25/inflation-fed-bond-etf-flows-surge-blackrock.html",
     "title_en": "Bond ETF flows surge in hunt for yield: 'Market sniffing out something here,' says BlackRock exec",
-    "title_ko": "채권 ETF, 수익률 추구하며 자금 유입 급증: 블랙록 임원 \"시장, 뭔가 감지 중\"",
+    "title_ko": "채권 ETF, 수익률 추구하며 자금 유입 급증: 블랙록 임원 \"시장이 무언가 감지\"",
     "summary_en": "Bond investors are abandoning aggregate benchmarks in favor of a broad mix of fixed-income investments to maximize yield with the stock market on edge.",
-    "summary_ko": "주식시장 불안정한 가운데, 채권 투자자들이 수익률 극대화를 위해 기존 벤치마크 대신 다양한 채권 투자로 전환하고 있다.",
+    "summary_ko": "주식 시장의 불확실성 속에서 채권 투자자들이 수익률 극대화를 위해 다양한 채권 투자로 전환하고 있다.",
     "pubDate": "Thu, 25 Jun 2026 17:29:00 GMT"
+  },
+  {
+    "link": "https://www.marketwatch.com/story/amateur-investors-are-changing-how-the-stock-market-works-thats-creating-opportunities-for-those-who-know-where-to-look-34d78484?mod=mw_rss_topstories",
+    "title_en": "Amateur investors are changing how the stock market works. That’s creating opportunities for those who know where to look.",
+    "title_ko": "개인 투자자들이 주식 시장의 작동 방식을 바꾸고 있다. 이는 기회를 아는 이들에게 새로운 기회를 창출한다.",
+    "summary_en": "The rise of the retail investor is making the market less efficient — and AI is compounding the problem, according to a quant at Goldman Sachs.",
+    "summary_ko": "골드만삭스 퀀트 전문가에 따르면, 개인 투자자 증가가 시장 비효율성을 높이고 있으며 AI가 이 문제를 심화시키고 있다.",
+    "pubDate": "Thu, 25 Jun 2026 16:59:00 GMT"
   },
   {
     "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nasdaq-ai-sell-off-spacex-fedex-cerebras-micron-earnings/?src=A00220&yptr=yahoo",
@@ -18,65 +26,57 @@
   {
     "link": "https://www.cnbc.com/2026/06/25/judge-blocks-trumps-rule-limiting-student-loans-for-grad-students-.html",
     "title_en": "Judge blocks Trump's rule limiting federal student loans for certain grad school borrowers",
-    "title_ko": "판사, 트럼프 행정부의 특정 대학원생 학자금 대출 제한 규정 차단",
+    "title_ko": "판사, 특정 대학원생 연방 학자금 대출 제한 트럼프 정책 차단",
     "summary_en": "A federal judge temporarily blocked Trump's limits on how much certain graduate students can borrow. That policy was set to go into effect July 1.",
-    "summary_ko": "연방 판사가 7월 1일 발효 예정이던 트럼프 행정부의 특정 대학원생 대출 한도 규정을 일시적으로 막았다.",
+    "summary_ko": "연방 판사가 특정 대학원생의 학자금 대출 한도를 제한하는 트럼프 행정부의 정책(7월 1일 시행 예정)을 일시적으로 중단시켰다.",
     "pubDate": "Thu, 25 Jun 2026 18:47:36 GMT"
   },
   {
     "link": "https://www.cnbc.com/2026/06/25/chevron-gas-prices-trump-big-oil.html",
     "title_en": "Chevron says no quick fix for gas prices as Trump takes on Big Oil: ‘It’s going to take time’",
-    "title_ko": "셰브론, 트럼프의 '빅 오일' 비난 속 유가 문제에 \"빠른 해결책 없어, 시간 걸릴 것\"",
+    "title_ko": "셰브론, 트럼프의 거대 정유사 압박에도 유가 문제 \"즉각 해결 어렵고 시간 걸릴 것\"",
     "summary_en": "Her comments come shortly after President Donald Trump ordered an investigation into Big Oil, accusing them of \"gouging\" consumers.",
-    "summary_ko": "도널드 트럼프 대통령이 '빅 오일'이 소비자들을 \"폭리\"했다고 비난하며 조사 명령을 내린 직후 나온 발언이다.",
+    "summary_ko": "도널드 트럼프 대통령이 거대 정유사들이 소비자들을 \"폭리 취한다\"며 조사를 명령한 직후 나온 발언이다.",
     "pubDate": "Thu, 25 Jun 2026 12:16:48 GMT"
+  },
+  {
+    "link": "https://www.marketwatch.com/story/why-palantirs-stock-is-having-its-worst-month-in-years-even-in-the-midst-of-an-ai-boom-aad92671?mod=mw_rss_topstories",
+    "title_en": "Why Palantir’s stock is having its worst month in years — even in the midst of an AI boom",
+    "title_ko": "AI 붐 속에서도 팔란티어 주식이 수년 만에 최악의 한 달을 보내는 이유",
+    "summary_en": "Down over 30% since the beginning of June, shares of Palantir just hit a new 52-week low",
+    "summary_ko": "6월 초부터 30% 이상 하락하며 팔란티어 주가는 52주 신저가를 기록했다.",
+    "pubDate": "Thu, 25 Jun 2026 20:14:00 GMT"
+  },
+  {
+    "link": "https://www.marketwatch.com/story/spacex-is-a-bad-buy-why-openai-and-anthropic-will-be-too-2448ea73?mod=mw_rss_topstories",
+    "title_en": "SpaceX stock is a terrible buy — what that actually means for the bull market",
+    "title_ko": "스페이스X 주식은 최악의 투자 — 강세장에 미치는 실제 의미는?",
+    "summary_en": "Overhyped IPOs rarely make you money in the short term. That doesn’t mean it’s time to sell your stocks..",
+    "summary_ko": "과대평가된 IPO는 단기적으로 수익을 내기 어렵지만, 그렇다고 주식을 팔 때라는 의미는 아니다.",
+    "pubDate": "Thu, 25 Jun 2026 19:06:00 GMT"
+  },
+  {
+    "link": "https://www.marketwatch.com/story/why-getting-dumped-from-the-dow-is-the-ultimate-buy-signal-for-this-stock-1d5a9342?mod=mw_rss_topstories",
+    "title_en": "Why getting dumped from the Dow is the ultimate buy signal for this — or any — stock",
+    "title_ko": "다우지수에서 제외되는 것이 특정 주식(또는 모든 주식)에 대한 궁극적인 매수 신호인 이유",
+    "summary_en": "The “Dow curse” now favors Verizon over Alphabet.",
+    "summary_ko": "'다우의 저주'는 이제 알파벳보다 버라이즌에 유리하게 작용한다.",
+    "pubDate": "Thu, 25 Jun 2026 19:03:00 GMT"
   },
   {
     "link": "https://finance.yahoo.com/markets/stocks/articles/godaddy-stock-underperforming-dow-120831808.html",
     "title_en": "Is GoDaddy Stock Underperforming the Dow?",
-    "title_ko": "고대디 주식, 다우 지수보다 실적 저조한가?",
+    "title_ko": "고대디 주식, 다우지수 대비 저조한 실적인가?",
     "summary_en": "",
     "summary_ko": "",
     "pubDate": "2026-06-24T12:08:31Z"
   },
   {
-    "link": "https://www.investors.com/etfs-and-funds/sectors/sp500-analysts-pound-the-table-for-4-rising-stocks/?src=A00220&yptr=yahoo",
-    "title_en": "Analysts Pound The Table For 4 Rising S&P 500 Stocks",
-    "title_ko": "애널리스트들, S&P 500 상승세 4개 종목 적극 추천",
-    "summary_en": "",
-    "summary_ko": "",
-    "pubDate": "2026-06-24T11:44:32Z"
-  },
-  {
     "link": "https://www.cnbc.com/2026/06/25/chicago-fed-president-goolsbee-says-inflation-is-too-high-calls-warsh-a-serious-guy.html",
     "title_en": "Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing",
-    "title_ko": "굴스비 시카고 연은 총재 \"인플레이션 너무 높아\", 윌리엄스 뉴욕 연은 총재는 \"물가 압력 완화될 것\" 전망",
+    "title_ko": "시카고 연은 총재 굴스비 \"인플레이션 너무 높아\", 윌리엄스 \"물가 압력 완화될 것\"",
     "summary_en": "In a live CNBC interview from his home district, Goolsbee declined to speculate on where he thinks interest rates are headed.",
-    "summary_ko": "굴스비 총재는 자신의 지역에서 진행된 CNBC 생방송 인터뷰에서 금리 향방에 대한 추측을 거부했다.",
+    "summary_ko": "굴스비는 자신의 지역구에서 진행된 CNBC 생방송 인터뷰에서 금리 향방에 대한 추측을 삼갔다.",
     "pubDate": "Thu, 25 Jun 2026 19:52:13 GMT"
-  },
-  {
-    "link": "https://www.cnbc.com/2026/06/25/trump-reflecting-pool-renovation-cost-congress.html",
-    "title_en": "Democrats probe Trump's troubled $16 million reflecting pool renovation",
-    "title_ko": "민주당, 트럼프의 1,600만 달러 규모 반사 연못 보수 공사 조사",
-    "summary_en": "President Donald Trump has attempted to spruce up Washington in advance of the country's 250th anniversary.",
-    "summary_ko": "도널드 트럼프 대통령은 미국의 250주년을 앞두고 워싱턴을 단장하려 했다.",
-    "pubDate": "Thu, 25 Jun 2026 19:15:32 GMT"
-  },
-  {
-    "link": "https://www.cnbc.com/2026/06/25/trump-doj-fund-lawsuit-blanche.html",
-    "title_en": "Judge says lawsuit against Trump DOJ 'anti-weaponization' fund will proceed",
-    "title_ko": "판사, 트럼프 법무부의 '무기화 방지' 기금 관련 소송 진행 결정",
-    "summary_en": "Acting Attorney General Todd Blanche originally set up the fund as part of a settlement of a lawsuit by President Donald Trump against the IRS.",
-    "summary_ko": "토드 블랑쉬 법무부 장관 대행은 원래 도널드 트럼프 대통령이 IRS를 상대로 제기한 소송 합의의 일환으로 이 기금을 설립했다.",
-    "pubDate": "Thu, 25 Jun 2026 18:05:48 GMT"
-  },
-  {
-    "link": "https://www.cnbc.com/2026/06/25/pce-inflation-report-may-2026-.html",
-    "title_en": "Core inflation rate hit 3.4% in May, highest since October 2023, Fed’s preferred gauge shows",
-    "title_ko": "5월 근원 인플레이션 3.4% 기록, 2023년 10월 이후 최고치 (연준 선호 지표)",
-    "summary_en": "The personal consumption expenditures price index was expected to show a 4.1% annual increase.",
-    "summary_ko": "개인소비지출(PCE) 물가지수는 연간 4.1% 상승할 것으로 예상되었다.",
-    "pubDate": "Thu, 25 Jun 2026 13:30:56 GMT"
   }
 ]
