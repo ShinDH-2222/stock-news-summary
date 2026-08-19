@@ -1,82 +1,82 @@
 [
   {
-    "link": "https://www.cnbc.com/2026/08/18/bond-market-treasury-yields-warsh-main-street.html",
-    "title_en": "Analysis: Bond market pressure is squeezing Main Street as Wall Street waits on Warsh",
-    "title_ko": "분석: 월가가 워시를 기다리는 동안 채권 시장 압박이 실물 경제를 옥죄다",
-    "summary_en": "A sell-off in long-term Treasurys is raising borrowing costs, exposing how debt, AI spending and energy are turning the bond market into a political problem.",
-    "summary_ko": "장기 국채 매도세가 차입 비용을 높이며 부채, AI 지출, 에너지가 채권 시장을 정치적 문제로 만들고 있음을 보여주고 있다.",
-    "pubDate": "Tue, 18 Aug 2026 16:48:00 GMT"
+    "link": "https://www.cnbc.com/2026/08/19/treasury-announces-upscaled-buyback-operation-for-longer-term-debt-sending-yields-lower.html",
+    "title_en": "Treasury doubles debt buybacks as Bessent moves to steady bond market",
+    "title_ko": "미 재무부, 베센트의 시장 안정화 행보에 국채 바이백 규모 2배 확대",
+    "summary_en": "The announcement targets the sensitive longer-duration part of the Treasury market.",
+    "summary_ko": "이번 발표는 채권 시장의 민감한 장기물 구간을 겨냥하고 있습니다.",
+    "pubDate": "Wed, 19 Aug 2026 19:49:28 GMT"
   },
   {
-    "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-indexes-mixed-105352870.html",
-    "title_en": "Markets News, Aug. 17, 2026: US Stocks Start Week Lower, Oil Prices Rise; Memory Shares Outperform",
-    "title_ko": "2026년 8월 17일 시장 뉴스: 미 증시 하락 출발, 유가 상승; 메모리주 강세",
+    "link": "https://www.marketwatch.com/story/want-to-bet-on-the-bond-rally-check-out-these-overlooked-funds-15e957a2?mod=mw_rss_topstories",
+    "title_en": "Want to bet on the bond rally? Check out these overlooked funds.",
+    "title_ko": "채권 랠리에 베팅하고 싶다면? 소외된 이 펀드들을 주목하라",
+    "summary_en": "The Treasury just sparked a bond-market rally. Here is why it may not last.",
+    "summary_ko": "재무부가 채권 시장 랠리를 촉발했으나, 이것이 지속되지 않을 수 있는 이유가 여기 있습니다.",
+    "pubDate": "Wed, 19 Aug 2026 18:04:00 GMT"
+  },
+  {
+    "link": "https://finance.yahoo.com/energy/articles/oil-prices-climb-bond-yields-011655842.html",
+    "title_en": "Bonds, stocks jolted as Middle East tensions shatter market calm",
+    "title_ko": "중동 긴장이 시장의 평온을 깨뜨리며 채권과 주식 요동",
     "summary_en": "",
     "summary_ko": "",
-    "pubDate": "2026-08-17T10:53:52Z"
+    "pubDate": "2026-08-18T10:55:09Z"
   },
   {
-    "link": "https://www.cnbc.com/2026/08/18/mortgage-rates-treasury-bond-yields-consumer-loans.html",
-    "title_en": "Bond yields are climbing. Here’s what that means for mortgages and other consumer borrowing",
-    "title_ko": "채권 수익률 상승, 주택담보대출 및 소비자 대출에 미치는 영향",
-    "summary_en": "Long-term government bond yields have risen sharply in recent days. Higher bond yields push consumer borrowing costs up, sometimes immediately.",
-    "summary_ko": "최근 장기 국채 수익률이 급등했다. 채권 수익률 상승은 때로 즉각적으로 소비자 차입 비용을 끌어올린다.",
-    "pubDate": "Tue, 18 Aug 2026 16:58:29 GMT"
-  },
-  {
-    "link": "https://www.cnbc.com/2026/08/18/us-government-debt-yields-are-surging-at-a-bad-time-heres-whats-behind-the-move.html",
-    "title_en": "U.S. government debt yields are surging at a bad time. Here's what's behind the move",
-    "title_ko": "미 국채 수익률 악재 속 급등, 그 이면의 원인은",
-    "summary_en": "Fixed income market watchers ascribe a run that began in June to a number of variables.",
-    "summary_ko": "채권 시장 전문가들은 6월부터 시작된 랠리의 원인을 다양한 변수에서 찾고 있다.",
-    "pubDate": "Tue, 18 Aug 2026 18:54:58 GMT"
-  },
-  {
-    "link": "https://www.cnbc.com/2026/08/18/treasury-yields-.html",
-    "title_en": "30-year Treasury yield tops 5.33%, new 19-year high on inflation, spending concerns",
-    "title_ko": "30년물 국채 수익률 5.33% 돌파, 인플레이션 및 지출 우려에 19년 만의 최고치",
-    "summary_en": "Long-dated fixed income hit their highest level in almost two decades amid a worsening U.S. fiscal situation and persistently higher inflation.",
-    "summary_ko": "미국의 재정 상황 악화와 지속적인 고물가 속에 장기 채권 금리가 거의 20년 만에 최고 수준을 기록했다.",
-    "pubDate": "Tue, 18 Aug 2026 18:22:23 GMT"
-  },
-  {
-    "link": "https://www.cnbc.com/2026/08/18/contrarian-vs-the-crowd-one-trader-made-a-massive-bet-against-chip-stocks.html",
-    "title_en": "Contrarian vs. the crowd: One trader made a massive bet against chip stocks",
-    "title_ko": "역발상 vs 대중: 한 트레이더의 반도체주 하락에 대한 거액 베팅",
-    "summary_en": "The biggest single options trade in the entire market Monday was a $129 million bet against the VanEck Semiconductor ETF.",
-    "summary_ko": "월요일 시장에서 가장 큰 단일 옵션 거래는 VanEck 반도체 ETF의 하락에 건 1억 2,900만 달러 규모의 베팅이었다.",
-    "pubDate": "Tue, 18 Aug 2026 13:13:13 GMT"
-  },
-  {
-    "link": "https://www.marketwatch.com/story/mortgage-rates-could-move-even-higher-dealing-a-fresh-blow-to-home-buyers-ad8d0f3d?mod=mw_rss_topstories",
-    "title_en": "Mortgage rates could move even higher — dealing a fresh blow to home buyers",
-    "title_ko": "모기지 금리 추가 상승 가능성 — 주택 구매자들에게 또 다른 타격",
-    "summary_en": "Mortgage rates rose slightly due to a deepening bond-market selloff.",
-    "summary_ko": "채권 시장의 매도세 심화로 인해 모기지 금리가 소폭 상승했다.",
-    "pubDate": "Tue, 18 Aug 2026 19:17:00 GMT"
-  },
-  {
-    "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-set-open-higher-tech-103548577.html",
-    "title_en": "Stocks Set to Open Higher on Tech Boost, Fed Minutes and Retail Earnings Awaited",
-    "title_ko": "기술주 반등에 증시 상승 출발 전망, 연준 의사록 및 소매 실적 대기",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-plunge-rising-bond-104454089.html",
+    "title_en": "Nasdaq Futures Plunge as Rising Bond Yields Drive Chip Selloff",
+    "title_ko": "채권 수익률 상승에 따른 반도체주 매도세로 나스닥 선물 급락",
     "summary_en": "",
     "summary_ko": "",
-    "pubDate": "2026-08-17T10:35:48Z"
+    "pubDate": "2026-08-18T10:44:54Z"
   },
   {
-    "link": "https://www.cnbc.com/2026/08/18/us-iran-war-trump-hormuz-trump-ceasefire-expires-extension-.html",
-    "title_en": "Trump says no talks scheduled with Iran as he teases action in Hormuz Strait",
-    "title_ko": "트럼프, 호르무즈 해협 조치 시사하며 이란과 회담 계획 없다고 밝혀",
-    "summary_en": "Trump insists the U.S., not Iran, is in control of the strait, even though transiting vessels continue to come under attack and few attempt the crossing.",
-    "summary_ko": "선박들에 대한 공격이 계속되고 통과 시도가 줄어들고 있음에도 불구하고, 트럼프는 이란이 아닌 미국이 해협을 통제하고 있다고 주장한다.",
-    "pubDate": "Tue, 18 Aug 2026 18:28:37 GMT"
+    "link": "https://www.cnbc.com/2026/08/19/treasury-yields-multi-decade-highs-bonds-inflation.html",
+    "title_en": "Yields pull back from multi-year highs after Treasury Department says it will double government debt repurchase size",
+    "title_ko": "재무부의 국채 매입 규모 2배 확대 발표 후 수익률 수년 만의 최고치에서 하락",
+    "summary_en": "Longer-term U.S. Treasury yields pulled back on Wednesday after the Treasury Department announced an upscaled buyback operation of the nation's debt.",
+    "summary_ko": "재무부가 국채 바이백 규모 확대를 발표한 후 수요일 미국의 장기 국채 수익률이 하락했습니다.",
+    "pubDate": "Wed, 19 Aug 2026 20:03:44 GMT"
   },
   {
-    "link": "https://www.cnbc.com/2026/08/18/trump-carney-canada-tariffs-dealine-talks.html",
-    "title_en": "Trump, Carney reportedly in talks ahead of new 50% tariffs on Canadian goods",
-    "title_ko": "트럼프-카니, 캐나다산 제품에 대한 50% 신규 관세 부과 앞두고 논의 중",
-    "summary_en": "Trump has already imposed a variety of tariffs on Canada and its specific exports, including metals, lumber and auto parts.",
-    "summary_ko": "트럼프는 이미 금속, 목재, 자동차 부품 등 캐나다의 다양한 수출품에 대해 여러 관세를 부과한 상태다.",
-    "pubDate": "Tue, 18 Aug 2026 18:05:05 GMT"
+    "link": "https://www.cnbc.com/2026/08/19/deoleo-takeover-battle-olive-oil-dcoop.html",
+    "title_en": "World’s largest olive oil company surges over 20% as rivals circle in takeover battle",
+    "title_ko": "세계 최대 올리브유 기업, 인수전 가열에 20% 이상 급등",
+    "summary_en": "Shares of Spain's Deoleo jumped on Wednesday morning amid an intensifying takeover battle for the world's largest olive oil bottler and marketer.",
+    "summary_ko": "세계 최대 올리브유 업체인 스페인 데올레오의 주가가 인수 경쟁 심화 속에 수요일 오전 급등했습니다.",
+    "pubDate": "Wed, 19 Aug 2026 12:23:39 GMT"
+  },
+  {
+    "link": "https://www.marketwatch.com/story/modernas-cancer-vaccine-breakthrough-drives-broad-biopharma-stock-rally-ff2816aa?mod=mw_rss_topstories",
+    "title_en": "Moderna’s cancer-vaccine breakthrough drives broad biopharma stock rally",
+    "title_ko": "모더나의 암 백신 성과가 바이오 제약주의 전반적인 랠리 주도",
+    "summary_en": "The biopharmaceutical sector has struggled with a prolonged downturn in recent years but has been on an upswing of late.",
+    "summary_ko": "바이오 제약 분야는 최근 몇 년간 장기 침체를 겪었으나 최근 상승세를 타고 있습니다.",
+    "pubDate": "Wed, 19 Aug 2026 19:38:00 GMT"
+  },
+  {
+    "link": "https://www.cnbc.com/2026/08/19/trump-canada-tariffs-deal-carney.html",
+    "title_en": "Trump touted a deal to avert new tariffs on Canada. Here's what we know so far",
+    "title_ko": "트럼프, 캐나다 신규 관세 회피 합의 홍보... 현재까지 알려진 내용",
+    "summary_en": "Trump's new tariffs on about $20 billion worth of Canadian goods were set to take effect Wednesday, but were postponed by three days.",
+    "summary_ko": "수요일 발효 예정이었던 약 200억 달러 규모의 캐나다산 제품에 대한 트럼프의 신규 관세가 3일 연기되었습니다.",
+    "pubDate": "Wed, 19 Aug 2026 16:40:21 GMT"
+  },
+  {
+    "link": "https://www.cnbc.com/2026/08/19/moderna-merck-cancer-vaccine-shows-initial-late-stage-melanoma-data.html",
+    "title_en": "Moderna, Merck cancer vaccine shows promise in late-stage trial; Moderna stock soars 177%",
+    "title_ko": "모더나·머크 암 백신 후기 임상서 가능성 확인... 모더나 주가 177% 폭등",
+    "summary_en": "The combination regimen significantly extended the time patients lived without their melanoma returning, compared with Keytruda alone.",
+    "summary_ko": "병용 요법은 키트루다 단독 요법에 비해 환자의 흑색종 재발 없는 생존 기간을 유의미하게 연장했습니다.",
+    "pubDate": "Wed, 19 Aug 2026 20:07:55 GMT"
+  },
+  {
+    "link": "https://www.cnbc.com/2026/08/19/fed-minutes-july-2026-officials-saw-need-for-rate-hike-if-inflation-doesnt-cool.html",
+    "title_en": "Fed officials saw need for rate hike if inflation doesn't cool, minutes show",
+    "title_ko": "연준 의사록 \"인플레이션 둔화 안 되면 금리 인상 필요성 있어\"",
+    "summary_en": "The Federal Reserve on Wednesday released minutes from its July 28-29 policy meeting.",
+    "summary_ko": "연방준비제도는 수요일 7월 28~29일 정책 회의 의사록을 공개했습니다.",
+    "pubDate": "Wed, 19 Aug 2026 18:54:50 GMT"
   }
 ]
