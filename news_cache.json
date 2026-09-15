@@ -1,82 +1,82 @@
 [
   {
     "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-14-133832281.html",
-    "title_en": "Stock Market Today (Sept. 14, 2026): Nasdaq, S&P 500 falls on rising AI and war tensions",
-    "title_ko": "오늘의 증시 (2026년 9월 14일): AI 및 전쟁 긴장감 고조로 나스닥·S&P 500 하락",
+    "title_en": "Stock Market Today (Sept. 14, 2026): Nasdaq, S&P 500 falls as 10Y Treasury yield hits highest since 2023ising oil, AI tensions",
+    "title_ko": "2026년 9월 14일 증시: 나스닥, S&P 500 하락, 10년물 국채 수익률 2023년 이후 최고치 기록, 유가 상승 및 AI 긴장 고조",
     "summary_en": "",
     "summary_ko": "",
     "pubDate": "2026-09-14T13:38:32Z"
   },
   {
-    "link": "https://www.cnbc.com/2026/09/14/the-stock-market-could-do-something-strange-this-week-after-the-fed-decision.html",
-    "title_en": "The stock market could do something strange this week after the Fed decision",
-    "title_ko": "연준 금리 결정 이후 이번 주 증시의 이례적 행보 가능성",
-    "summary_en": "Odds of more interest rate hikes coming this year have grown.",
-    "summary_ko": "연내 추가 금리 인상 가능성 확대",
-    "pubDate": "Mon, 14 Sep 2026 19:49:23 GMT"
+    "link": "https://www.cnbc.com/2026/09/15/bonds-yield-10year-treasury-rates.html",
+    "title_en": "Beaten-up bond market may be nearing 'escape velocity.' Here's what that means",
+    "title_ko": "침체된 채권 시장 '탈출 속도' 근접 가능성... 그 의미는?",
+    "summary_en": "Rising yields across the bond market have spooked investors, but the surge from zero interest rates since Covid suggests fixed-income risk-reward has improved.",
+    "summary_ko": "채권 시장 전반의 수익률 상승이 투자자들을 불안하게 했으나, 팬데믹 이후 제로 금리에서의 급등은 고정 수입 자산의 위험 대비 보상이 개선되었음을 시사한다.",
+    "pubDate": "Tue, 15 Sep 2026 16:53:56 GMT"
   },
   {
-    "link": "https://www.cnbc.com/2026/09/14/which-matters-more-to-stocks-the-bond-market-or-ai-risks-the-volatility-gauge-might-offer-an-answer.html",
-    "title_en": "Which matters more to stocks: the bond market or AI risks? The volatility gauge might offer an answer",
-    "title_ko": "증시에 더 중요한 요소: 채권 시장 vs AI 리스크? 변동성 지수가 답할 것",
-    "summary_en": "Volatility measured by the Cboe VIX Index jumped to 18 Monday.",
-    "summary_ko": "Cboe VIX 지수로 측정된 변동성이 월요일 18로 급등",
-    "pubDate": "Mon, 14 Sep 2026 18:01:37 GMT"
+    "link": "https://www.cnbc.com/2026/09/15/treasury-yields-stocks-investors.html",
+    "title_en": "Treasury yields are hovering above a critical threshold. Here's what it means for stocks",
+    "title_ko": "국채 수익률 임계치 상회, 주식 시장에 미치는 영향은?",
+    "summary_en": "Stocks sold off on Tuesday as the yield on the 10-year Treasury broke above 5%.",
+    "summary_ko": "화요일 10년물 국채 수익률이 5%를 돌파하면서 주식 매도세가 나타났다.",
+    "pubDate": "Tue, 15 Sep 2026 11:19:51 GMT"
   },
   {
-    "link": "https://www.cnbc.com/2026/09/13/oil-price-iran-war-strait-hormuz-saudi-pipeline.html",
-    "title_en": "Oil prices rise after Saudi Arabia shuts down critical pipeline that bypasses Strait of Hormuz",
-    "title_ko": "사우디, 호르무즈 해협 우회 주요 송유관 폐쇄로 유가 상승",
-    "summary_en": "Saudi Arabia has faced escalating attacks from Iran-allied militant groups in recent days.",
-    "summary_ko": "사우디아라비아, 최근 이란 연계 무장단체의 공격 강화에 직면",
-    "pubDate": "Mon, 14 Sep 2026 18:55:38 GMT"
-  },
-  {
-    "link": "https://www.cnbc.com/2026/09/14/as-the-oil-surge-continues-trader-mike-khouw-sees-more-upside-in-this-surging-name.html",
-    "title_en": "As the oil surge continues, trader Mike Khouw sees more upside in this surging name",
-    "title_ko": "유가 급등세 지속 속 트레이더 마이크 코우, 특정 급등주 추가 상승 전망",
-    "summary_en": "Michael Khouw breaks down how he's trading this energy name.",
-    "summary_ko": "마이크 코우가 분석하는 해당 에너지주 매매 전략",
-    "pubDate": "Mon, 14 Sep 2026 17:16:23 GMT"
-  },
-  {
-    "link": "https://www.cnbc.com/2026/09/14/clarity-act-senate-vote-crypto-regulation.html",
-    "title_en": "Trump agrees to ethics requirements in crypto Clarity Act as GOP seeks Democratic votes",
-    "title_ko": "공화당의 민주당 표 포섭 속 트럼프, 가상자산 명확성법의 윤리 규정 합의",
-    "summary_en": "Community banks fear customers will withdraw deposits to buy stablecoin crypto assets that could pay higher yields.",
-    "summary_ko": "지역 은행들, 고수익 스테이블코인 매수를 위한 고객 예금 인출 우려",
-    "pubDate": "Mon, 14 Sep 2026 18:56:26 GMT"
-  },
-  {
-    "link": "https://www.cnbc.com/2026/09/14/anthropic-walks-tightrope-to-nasdaq-pushing-slowdown-and-pursuing-ipo.html",
-    "title_en": "What Amodei's AI slowdown could mean for Anthropic's imminent IPO",
-    "title_ko": "아모데이의 AI 속도 조절론이 앤스로픽의 임박한 IPO에 미칠 영향",
-    "summary_en": "As Anthropic meets with prospective investors ahead of its potentially historic market debut, CEO Dario Amodei is pushing for a slowdown in AI.",
-    "summary_ko": "역대급 상장을 앞두고 투자자들을 만나는 가운데, 다리오 아모데이 CEO는 AI 개발 속도 조절 주장",
-    "pubDate": "Mon, 14 Sep 2026 18:54:51 GMT"
-  },
-  {
-    "link": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html",
-    "title_en": "AI infrastructure stocks slump, cyber shares soar on calls for AI slowdown",
-    "title_ko": "AI 속도 조절론에 AI 인프라주 급락 및 사이버 보안주 급등",
-    "summary_en": "Anthropic CEO Dario Amodei said the industry \"must slow the pace at which we improve the capabilities of AI models,\" amid growing concerns over risks from AI.",
-    "summary_ko": "다리오 아모데이 앤스로픽 CEO, AI 리스크 우려 속에 \"AI 모델 기능 향상 속도를 늦춰야 한다\"고 발언",
-    "pubDate": "Mon, 14 Sep 2026 19:16:31 GMT"
-  },
-  {
-    "link": "https://finance.yahoo.com/markets/stocks/articles/wall-streets-biggest-bubble-may-105601274.html",
-    "title_en": "Wall Street's Biggest Bubble May Be Bursting Before Our Eyes, and the Consequences for the Stock Market Are Nothing Short of Disastrous",
-    "title_ko": "월가 최대 거품 붕괴 징후 포착, 증시에 재앙적 결과 초래 가능성",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-plunge-chipmakers-sink-103222035.html",
+    "title_en": "Nasdaq Futures Plunge as Chipmakers Sink on AI Slowdown Concerns, Fed Meeting Awaited",
+    "title_ko": "나스닥 선물 급락, AI 성장 둔화 우려에 반도체주 하락 및 연준 회의 대기",
     "summary_en": "",
     "summary_ko": "",
-    "pubDate": "2026-09-13T10:56:01Z"
+    "pubDate": "2026-09-14T10:32:22Z"
   },
   {
-    "link": "https://www.cnbc.com/2026/09/14/counting-the-votes-warsh-faces-tough-battle-as-fed-girds-for-expected-rate-hike.html",
-    "title_en": "Counting the votes: Warsh faces a tough battle as the Fed girds for expected interest rate hike",
-    "title_ko": "표 계산: 금리 인상 앞둔 연준, 워시의 힘겨운 싸움 예상",
-    "summary_en": "Traders were pricing in a better than 92% probability of a rate increase, as well as a more than 75% chance for another one in December.",
-    "summary_ko": "트레이더들, 금리 인상 가능성 92% 이상 및 12월 추가 인상 가능성 75% 이상 반영",
-    "pubDate": "Mon, 14 Sep 2026 19:47:42 GMT"
+    "link": "https://www.cnbc.com/2026/09/15/trump-opposition-to-ai-rules-undercuts-industrys-calls-for-a-slowdown.html",
+    "title_en": "Trump’s opposition to AI rules undercuts industry's calls for a slowdown",
+    "title_ko": "트럼프의 AI 규제 반대, 업계의 개발 속도 조절 요구 약화",
+    "summary_en": "Anthropic and OpenAI have called for mandatory safety checks to be put in place as fears intensify that AI can soon be too powerful to control.",
+    "summary_ko": "앤스로픽과 오픈AI는 AI가 통제 불가능할 정도로 강력해질 수 있다는 우려 속에 의무적인 안전 점검 도입을 촉구해 왔다.",
+    "pubDate": "Tue, 15 Sep 2026 17:38:35 GMT"
+  },
+  {
+    "link": "https://www.cnbc.com/2026/09/15/cnbc-fed-survey-two-rate-hikes-seen-ahead.html",
+    "title_en": "No one and done: The Fed will hike at least two times over the next year, according to CNBC survey",
+    "title_ko": "금리 인상 단발성 아냐: CNBC 설문, 연준 내년 최소 두 차례 금리 인상 전망",
+    "summary_en": "While higher oil is cited as a main reason for the change in view, roughly three-quarters of respondents see the inflation problem as broader than just energy prices.",
+    "summary_ko": "유가 상승이 전망 변화의 주요 원인으로 꼽히지만, 응답자의 약 4분의 3은 인플레이션 문제가 에너지 가격을 넘어 광범위하게 퍼져 있다고 보고 있다.",
+    "pubDate": "Tue, 15 Sep 2026 14:02:53 GMT"
+  },
+  {
+    "link": "https://finance.yahoo.com/markets/stocks/articles/rockwell-automation-stock-outperforming-p-112055592.html",
+    "title_en": "Is Rockwell Automation Stock Outperforming the S&P 500?",
+    "title_ko": "로크웰 오토메이션 주가, S&P 500 수익률 상회하고 있나?",
+    "summary_en": "",
+    "summary_ko": "",
+    "pubDate": "2026-09-14T11:20:55Z"
+  },
+  {
+    "link": "https://finance.yahoo.com/energy/articles/europe-gas-prices-jump-6-113000754.html",
+    "title_en": "Europe Gas Prices Jump 6% as Saudi Pipeline Shutdown Rattles Markets",
+    "title_ko": "유럽 가스 가격 6% 급등, 사우디 파이프라인 가동 중단에 시장 동요",
+    "summary_en": "",
+    "summary_ko": "",
+    "pubDate": "2026-09-14T11:30:00Z"
+  },
+  {
+    "link": "https://www.cnbc.com/2026/09/15/trump-kennedy-center-name-ruling.html",
+    "title_en": "Trump says Kennedy Center will stay closed without renovation unless his name is added back",
+    "title_ko": "트럼프, 자신의 이름 복구 전까지 케네디 센터 개보수 및 개장 거부",
+    "summary_en": "The ruling comes four months after the same judge ordered that the Kennedy Center could not be renamed to include President Trump's name.",
+    "summary_ko": "이번 결정은 동일한 판사가 케네디 센터 명칭에 트럼프 대통령의 이름을 포함할 수 없다고 판결한 지 4개월 만에 나왔다.",
+    "pubDate": "Tue, 15 Sep 2026 19:45:11 GMT"
+  },
+  {
+    "link": "https://www.cnbc.com/2026/09/15/senate-cloture-vote-on-clarity-act-fails-dealing-regulatory-setback-to-crypto-industry.html",
+    "title_en": "Senate cloture vote on Clarity Act fails, dealing regulatory blow to crypto industry",
+    "title_ko": "상원 클래리티 법안 토론 종결 부결, 가상자산 규제 체계 구축에 타격",
+    "summary_en": "The Senate on Tuesday voted to block the Clarity Act from advancing, dealing a blow to the crypto industry's push for a comprehensive market framework.",
+    "summary_ko": "상원은 화요일 클래리티 법안의 진행을 저지하기로 투표했으며, 이는 포괄적 시장 체계를 구축하려던 가상자산 업계에 타격을 주었다.",
+    "pubDate": "Tue, 15 Sep 2026 19:24:24 GMT"
   }
 ]
