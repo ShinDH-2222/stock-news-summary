@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Antigravity IDE v2.5.5 — Windows 다운로드</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+           max-width: 720px; margin: 0 auto; padding: 24px; line-height: 1.6; }
+    h1 { font-size: 1.4rem; }
+    .card { border: 1px solid #ccc; border-radius: 10px; padding: 16px; margin: 16px 0; }
+    a.dl { display: block; padding: 12px 16px; margin: 8px 0; background: #1a73e8; color: #fff;
+           text-decoration: none; border-radius: 8px; font-weight: 600; }
+    a.dl:hover { background: #1765cc; }
+    code, pre { background: #f0f0f0; border-radius: 6px; padding: 2px 6px; }
+    pre { padding: 12px; overflow-x: auto; }
+    .small { font-size: 0.85rem; color: #666; }
+    .warn { background: #fff3cd; border: 1px solid #e0c200; border-radius: 8px; padding: 12px; }
+  </style>
+</head>
+<body>
+  <h1>🚀 Google Antigravity IDE — v2.5.5 (Windows)</h1>
+  <p class="small">Windows 10/11 · x64 (64-bit) · 공식 출처: antigravity.google/download</p>
+
+  <div class="warn">
+    ⚠️ 파일 1개가 약 217MB라 GitHub Pages(파일당 100MB 제한)에 직접 올릴 수 없어서
+    <strong>3개로 분할</strong>했습니다. 아래 3개 파일을 <strong>전부</strong> 받은 뒤 하나로 합치세요.
+  </div>
+
+  <h2>1️⃣ 파일 다운로드 (3개 전부)</h2>
+  <a class="dl" href="Antigravity_IDE_2.5.5_Windows_x64.partaa" download>part 1 (76.0 MB)</a>
+  <a class="dl" href="Antigravity_IDE_2.5.5_Windows_x64.partab" download>part 2 (76.0 MB)</a>
+  <a class="dl" href="Antigravity_IDE_2.5.5_Windows_x64.partac" download>part 3 (75.7 MB)</a>
+
+  <h2>2️⃣ 하나로 합치기 (Windows)</h2>
+  <p>3개 파일을 같은 폴더에 둔 뒤, <strong>CMD</strong> 또는 <strong>PowerShell</strong>에서 실행하세요.</p>
+
+  <h3>CMD (명령 프롬프트)</h3>
+  <pre>copy /b Antigravity_IDE_2.5.5_Windows_x64.partaa + Antigravity_IDE_2.5.5_Windows_x64.partab + Antigravity_IDE_2.5.5_Windows_x64.partac "Antigravity IDE.exe"</pre>
+
+  <h3>PowerShell</h3>
+  <pre>cmd /c copy /b Antigravity_IDE_2.5.5_Windows_x64.partaa + Antigravity_IDE_2.5.5_Windows_x64.partab + Antigravity_IDE_2.5.5_Windows_x64.partac "Antigravity IDE.exe"</pre>
+
+  <p>그러면 <code>Antigravity IDE.exe</code> 파일이 만들어집니다. 더블클릭해서 설치하세요.</p>
+
+  <h2>3️⃣ 검증 (선택)</h2>
+  <p class="small">합친 파일의 SHA-256이 아래와 일치하면 정상입니다.</p>
+  <pre>a8c25631fd5e43bf217a6cf510ca796441817f4ad9c50b1d892282c7366edc4a</pre>
+  <p class="small">Windows: <code>certutil -hashfile "Antigravity IDE.exe" SHA256</code></p>
+
+  <p class="small">임시 호스팅용 페이지입니다. 다운로드 후 삭제 예정.</p>
+</body>
+</html>
