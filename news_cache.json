@@ -1,82 +1,82 @@
 [
   {
+    "link": "https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html",
+    "title_en": "Everything changed for the oil, AI and bond trades over the past month",
+    "title_ko": "지난 한 달간 석유, AI, 채권 거래의 모든 것이 변했다",
+    "summary_en": "The market expects oil to keep rising, but treasury yields have declined, a warning traders and investors may be more worried about an AI crash than inflation.",
+    "summary_ko": "시장은 유가 상승을 전망하나 국채 수익률은 하락했으며, 이는 투자자들이 인플레이션보다 AI 폭락을 더 우려할 수 있다는 경고 신호다.",
+    "pubDate": "Sun, 01 Nov 2026 15:58:24 GMT"
+  },
+  {
+    "link": "https://www.cnbc.com/2026/11/01/election-municipal-bonds.html",
+    "title_en": "The midterm election could reshape the muni bond market. Here’s what investors need to know",
+    "title_ko": "중간선거가 지방채 시장을 재편할 수 있다: 투자자 유의 사항",
+    "summary_en": "The 2026 election could affect municipal bonds through state tax measures, new bond supply and the makeup of Congress.",
+    "summary_ko": "2026년 선거는 주 세금 조치, 신규 채권 공급 및 의회 구성을 통해 지방채 시장에 영향을 미칠 수 있다.",
+    "pubDate": "Sun, 01 Nov 2026 12:30:48 GMT"
+  },
+  {
     "link": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html",
     "title_en": "Anthropic's path to the Nasdaq just got a lot bumpier",
-    "title_ko": "앤스로픽의 나스닥 상장 여정, 더 험난해졌다",
+    "title_ko": "앤스로픽의 나스닥 상장 경로가 훨씬 험난해졌다",
     "summary_en": "Concerning projections from hyperscalers this week punished tech stocks and pushed the Nasdaq to its first three-week losing streak since March.",
-    "summary_ko": "이번 주 하이퍼스케일러들의 우려 섞인 전망이 기술주에 타격을 주며, 나스닥은 3월 이후 처음으로 3주 연속 하락세를 기록했습니다.",
+    "summary_ko": "이번 주 하이퍼스케일러들의 우려 섞인 전망이 기술주에 타격을 주며 나스닥은 3월 이후 처음으로 3주 연속 하락세를 기록했다.",
     "pubDate": "Sat, 31 Oct 2026 11:00:01 GMT"
   },
   {
-    "link": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
-    "title_en": "Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
-    "title_ko": "빅오일의 이익을 지적한 트럼프, 그 이후 정제 마진 급등 현황",
-    "summary_en": "Trump criticized Big Oil for making “too much money,” but oil majors have since reported surging refining earnings as fuel supplies tightened.",
-    "summary_ko": "트럼프는 거대 석유 기업들이 \"너무 많은 돈\"을 번다고 비판했지만, 연료 공급 부족으로 인해 주요 석유사들의 정제 이익은 오히려 급증했습니다.",
-    "pubDate": "Sat, 31 Oct 2026 06:00:02 GMT"
-  },
-  {
-    "link": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
-    "title_en": "Meta outlook revised downward by S&P on cash flow and capex concerns",
-    "title_ko": "S&P, 현금 흐름 및 설비 투자 우려로 메타 전망 하향 조정",
-    "summary_en": "Meta has been given a negative outlook by S&P Global Ratings due to the company's hefty capital expenditures and concerns about free cash flow.",
-    "summary_ko": "S&P 글로벌 레이팅스는 메타의 막대한 자본 지출과 잉여 현금 흐름에 대한 우려를 이유로 부정적인 전망을 내놓았습니다.",
-    "pubDate": "Fri, 30 Oct 2026 22:42:26 GMT"
+    "link": "https://www.cnbc.com/investingclub/2026/11/01/3-big-things-were-watching-in-the-stock-market-this-week.html",
+    "title_en": "Here are 3 big things we're watching in the stock market in the week ahead",
+    "title_ko": "다음 주 주식 시장에서 주목해야 할 3가지 주요 요소",
+    "summary_en": "The market could use a few victories in the days ahead, which will be filled with more earnings, an election, and jobs data.",
+    "summary_ko": "실적 발표, 선거, 고용 지표가 예정된 가운데 시장은 반등의 기회가 필요한 상황이다.",
+    "pubDate": "Sun, 01 Nov 2026 18:12:05 GMT"
   },
   {
     "link": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html",
     "title_en": "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
-    "title_ko": "미 재무부, 향후 6개월간 적용될 시리즈 I 채권 금리 5.51% 발표",
+    "title_ko": "재무부, 향후 6개월간 적용될 시리즈 I 채권 금리 5.51% 발표",
     "summary_en": "The U.S. Department of the Treasury has announced new Series I bond rates through April 2027.",
-    "summary_ko": "미국 재무부는 2027년 4월까지 적용되는 새로운 시리즈 I 채권 금리를 발표했습니다.",
+    "summary_ko": "미 재무부는 2027년 4월까지 적용되는 새로운 시리즈 I 채권 금리를 발표했다.",
     "pubDate": "Fri, 30 Oct 2026 17:15:53 GMT"
   },
   {
-    "link": "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html",
-    "title_en": "Trump promised to slash energy costs  — but gasoline, diesel and jet fuel all soared instead",
-    "title_ko": "에너지 비용 절감 약속한 트럼프, 실제로는 가솔린·디젤·항공유 모두 급등",
-    "summary_en": "President Donald Trump promised voters who were angry about inflation that he would slash gasoline prices below $2 a gallon in his first year in office.",
-    "summary_ko": "도널드 트럼프 대통령은 인플레이션에 분노한 유권자들에게 취임 첫해에 가솔린 가격을 갤런당 2달러 미만으로 낮추겠다고 약속한 바 있습니다.",
-    "pubDate": "Sat, 31 Oct 2026 12:49:58 GMT"
+    "link": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
+    "title_en": "This is the biggest threat to the AI-powered bull market",
+    "title_ko": "AI 주도 강세장의 가장 큰 위협 요소",
+    "summary_en": "Blockbuster earnings growth has helped to power the stock market higher in 2026. In 2027, that engine might stall.",
+    "summary_ko": "2026년의 폭발적인 수익 성장이 증시를 끌어올렸으나, 2027년에는 그 동력이 약해질 수 있다.",
+    "pubDate": "Sun, 01 Nov 2026 14:00:00 GMT"
   },
   {
-    "link": "https://www.cnbc.com/2026/10/30/gamble-on-democracy-inside-suspicious-election-contracts-trading-on-prediction-markets-.html",
-    "title_en": "Gamble on democracy: Inside suspicious election-contracts trading on prediction markets",
-    "title_ko": "민주주의를 건 도박: 예측 시장 내 의심스러운 선거 계약 거래 실태",
-    "summary_en": "CNBC examines unusual price spikes in election prediction markets and how low-volume contracts can be moved by relatively small trades.",
-    "summary_ko": "CNBC는 선거 예측 시장의 비정상적인 가격 급등과 거래량이 적은 계약이 소규모 거래에 의해 어떻게 변동되는지 조사했습니다.",
-    "pubDate": "Fri, 30 Oct 2026 22:00:53 GMT"
+    "link": "https://www.cnbc.com/2026/10/31/trump-murdoch-wsj-epstein-defamation-lawsuit-dismissed.html",
+    "title_en": "Trump defamation suit against Murdoch, WSJ over Epstein letter dismissed with prejudice",
+    "title_ko": "트럼프가 머독과 WSJ를 상대로 제기한 엡스틴 관련 명예훼손 소송 기각",
+    "summary_en": "President Donald Trump denied writing a birthday letter to sex offender Jeffrey Epstein, which was the subject of a 2025 Wall Street Journal article.",
+    "summary_ko": "도널드 트럼프 전 대통령은 2025년 월스트리트저널 기사의 소재였던 제프리 엡스틴에게 보낸 생일 편지 작성을 부인했다.",
+    "pubDate": "Sat, 31 Oct 2026 23:56:40 GMT"
   },
   {
-    "link": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
-    "title_en": "Stocks started the week with promise but ended in despair. Our take on the big reversal",
-    "title_ko": "기대로 시작해 절망으로 끝난 이번 주 증시, 대반전에 대한 분석",
-    "summary_en": "Big Tech earnings reignited AI spending fears, sending investors into defensive stocks.",
-    "summary_ko": "빅테크 실적 발표가 AI 지출에 대한 우려를 재점화하며 투자자들을 방어주로 이끌었습니다.",
-    "pubDate": "Sat, 31 Oct 2026 15:37:11 GMT"
+    "link": "https://www.cnbc.com/2026/11/01/top-analysts-are-bullish-on-these-3-stocks-for-the-long-haul.html",
+    "title_en": "Top Wall Street analysts are bullish on these 3 stocks for the long haul",
+    "title_ko": "월가 최고 분석가들이 장기적으로 낙관하는 3가지 종목",
+    "summary_en": "Investors looking beyond short-term noise and focusing on long-term returns can track top analysts to pick the right stocks, backed by strong research.",
+    "summary_ko": "단기적 변동성 대신 장기적 수익에 집중하는 투자자들은 분석가들의 연구를 바탕으로 유망 종목을 추적할 수 있다.",
+    "pubDate": "Sun, 01 Nov 2026 12:33:53 GMT"
   },
   {
-    "link": "https://www.cnbc.com/make-it/2026/10/31/weil-wind-down-career-advice.html",
-    "title_en": "In the wake of Weil, a legal recruiter's advice for surviving a company wind-down",
-    "title_ko": "웨일 사례 이후 법률 리크루터가 전하는 기업 해산 시 생존 조언",
-    "summary_en": "Legal recruiter Danielle Thompson shares her best advice for the employees of Weil, Gotshal & Manges and others who face a company wind-down or dissolution.",
-    "summary_ko": "법률 리크루터 다니엘 톰슨은 '웨일, 갓셜 앤 맹글스' 직원들과 기업 청산 및 해산 위기에 처한 이들을 위한 조언을 공유합니다.",
-    "pubDate": "Sat, 31 Oct 2026 13:07:01 GMT"
+    "link": "https://www.marketwatch.com/story/who-really-wins-under-trumps-economy-coastal-liberal-elites-who-hate-him-d74c63cb?mod=mw_rss_topstories",
+    "title_en": "Who really wins under Trump’s economy? Coastal liberal elites who hate him.",
+    "title_ko": "트럼프 경제의 진정한 수혜자는? 그를 싫어하는 연안 지역 자유주의 엘리트",
+    "summary_en": "In other words, not the people Republicans likely intended.",
+    "summary_ko": "결과적으로 공화당이 의도했던 대상과는 거리가 멀다는 의미다.",
+    "pubDate": "Sun, 01 Nov 2026 13:00:00 GMT"
   },
   {
-    "link": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
-    "title_en": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
-    "title_ko": "70대 부부의 고민: 2.5% 주담대 상환 vs 고금리 저축 상품 가입?",
-    "summary_en": "“Let’s say 10 years from now, when I’m 84, we need a substantial amount of cash.”",
-    "summary_ko": "\"만약 10년 뒤 84세가 되었을 때, 거액의 현금이 필요해진다면 어떨까요?\"",
-    "pubDate": "Sat, 31 Oct 2026 19:00:00 GMT"
-  },
-  {
-    "link": "https://www.marketwatch.com/story/whats-the-first-thing-most-people-do-with-their-401-k-after-they-retire-nothing-8a606518?mod=mw_rss_topstories",
-    "title_en": "80% of workers make this 401(k)  mistake when they retire",
-    "title_ko": "은퇴자 80%가 저지르는 401(k) 퇴직연금 실수",
-    "summary_en": "Other tax repercussions crop up down the road because balances build up, and RMDs get complicated",
-    "summary_ko": "잔액이 쌓임에 따라 세금 문제가 발생하고 최소 인출 의무(RMD)가 복잡해지면서 향후 세금 부담이 커질 수 있습니다.",
-    "pubDate": "Sat, 31 Oct 2026 16:46:00 GMT"
+    "link": "https://www.cnbc.com/2026/11/01/alaska-senate-doj-lawsuit-dismissed-sullivan-peltola.html",
+    "title_en": "Judge dismisses Alaska Senate election lawsuit; DOJ vows appeal",
+    "title_ko": "판사, 알래스카 상원의원 선거 소송 기각; 법무부 항소 예고",
+    "summary_en": "Democratic nominee Mary Peltola is facing two candidates named Dan Sullivan in the Alaska Senate election, one of whom is the Republican incumbent.",
+    "summary_ko": "민주당 후보 메리 펠톨라는 알래스카 상원의원 선거에서 공화당 현역 의원을 포함해 '댄 설리번'이라는 이름을 가진 두 명의 후보와 맞붙는다.",
+    "pubDate": "Sun, 01 Nov 2026 19:55:32 GMT"
   }
 ]
